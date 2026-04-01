@@ -3,6 +3,9 @@
 All notable changes to Local MCP are documented here.
 
 
+## v1.104 — 2026-04-01
+Tray now updates automatically when the server starts. Fixes the Install button not working on older tray versions.
+
 ## v1.103 — 2026-04-01
 Fixed recurring permission dialog — Teams data is no longer accessed every 60 seconds in the background. The permission prompt now only appears when you actively use Teams tools, not constantly in the background.
 
