@@ -2,6 +2,9 @@
 
 All notable changes to Local MCP are documented here.
 
+
+## v1.90 — 2026-03-31
+Menu bar icon now updates automatically on Claude Desktop restart. Admin panel shows server and tray versions separately.
 ---
 
 ## v1.87 — 2026-03-31
