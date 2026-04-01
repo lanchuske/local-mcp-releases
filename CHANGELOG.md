@@ -3,6 +3,9 @@
 All notable changes to Local MCP are documented here.
 
 
+## v1.108 — 2026-04-01
+Setup wizard is now fully in English. Improved first-run experience.
+
 ## v1.107 — 2026-04-01
 Settings page now loads correctly.
 
