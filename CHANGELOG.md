@@ -3,6 +3,9 @@
 All notable changes to Local MCP are documented here.
 
 
+## v1.94 — 2026-04-01
+Improved reliability after Mac restart — menu bar now stays connected. Minor fixes and improvements.
+
 ## v1.93 — 2026-04-01
 Menu bar icon now shows correctly in Finder and Launchpad. Server status is now visible in the menu bar after a Mac restart.
 
