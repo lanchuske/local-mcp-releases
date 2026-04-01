@@ -3,6 +3,9 @@
 All notable changes to Local MCP are documented here.
 
 
+## v1.92 — 2026-03-31
+Menu bar app now appears in /Applications for easy access. Fixed update button for all users.
+
 ## v1.91 — 2026-03-31
 Install button now works correctly — server updates and restarts automatically. Fixed auto-update for npm users.
 
