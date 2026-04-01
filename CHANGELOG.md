@@ -3,6 +3,9 @@
 All notable changes to Local MCP are documented here.
 
 
+## v1.98 — 2026-04-01
+The menu bar icon can now be hidden without stopping the MCP server. macOS and chip type now visible in the admin dashboard.
+
 ## v1.97 — 2026-04-01
 Fixed permission dialogs appearing every 30 seconds in npm mode.
 
