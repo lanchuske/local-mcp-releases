@@ -3,6 +3,9 @@
 All notable changes to Local MCP are documented here.
 
 
+## v1.106 — 2026-04-01
+Settings page now works correctly in all installation modes.
+
 ## v1.105 — 2026-04-01
 Settings page now works correctly when running via npm/Claude Desktop.
 
