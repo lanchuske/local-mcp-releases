@@ -3,6 +3,9 @@
 All notable changes to Local MCP are documented here.
 
 
+## v1.107 — 2026-04-01
+Settings page now loads correctly.
+
 ## v1.106 — 2026-04-01
 Settings page now works correctly in all installation modes.
 
