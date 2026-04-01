@@ -3,6 +3,9 @@
 All notable changes to Local MCP are documented here.
 
 
+## v1.95 — 2026-04-01
+Cloud Relay now connects reliably. All services (Mail, Calendar, etc.) now appear correctly in the menu bar.
+
 ## v1.94 — 2026-04-01
 Improved reliability after Mac restart — menu bar now stays connected. Minor fixes and improvements.
 
