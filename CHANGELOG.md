@@ -3,6 +3,9 @@
 All notable changes to Local MCP are documented here.
 
 
+## v1.100 — 2026-04-01
+Install button now works correctly. Update banner shows whether it's a server or tray update.
+
 ## v1.99 — 2026-04-01
 Tray now shows server status correctly in all installation modes. Restart button gives feedback while server is restarting. Tray version always visible in menu bar.
 
