@@ -3,6 +3,9 @@
 All notable changes to Local MCP are documented here.
 
 
+## v1.96 — 2026-04-01
+Cloud Relay now connects reliably in all installation modes.
+
 ## v1.95 — 2026-04-01
 Cloud Relay now connects reliably. All services (Mail, Calendar, etc.) now appear correctly in the menu bar.
 
