@@ -3,6 +3,9 @@
 All notable changes to Local MCP are documented here.
 
 
+## v1.91 — 2026-03-31
+Install button now works correctly — server updates and restarts automatically. Fixed auto-update for npm users.
+
 ## v1.90 — 2026-03-31
 Menu bar icon now updates automatically on Claude Desktop restart. Admin panel shows server and tray versions separately.
 ---
