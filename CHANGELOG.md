@@ -3,6 +3,9 @@
 All notable changes to Local MCP are documented here.
 
 
+## v1.97 — 2026-04-01
+Fixed permission dialogs appearing every 30 seconds in npm mode.
+
 ## v1.96 — 2026-04-01
 Cloud Relay now connects reliably in all installation modes.
 
