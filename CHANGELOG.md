@@ -3,6 +3,9 @@
 All notable changes to Local MCP are documented here.
 
 
+## v1.110 — 2026-04-01
+Admin: machines table now shows license email and online status.
+
 ## v1.109 — 2026-04-01
 Beta channel support: mark machines as beta testers from the admin panel to receive builds before they go to all users.
 
