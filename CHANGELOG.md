@@ -3,6 +3,9 @@
 All notable changes to Local MCP are documented here.
 
 
+## v1.101 — 2026-04-01
+Fixed recurring TCC permission dialog — the server binary now has a stable code-signing identity so macOS remembers the permission. No more repeated prompts.
+
 ## v1.100 — 2026-04-01
 Install button now works correctly. Update banner shows whether it's a server or tray update.
 
