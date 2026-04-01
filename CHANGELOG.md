@@ -3,6 +3,9 @@
 All notable changes to Local MCP are documented here.
 
 
+## v1.93 — 2026-04-01
+Menu bar icon now shows correctly in Finder and Launchpad. Server status is now visible in the menu bar after a Mac restart.
+
 ## v1.92 — 2026-03-31
 Menu bar app now appears in /Applications for easy access. Fixed update button for all users.
 
