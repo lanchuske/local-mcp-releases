@@ -3,6 +3,9 @@
 All notable changes to Local MCP are documented here.
 
 
+## v1.102 — 2026-04-01
+Fixed recurring permission dialog — server now has a stable code-signing identity that macOS remembers. No more repeated prompts after allowing once.
+
 ## v1.101 — 2026-04-01
 Fixed recurring TCC permission dialog — the server binary now has a stable code-signing identity so macOS remembers the permission. No more repeated prompts.
 
