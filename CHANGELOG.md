@@ -3,6 +3,9 @@
 All notable changes to Local MCP are documented here.
 
 
+## v1.105 — 2026-04-01
+Settings page now works correctly when running via npm/Claude Desktop.
+
 ## v1.104 — 2026-04-01
 Tray now updates automatically when the server starts. Fixes the Install button not working on older tray versions.
 
