@@ -3,6 +3,9 @@
 All notable changes to Local MCP are documented here.
 
 
+## v1.103 — 2026-04-01
+Fixed recurring permission dialog — Teams data is no longer accessed every 60 seconds in the background. The permission prompt now only appears when you actively use Teams tools, not constantly in the background.
+
 ## v1.102 — 2026-04-01
 Fixed recurring permission dialog — server now has a stable code-signing identity that macOS remembers. No more repeated prompts after allowing once.
 
