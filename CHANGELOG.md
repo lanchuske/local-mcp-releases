@@ -3,6 +3,9 @@
 All notable changes to Local MCP are documented here.
 
 
+## v1.109 — 2026-04-01
+Beta channel support: mark machines as beta testers from the admin panel to receive builds before they go to all users.
+
 ## v1.108 — 2026-04-01
 Setup wizard is now fully in English. Improved first-run experience.
 
