@@ -3,6 +3,9 @@
 All notable changes to Local MCP are documented here.
 
 
+## v1.99 — 2026-04-01
+Tray now shows server status correctly in all installation modes. Restart button gives feedback while server is restarting. Tray version always visible in menu bar.
+
 ## v1.98 — 2026-04-01
 The menu bar icon can now be hidden without stopping the MCP server. macOS and chip type now visible in the admin dashboard.
 
