@@ -3,6 +3,69 @@
 All notable changes to Local MCP are documented here.
 
 
+## v1.142 — 2026-04-02
+Removed duplicate To Do entry from the menu bar — To Do works via macOS Reminders sync and is shown there. Documentation updated to clarify how Microsoft To Do integrates.
+
+## v1.141 — 2026-04-02
+Admin panel now shows which AI client (Claude Desktop, Cursor, Windsurf, VS Code) is connected per machine.
+
+## v1.140 — 2026-04-02
+Fixed a conflict where the old server version kept running after upgrading, causing two processes to compete for the same port.
+
+## v1.139 — 2026-04-01
+New: Stocks tools — live quotes, historical chart data, and symbol search via Yahoo Finance. No API key required.
+
+## v1.138 — 2026-04-01
+New: Microsoft To Do tools — list, create, and complete tasks directly from your AI client. Works via macOS Reminders sync.
+
+## v1.137 — 2026-04-01
+New: `version_info` tool shows server, tray, and teams-proxy versions. `list_my_feedback` now shows live open/closed status of your submitted reports.
+
+## v1.136 — 2026-04-01
+Fixed item counts showing true/false instead of numbers. Calendar same-day queries now return all events for that day. Clearer error messages for Outlook, Messages, and Safari.
+
+## v1.135 — 2026-04-01
+Teams tools now work automatically without manual setup.
+
+## v1.134 — 2026-04-01
+Machine timeline and tool usage metrics in admin panel.
+
+## v1.133 — 2026-04-01
+Admin panel now shows tray version per machine.
+
+## v1.132 — 2026-04-01
+Cloud Relay stays connected reliably.
+
+## v1.131 — 2026-04-01
+Fixed settings page errors and Cloud Relay status display.
+
+## v1.130 — 2026-04-01
+Server status refreshes every 30 seconds. Updates install automatically in the background.
+
+## v1.129 — 2026-04-01
+Detailed logs now written to server.log for easier debugging.
+
+## v1.128 — 2026-04-01
+Cloud Relay connection reliability improvements. Machine activity now visible in dashboard.
+
+## v1.127 — 2026-04-01
+Server now checks for updates every 30 minutes automatically.
+
+## v1.126 — 2026-04-01
+Contacts now detected even without full permissions. Cloud Relay no longer shows "Connecting" when not configured.
+
+## v1.125 — 2026-04-01
+OmniFocus: inbox filter, defer dates, flagged tasks, and completed task support. New quick prompts for emails and calendar.
+
+## v1.124 — 2026-04-01
+Cloud Relay: connect Claude.ai and ChatGPT remotely without keeping a local connection open.
+
+## v1.123 — 2026-04-01
+Settings page can now detect and auto-configure Claude Desktop, Cursor, VS Code, Windsurf, and Zed.
+
+## v1.111–v1.122 — 2026-04-01
+Stability improvements, performance fixes, and internal pipeline updates.
+
 ## v1.110 — 2026-04-01
 Admin: machines table now shows license email and online status.
 
