@@ -1,0 +1,8 @@
+{
+  "name": "pilot-mcp-stub",
+  "version": "2.2.0",
+  "private": true,
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  }
+}
