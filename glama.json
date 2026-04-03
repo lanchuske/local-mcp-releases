@@ -1,0 +1,43 @@
+{
+  "name": "Pilot MCP",
+  "description": "Native macOS MCP server — connect Claude Desktop, Cursor, Windsurf to Mail, Calendar, Contacts, Teams, OneDrive, Outlook, OmniFocus, Notes, Messages, Reminders, Finder, Safari, Word, Excel, PowerPoint, and PDF. Privacy-first: all data stays on your Mac.",
+  "repository": "https://github.com/lanchuske/local-mcp",
+  "homepage": "https://local-mcp.com",
+  "author": "lanchuske",
+  "license": "Proprietary",
+  "categories": ["App Automation", "Communication", "Workplace & Productivity"],
+  "tags": [
+    "macos", "mail", "calendar", "contacts", "teams", "onedrive", "outlook",
+    "omnifocus", "notes", "messages", "reminders", "finder", "safari",
+    "word", "excel", "powerpoint", "pdf", "privacy", "local", "native"
+  ],
+  "install": {
+    "npm": "npx -y local-mcp@latest setup",
+    "curl": "curl -fsSL https://local-mcp.com/install | bash"
+  },
+  "mcp": {
+    "command": "npx",
+    "args": ["-y", "local-mcp@latest"]
+  },
+  "tools": [
+    "list_emails", "read_email", "search_emails", "send_email", "reply_email", "move_email", "save_attachment",
+    "list_calendar_names", "list_calendar_events", "create_calendar_event", "delete_calendar_event",
+    "list_reminders", "list_reminder_lists", "create_reminder", "complete_reminder",
+    "list_contacts", "search_contacts", "get_contact",
+    "list_notes", "read_note", "create_note", "search_notes",
+    "list_message_chats", "read_messages", "search_messages",
+    "list_omnifocus_tasks", "list_omnifocus_projects", "create_omnifocus_task", "complete_omnifocus_task", "search_omnifocus_tasks",
+    "outlook_list_emails", "outlook_read_email", "outlook_search_emails", "outlook_send_email", "outlook_list_events", "outlook_create_event",
+    "onedrive_list_files", "onedrive_read_file", "onedrive_search_files", "onedrive_write_file", "onedrive_delete_file", "onedrive_move_file",
+    "finder_list", "finder_search",
+    "pdf_read", "word_read", "word_create", "word_append", "excel_read", "excel_create", "excel_write_cell", "ppt_read", "ppt_create",
+    "teams_list_chats", "teams_read_chat_messages", "teams_list_teams", "teams_list_channels", "teams_read_channel_messages",
+    "list_safari_bookmarks", "list_accounts", "create_email_folder",
+    "diagnose", "report_bug", "request_feature", "request_integration"
+  ],
+  "platform": {
+    "os": ["macOS"],
+    "min_version": "13.0",
+    "architectures": ["arm64", "x86_64"]
+  }
+}
