@@ -10,7 +10,7 @@
 npx -y local-mcp@latest setup
 ```
 
-> Installs in 2 minutes. Auto-configures Claude Desktop, Cursor, Windsurf, VS Code, and Zed. No cloud. No API keys. No credit card for the 14-day trial.
+> Installs in 2 minutes. Auto-configures Claude Desktop, Cursor, Windsurf, VS Code, and Zed. No cloud. No API keys. Free during early access. No credit card required.
 
 ---
 
