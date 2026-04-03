@@ -1,19 +1,28 @@
-Copyright (c) 2026 Local MCP
+Pilot MCP — Proprietary License
 
-COMMERCIAL SOFTWARE LICENSE
+Copyright (c) 2024-2026 Pilot MCP. All rights reserved.
 
-This software is proprietary and commercially licensed. All rights reserved.
+Permission is hereby granted, free of charge during the early access period,
+to any person obtaining a copy of this software and associated documentation
+files (the "Software"), to use the Software for personal and professional
+purposes on a single machine, subject to the following conditions:
 
-You may use this software only under the terms of a valid license obtained
-from https://local-mcp.com. Redistribution, modification, reverse engineering,
-decompilation, or disassembly of this software is strictly prohibited.
+1. The Software may not be redistributed, sublicensed, sold, rented, or
+   leased without prior written permission from the copyright holder.
 
-A trial license is granted for evaluation purposes only, for a period of 14
-days from the date of installation. After the trial period, a paid license
-is required to continue using the software.
+2. The Software may not be reverse engineered, decompiled, or disassembled.
+
+3. The Software may not be used to develop a competing product.
+
+4. This license is non-transferable.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
-CLAIM, DAMAGES OR OTHER LIABILITY ARISING FROM USE OF THE SOFTWARE.
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
-For licensing inquiries: support@local-mcp.com
+For inquiries: hello@local-mcp.com
+Website: https://local-mcp.com
