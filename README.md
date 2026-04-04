@@ -1,8 +1,9 @@
 # Pilot MCP — Your AI agent for Mac
 
 [![npm](https://img.shields.io/npm/v/local-mcp)](https://www.npmjs.com/package/local-mcp)
-[![platform](https://img.shields.io/badge/platform-macOS-blue)](https://local-mcp.com)
+[![Glama](https://glama.ai/mcp/servers/lanchuske/local-mcp-releases/badge)](https://glama.ai/mcp/servers/lanchuske/local-mcp-releases)
 [![smithery badge](https://smithery.ai/badge/@lanchuske/local-mcp)](https://smithery.ai/server/@lanchuske/local-mcp)
+[![platform](https://img.shields.io/badge/platform-macOS-blue)](https://local-mcp.com)
 
 **Give Claude, Cursor, Windsurf, or any AI agent native access to your Mac — Mail, Calendar, Teams, OneDrive, Notes, OmniFocus, and 80+ more tools. Everything runs locally. Your data never leaves your machine.**
 
@@ -10,7 +11,9 @@
 npx -y local-mcp@latest setup
 ```
 
-> Installs in 2 minutes. Auto-configures Claude Desktop, Cursor, Windsurf, VS Code, and Zed. No cloud. No API keys. Free during early access. No credit card required.
+> Installs in 2 minutes. Auto-configures Claude Desktop, Cursor, Windsurf, VS Code, and Zed. No cloud. No API keys. **Free during early access.**
+
+⭐ **Like it? [Star this repo](https://github.com/lanchuske/local-mcp-releases)** — it helps others discover Pilot MCP.
 
 ---
 
@@ -32,7 +35,6 @@ npx -y local-mcp@latest setup
 | **PDF** | "Summarize this PDF" |
 | **Finder** | "Find all files named 'invoice' on my Mac" |
 | **Safari** | "List my bookmarks in the Dev folder" |
-| **Stocks** | "What's Apple trading at?" · "Show me Tesla's 6-month chart" |
 
 82 tools total. Read operations run instantly. Destructive actions (send email, delete event) show a preview and ask for confirmation first.
 
@@ -48,15 +50,13 @@ Auto-detects and configures: **Claude Desktop · Claude Code · Cursor · Windsu
 
 Restart your AI client once. That's it.
 
+**Alternative install:**
+
+```bash
+curl -fsSL https://local-mcp.com/install | bash
+```
+
 **Requirements:** macOS 13+, Node.js 18+, Apple Silicon or Intel
-
----
-
-## Add to Smithery
-
-[![Install on Smithery](https://smithery.ai/badge/@lanchuske/local-mcp)](https://smithery.ai/server/@lanchuske/local-mcp)
-
-Use Pilot MCP from Claude.ai, ChatGPT or any cloud AI client via the Smithery cloud connector.
 
 ---
 
@@ -72,9 +72,18 @@ Claude Desktop / Cursor / Windsurf / VS Code / Zed
 
 The server starts on demand — no background daemon, no LaunchAgent. Each AI client spawns its own process when it needs it.
 
+### Why native?
+
+Most MCP servers call cloud APIs. Pilot MCP talks directly to macOS frameworks — EventKit for Calendar, AppleScript for Mail, native SQLite for Contacts. This means:
+
+- **No API keys or OAuth** — works out of the box
+- **No rate limits** — it's your own machine
+- **Works offline** — no internet required for local apps
+- **Sub-second** — no network round-trips
+
 ### Microsoft Teams without tokens
 
-Teams reads messages directly from the local IndexedDB LevelDB cache at `~/Library/Containers/com.microsoft.teams2/...`. No OAuth. No Graph API. No Microsoft account tokens. Works even when Teams is offline.
+Teams reads messages directly from the local IndexedDB LevelDB cache. No OAuth. No Graph API. No Microsoft account tokens. Works even when Teams is offline.
 
 ### Cloud Relay (optional)
 
@@ -91,18 +100,21 @@ Claude.ai and ChatGPT can't reach localhost. Enable Cloud Relay in the menu bar 
 
 ---
 
-## Pricing
+## Add to Smithery
 
-| Plan | Price | Includes |
-|------|-------|---------|
-| Trial | Free, 14 days | All 82 tools, no credit card |
-| Pro | [local-mcp.com/#pricing](https://local-mcp.com/#pricing?utm_source=github) | Full access, priority support |
+[![Install on Smithery](https://smithery.ai/badge/@lanchuske/local-mcp)](https://smithery.ai/server/@lanchuske/local-mcp)
+
+Use Pilot MCP from Claude.ai, ChatGPT or any cloud AI client via the Smithery cloud connector.
 
 ---
 
 ## Support
 
 - **In your AI client:** ask Claude to run `report_bug` or `request_feature`
-- **GitHub:** open an issue
+- **GitHub:** [open an issue](https://github.com/lanchuske/local-mcp-releases/issues)
 - **Email:** support@local-mcp.com
 - **Website:** [local-mcp.com](https://local-mcp.com?utm_source=github)
+
+---
+
+⭐ **If Pilot MCP is useful to you, [star the repo](https://github.com/lanchuske/local-mcp-releases)** — it's the best way to help us grow.
