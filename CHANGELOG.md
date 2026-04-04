@@ -1,3 +1,7 @@
+## v2.10 — 2026-04-04
+
+Reduced battery and network usage. Teams now connects automatically.
+
 ## v2.9 — 2026-04-04
 
 Teams integration now works out of the box. Improved automatic component updates.
