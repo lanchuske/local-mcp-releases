@@ -15,6 +15,10 @@ npx -y local-mcp@latest setup
 
 ⭐ **Like it? [Star this repo](https://github.com/lanchuske/local-mcp-releases)** — it helps others discover Pilot MCP.
 
+<p align="center">
+  <img src="assets/tray-app.png" alt="Pilot MCP menu bar app" width="340">
+</p>
+
 ---
 
 ## What your AI can do
