@@ -1,3 +1,7 @@
+## v2.8 — 2026-04-04
+
+Fixed automatic updates failing on restart. Improved reliability.
+
 # Changelog
 
 All notable changes to Local MCP are documented here.
