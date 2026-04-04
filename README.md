@@ -16,9 +16,9 @@ npx -y local-mcp@latest setup
 ⭐ **Like it? [Star this repo](https://github.com/lanchuske/local-mcp-releases)** — it helps others discover Pilot MCP.
 
 <p align="center">
-  <img src="assets/claude-email.png" alt="Claude Desktop analyzing emails with Pilot MCP" width="700">
+  <img src="assets/claude-tools.png" alt="Claude Desktop showing 78 tools across 15 categories with Pilot MCP" width="700">
 </p>
-<p align="center"><em>Claude Desktop analyzing 30 emails from Mail.app — powered by Pilot MCP</em></p>
+<p align="center"><em>78 tools across 15 categories — Mail, Calendar, Teams, OneDrive, Notes, OmniFocus, and more</em></p>
 
 <details>
 <summary>Menu bar app</summary>
