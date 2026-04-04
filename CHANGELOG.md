@@ -1,3 +1,7 @@
+## v2.9 — 2026-04-04
+
+Teams integration now works out of the box. Improved automatic component updates.
+
 ## v2.8 — 2026-04-04
 
 Fixed automatic updates failing on restart. Improved reliability.
