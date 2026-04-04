@@ -1,3 +1,7 @@
+## v2.11 — 2026-04-04
+
+Excel, Word, and PowerPoint now work out of the box — no manual setup needed.
+
 ## v2.10 — 2026-04-04
 
 Reduced battery and network usage. Teams now connects automatically.
