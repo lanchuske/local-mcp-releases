@@ -1,3 +1,9 @@
+## v3.0.4 — 2026-04-05
+
+Fixed: Contacts app no longer opens unexpectedly. A background process was briefly launching the Contacts app every minute — this is now resolved.
+
+New: NordVPN integration. Check your VPN connection status, get server recommendations by country, and run diagnostics — all from your AI assistant. Connect/disconnect is still done in the NordVPN app.
+
 ## v3.0.3 — 2026-04-05
 
 The app now speaks your language. Tray, settings, and web are available in Italian, Dutch, and 10 other languages — auto-detected from your system preferences.
