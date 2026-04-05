@@ -69,7 +69,7 @@ Restart your AI client once. That's it.
 curl -fsSL https://local-mcp.com/install | bash
 ```
 
-**Requirements:** macOS 13+, Node.js 18+, Apple Silicon or Intel
+**Requirements:** macOS 12+, Apple Silicon or Intel
 
 ---
 
@@ -104,6 +104,25 @@ Claude.ai and ChatGPT can't reach localhost. Enable Cloud Relay in the menu bar 
 
 ---
 
+## Comparison with Alternatives
+
+| Feature | Pilot MCP | apple-mcp | Composio | MS 365 Connector |
+|---------|-----------|-----------|----------|-------------------|
+| Runs locally | Yes | Yes | No (cloud) | No (cloud) |
+| API keys needed | No | No | Yes | Yes (Azure AD) |
+| Setup time | ~2 min | ~10 min | ~15 min | ~30 min |
+| Total tools | 82+ | ~20 | Varies | ~15 |
+| Microsoft Teams | Read (local cache) | No | Via Graph API | Via Graph API |
+| OneDrive | Full CRUD | No | Via Graph API | Via Graph API |
+| Calendar | List, create, delete | No | Via API | Via Graph API |
+| Office docs | Create, read, edit | No | Limited | No |
+| Notes & Reminders | Yes | Yes | No | No |
+| Data privacy | 100% local | 100% local | Cloud processed | Cloud processed |
+| Price | Free trial (14 days) | Free (OSS) | Free tier + paid | Free (with M365) |
+| Platform | macOS only | macOS only | Cross-platform | Cross-platform |
+
+---
+
 ## Privacy
 
 - Your email, calendar, contacts, files, and messages **never leave your Mac**
@@ -127,6 +146,19 @@ Use Pilot MCP from Claude.ai, ChatGPT or any cloud AI client via the Smithery cl
 - **GitHub:** [open an issue](https://github.com/lanchuske/local-mcp-releases/issues)
 - **Email:** support@local-mcp.com
 - **Website:** [local-mcp.com](https://local-mcp.com?utm_source=github)
+
+---
+
+## Roadmap
+
+- Write support for Teams (send messages)
+- Slack integration
+- Google Drive (local sync folder)
+- WhatsApp / Telegram
+- Persistent AI memory across sessions
+- Linux support
+
+Have a feature in mind? Run `request_feature` from any AI client, or [open an issue](https://github.com/lanchuske/local-mcp-releases/issues).
 
 ---
 
