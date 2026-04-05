@@ -1,3 +1,7 @@
+## v3.0.2 — 2026-04-05
+
+Teams integration is now more reliable with timeout protection. Email listing is faster for accounts with many folders. Better error messages for OneDrive cloud files and PowerPoint.
+
 ## v3.0.1 — 2026-04-05
 
 Outlook integration now guides you to connect accounts through Mail.app for full email access. Claude Code is now automatically configured during setup. Smarter version numbering for more reliable updates.
