@@ -1,3 +1,7 @@
+## v2.13 — 2026-04-05
+
+Smarter updates and self-healing. Excel and PowerPoint tools now auto-install dependencies. Improved AI client detection for Claude Desktop and Cursor. Leave a review directly from your AI assistant. Push notifications now reach your menu bar.
+
 ## v2.12 — 2026-04-04
 
 Smarter updates. Your AI clients now auto-detect and connect to the latest version of Pilot MCP. Improved AI client detection for Claude Desktop, Cursor, Windsurf, and VS Code. Push notifications from the admin now reach your menu bar. Leave a review directly from your AI assistant with the new leave_review tool.
