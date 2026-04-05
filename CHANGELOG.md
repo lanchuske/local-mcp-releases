@@ -1,3 +1,7 @@
+## v3.0.3 — 2026-04-05
+
+The app now speaks your language. Tray, settings, and web are available in Italian, Dutch, and 10 other languages — auto-detected from your system preferences.
+
 ## v3.0.2 — 2026-04-05
 
 Teams integration is now more reliable with timeout protection. Email listing is faster for accounts with many folders. Better error messages for OneDrive cloud files and PowerPoint.
