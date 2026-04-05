@@ -1,3 +1,7 @@
+## v3.0.7 — 2026-04-05
+
+Send rich HTML emails. The send_email tool now supports an html_body parameter, so you can send beautifully formatted emails with tables, links, and styling — directly from your AI agent.
+
 ## v3.0.6 — 2026-04-05
 
 Settings page now dynamically shows all available services. NordVPN appears in both the menu bar tray and Settings when installed.
