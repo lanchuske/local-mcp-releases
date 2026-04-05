@@ -11,7 +11,7 @@
 curl -fsSL https://local-mcp.com/install?ref=github | bash
 ```
 
-> Installs in 2 minutes. Auto-configures Claude Desktop, Claude Code, Cursor, Windsurf, VS Code, and Zed. Free 14-day trial.
+> Installs in 2 minutes. Auto-configures Claude Desktop, Claude Code, Cursor, Windsurf, VS Code, and Zed. **Free for the first 500 installs — yours forever.**
 
 ⭐ **Like it? [Star this repo](https://github.com/lanchuske/local-mcp-releases)** — it helps others discover Pilot MCP.
 
@@ -132,7 +132,7 @@ Claude.ai and ChatGPT can't reach localhost. Enable Cloud Relay in the menu bar 
 | **OmniFocus** | ✅ | ❌ | ❌ | ❌ |
 | **iMessage** | ✅ Read | ❌ | ❌ | ❌ |
 | **Data privacy** | 100% local | 100% local | Cloud | Cloud |
-| **Price** | Free trial | Free (OSS) | Freemium | Free (M365) |
+| **Price** | Free (first 500) | Free (OSS) | Freemium | Free (M365) |
 | **Platform** | macOS | macOS | Cross-platform | Cross-platform |
 
 ---
@@ -187,7 +187,7 @@ Have a feature in mind? Run `request_feature` from any AI client, or [open an is
 
 ## License
 
-Pilot MCP is proprietary software with a free 14-day trial. See [LICENSE](LICENSE) for details.
+Pilot MCP is proprietary software. Free for the first 500 installs — permanent license, no expiration. See [LICENSE](LICENSE) for details.
 
 ---
 
