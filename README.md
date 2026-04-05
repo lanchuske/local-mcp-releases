@@ -8,7 +8,7 @@
 **Give Claude, Cursor, Windsurf, or any AI agent native access to your Mac — Mail, Calendar, Teams, OneDrive, Notes, OmniFocus, and 80+ more tools. Everything runs locally. Your data never leaves your machine.**
 
 ```bash
-npx -y local-mcp@latest setup
+curl -fsSL https://local-mcp.com/install | bash
 ```
 
 > Installs in 2 minutes. Auto-configures Claude Desktop, Cursor, Windsurf, VS Code, and Zed. No cloud. No API keys. **Free during early access.**
@@ -56,7 +56,7 @@ npx -y local-mcp@latest setup
 ## Install
 
 ```bash
-npx -y local-mcp@latest setup
+curl -fsSL https://local-mcp.com/install | bash
 ```
 
 Auto-detects and configures: **Claude Desktop · Claude Code · Cursor · Windsurf · VS Code · Zed**
