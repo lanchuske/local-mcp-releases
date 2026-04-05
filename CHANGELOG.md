@@ -1,3 +1,7 @@
+## v3.0.5 — 2026-04-05
+
+NordVPN now appears in the menu bar tray with real-time connection status. Your VPN section shows whether you're connected or disconnected, updating automatically.
+
 ## v3.0.4 — 2026-04-05
 
 Fixed: Contacts app no longer opens unexpectedly. A background process was briefly launching the Contacts app every minute — this is now resolved.
