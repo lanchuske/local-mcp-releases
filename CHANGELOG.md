@@ -1,3 +1,7 @@
+## v3.0.6 — 2026-04-05
+
+Settings page now dynamically shows all available services. NordVPN appears in both the menu bar tray and Settings when installed.
+
 ## v3.0.5 — 2026-04-05
 
 NordVPN now appears in the menu bar tray with real-time connection status. Your VPN section shows whether you're connected or disconnected, updating automatically.
