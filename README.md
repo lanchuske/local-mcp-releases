@@ -1,31 +1,31 @@
-# Pilot MCP — Your AI agent for Mac
+# Pilot MCP — Give Your AI Native Access to Mac Apps
 
 [![npm](https://img.shields.io/npm/v/local-mcp)](https://www.npmjs.com/package/local-mcp)
-[![Glama](https://glama.ai/mcp/servers/lanchuske/local-mcp-releases/badge)](https://glama.ai/mcp/servers/lanchuske/local-mcp-releases)
+[![macOS 12+](https://img.shields.io/badge/macOS-12%2B-blue)](https://local-mcp.com)
+[![GDPR](https://img.shields.io/badge/GDPR-compliant-green)](https://local-mcp.com/en/privacy)
 [![smithery badge](https://smithery.ai/badge/@lanchuske/local-mcp)](https://smithery.ai/server/@lanchuske/local-mcp)
-[![platform](https://img.shields.io/badge/platform-macOS-blue)](https://local-mcp.com)
 
-**Give Claude, Cursor, Windsurf, or any AI agent native access to your Mac — Mail, Calendar, Teams, OneDrive, Notes, OmniFocus, and 80+ more tools. Everything runs locally. Your data never leaves your machine.**
+**Pilot MCP connects your AI assistant to Mail, Calendar, Contacts, Microsoft Teams, OneDrive, Notes, Reminders, OmniFocus, and more — 82 tools, all running locally on your Mac. No cloud. No API keys. No OAuth. Your data never leaves your machine.**
 
 ```bash
-curl -fsSL https://local-mcp.com/install | bash
+curl -fsSL https://local-mcp.com/install?ref=github | bash
 ```
 
-> Installs in 2 minutes. Auto-configures Claude Desktop, Cursor, Windsurf, VS Code, and Zed. No cloud. No API keys. **Free during early access.**
+> Installs in 2 minutes. Auto-configures Claude Desktop, Claude Code, Cursor, Windsurf, VS Code, and Zed. Free 14-day trial.
 
 ⭐ **Like it? [Star this repo](https://github.com/lanchuske/local-mcp-releases)** — it helps others discover Pilot MCP.
 
 <p align="center">
-  <img src="assets/claude-tools.png" alt="Claude Desktop showing 78 tools across 15 categories with Pilot MCP" width="700">
+  <img src="assets/claude-tools.png" alt="Claude Desktop showing 82 tools across 15 categories with Pilot MCP" width="700">
 </p>
-<p align="center"><em>78 tools across 15 categories — Mail, Calendar, Teams, OneDrive, Notes, OmniFocus, and more</em></p>
+<p align="center"><em>82 tools across 15 categories — Mail, Calendar, Teams, OneDrive, Notes, OmniFocus, and more</em></p>
 
 <details>
 <summary>Menu bar app</summary>
 <p align="center">
   <img src="assets/tray-app.png" alt="Pilot MCP menu bar app" width="340">
 </p>
-<p align="center"><em>All your Mac apps connected — Mail, Calendar, Teams, OneDrive, and more</em></p>
+<p align="center"><em>Status at a glance — all your Mac apps connected</em></p>
 </details>
 
 ---
@@ -34,109 +34,145 @@ curl -fsSL https://local-mcp.com/install | bash
 
 | App | What you can ask |
 |-----|-----------------|
-| **Mail** | "Summarize my unread emails" · "Send a reply to Jana saying I'll be 10 minutes late" · "Find all emails from the contracts team last week" |
+| **Mail** | "Summarize my unread emails" · "Reply to Jana saying I'll be 10 minutes late" · "Find emails from the contracts team last week" |
 | **Calendar** | "What do I have tomorrow?" · "Schedule a team sync Friday at 3pm" · "Cancel my 2pm meeting" |
 | **Contacts** | "Get Jana's phone number" · "Find everyone at Acme Corp" |
-| **Microsoft Teams** | "What did the engineering channel say today?" · "Show me my last conversation with Marco" |
-| **OneDrive** | "Find the Q1 report" · "Upload this summary to the shared folder" · "What's in my Documents?" |
-| **Microsoft Outlook** | "Read my Outlook inbox" · "Send a meeting invite to the team" |
+| **Microsoft Teams** | "What did the engineering channel say today?" · "Show my last conversation with Marco" |
+| **OneDrive** | "Find the Q1 report" · "Upload this summary to the shared folder" |
+| **Outlook** | "Read my Outlook inbox" · "Search for invoices from last month" |
 | **Reminders** | "Add a reminder to call the bank tomorrow at 9am" · "What's on my list?" |
 | **OmniFocus** | "Show my overdue tasks" · "Create a task to review the contract" |
 | **Notes** | "Search my notes for the API keys" · "Create a note with today's decisions" |
-| **Messages** | "What did Ana send me this morning?" · "Search my iMessages for the address" |
-| **Word / Excel / PowerPoint** | "Read this contract" · "Create a spreadsheet with these numbers" |
+| **Messages** | "What did Ana send me this morning?" · "Search iMessages for the address" |
+| **Word / Excel / PPT** | "Read this contract" · "Create a spreadsheet with these numbers" |
 | **PDF** | "Summarize this PDF" |
 | **Finder** | "Find all files named 'invoice' on my Mac" |
 | **Safari** | "List my bookmarks in the Dev folder" |
+| **Stocks** | "How is AAPL doing today?" · "Show me a chart of MSFT this month" |
 
-82 tools total. Read operations run instantly. Destructive actions (send email, delete event) show a preview and ask for confirmation first.
+82 tools total. Read operations run instantly. Write operations (send email, delete event) show a preview and require confirmation.
 
 ---
 
 ## Install
 
 ```bash
-curl -fsSL https://local-mcp.com/install | bash
+curl -fsSL https://local-mcp.com/install?ref=github | bash
 ```
 
 Auto-detects and configures: **Claude Desktop · Claude Code · Cursor · Windsurf · VS Code · Zed**
 
 Restart your AI client once. That's it.
 
-**Alternative install:**
-
-```bash
-curl -fsSL https://local-mcp.com/install | bash
-```
-
-**Requirements:** macOS 12+, Apple Silicon or Intel
+**Requirements:** macOS 12+ (Monterey or later), Apple Silicon or Intel.
 
 ---
 
 ## How it works
 
 ```
-Claude Desktop / Cursor / Windsurf / VS Code / Zed
-        │  MCP protocol (stdio)
-   Pilot MCP  ←  local-mcp npm package
-        │  JXA · AppleScript · EventKit · native macOS APIs
-   Mail · Calendar · Contacts · Teams · OneDrive · OmniFocus · …
+┌─────────────────────────────────┐
+│  Claude · Cursor · VS Code · …  │
+└───────────┬─────────────────────┘
+            │  MCP protocol (stdio)
+┌───────────▼─────────────────────┐
+│        Pilot MCP server          │
+│  JXA · EventKit · AppleScript   │
+│  LevelDB · native macOS APIs    │
+└───────────┬─────────────────────┘
+            │
+┌───────────▼─────────────────────┐
+│  Mail · Calendar · Teams · …     │
+│  Your Mac apps (local data)      │
+└─────────────────────────────────┘
 ```
-
-The server starts on demand — no background daemon, no LaunchAgent. Each AI client spawns its own process when it needs it.
 
 ### Why native?
 
-Most MCP servers call cloud APIs. Pilot MCP talks directly to macOS frameworks — EventKit for Calendar, AppleScript for Mail, native SQLite for Contacts. This means:
+Most MCP servers call cloud APIs. Pilot MCP talks directly to macOS frameworks:
 
-- **No API keys or OAuth** — works out of the box
-- **No rate limits** — it's your own machine
-- **Works offline** — no internet required for local apps
-- **Sub-second** — no network round-trips
+- **EventKit** for Calendar — reads all providers (iCloud, Google, Exchange)
+- **AppleScript/JXA** for Mail — works with any IMAP account
+- **LevelDB** for Teams — reads the local IndexedDB cache, no Graph API needed
+- **CNContactStore** for Contacts — native framework, no app launch required
+- **File system** for OneDrive, Word, Excel, PowerPoint
 
-### Microsoft Teams without tokens
+This means: **no API keys, no OAuth, no rate limits, works offline, sub-second responses.**
 
-Teams reads messages directly from the local IndexedDB LevelDB cache. No OAuth. No Graph API. No Microsoft account tokens. Works even when Teams is offline.
+### Microsoft Teams without Graph API
+
+The most technically interesting part: Teams messages are read directly from the local LevelDB cache at:
+
+```
+~/Library/Containers/com.microsoft.teams2/.../IndexedDB/https_teams.microsoft.com_0.indexeddb.leveldb
+```
+
+No Azure AD registration, no tenant admin approval, no OAuth tokens. Just the messages already cached on your Mac.
 
 ### Cloud Relay (optional)
 
-Claude.ai and ChatGPT can't reach localhost. Enable Cloud Relay in the menu bar app — a secure WebSocket tunnel routes cloud requests to your local server. Your data is encrypted in transit and never stored on our servers.
+Claude.ai and ChatGPT can't reach localhost. Enable Cloud Relay in the menu bar app — a secure WebSocket tunnel routes requests to your local server. Your data is encrypted in transit and never stored.
 
 ---
 
-## Comparison with Alternatives
+## Comparison with alternatives
 
-| Feature | Pilot MCP | apple-mcp | Composio | MS 365 Connector |
-|---------|-----------|-----------|----------|-------------------|
-| Runs locally | Yes | Yes | No (cloud) | No (cloud) |
-| API keys needed | No | No | Yes | Yes (Azure AD) |
-| Setup time | ~2 min | ~10 min | ~15 min | ~30 min |
-| Total tools | 82+ | ~20 | Varies | ~15 |
-| Microsoft Teams | Read (local cache) | No | Via Graph API | Via Graph API |
-| OneDrive | Full CRUD | No | Via Graph API | Via Graph API |
-| Calendar | List, create, delete | No | Via API | Via Graph API |
-| Office docs | Create, read, edit | No | Limited | No |
-| Notes & Reminders | Yes | Yes | No | No |
-| Data privacy | 100% local | 100% local | Cloud processed | Cloud processed |
-| Price | Free trial (14 days) | Free (OSS) | Free tier + paid | Free (with M365) |
-| Platform | macOS only | macOS only | Cross-platform | Cross-platform |
-
----
-
-## Privacy
-
-- Your email, calendar, contacts, files, and messages **never leave your Mac**
-- No telemetry beyond anonymous heartbeats (version + OS + uptime, no content)
-- The only outbound request to our servers is license validation
-- GDPR and CCPA compliant by architecture — not just by policy
+| Feature | **Pilot MCP** | apple-mcp | Composio | MS 365 Connector |
+|---------|:---:|:---:|:---:|:---:|
+| **Runs locally** | ✅ | ✅ | ❌ Cloud | ❌ Cloud |
+| **API keys needed** | ❌ None | ❌ None | ✅ Required | ✅ Azure AD |
+| **Setup time** | ~2 min | ~10 min | ~15 min | ~30 min |
+| **Total tools** | 82 | ~20 | Varies | ~15 |
+| **Microsoft Teams** | ✅ Local cache | ❌ | Via Graph API | Via Graph API |
+| **OneDrive** | ✅ Full CRUD | ❌ | Via Graph API | Via Graph API |
+| **Calendar** | ✅ CRUD | ❌ | Via API | Via Graph API |
+| **Email** | ✅ Full | ❌ | Via API | Via Graph API |
+| **Office docs** | ✅ Create/Read | ❌ | Limited | ❌ |
+| **Notes & Reminders** | ✅ | ✅ | ❌ | ❌ |
+| **OmniFocus** | ✅ | ❌ | ❌ | ❌ |
+| **iMessage** | ✅ Read | ❌ | ❌ | ❌ |
+| **Data privacy** | 100% local | 100% local | Cloud | Cloud |
+| **Price** | Free trial | Free (OSS) | Freemium | Free (M365) |
+| **Platform** | macOS | macOS | Cross-platform | Cross-platform |
 
 ---
 
-## Add to Smithery
+## Privacy & security
 
-[![Install on Smithery](https://smithery.ai/badge/@lanchuske/local-mcp)](https://smithery.ai/server/@lanchuske/local-mcp)
+- All data stays on your Mac — nothing is sent to external servers
+- No API keys, OAuth tokens, or cloud accounts required
+- Uses standard macOS TCC permissions (the same "Allow access?" prompts any app uses)
+- Calendar, Contacts, and Reminders access can be revoked anytime in System Settings
+- GDPR and CCPA compliant **by architecture** — there is no cloud component to process your data
+- Destructive operations always show a preview and require explicit confirmation
 
-Use Pilot MCP from Claude.ai, ChatGPT or any cloud AI client via the Smithery cloud connector.
+---
+
+## Supported AI clients
+
+| Client | Transport | Auto-configured |
+|--------|-----------|:---:|
+| Claude Desktop | stdio | ✅ |
+| Claude Code | stdio | ✅ |
+| Cursor | stdio | ✅ |
+| Windsurf | stdio | ✅ |
+| VS Code (Copilot / Cline) | stdio | ✅ |
+| Zed | stdio | ✅ |
+| Claude.ai | Cloud Relay | Manual |
+| ChatGPT | Cloud Relay | Manual |
+
+---
+
+## Roadmap
+
+- [ ] Write support for Teams (send messages)
+- [ ] Slack integration
+- [ ] Google Drive (local sync folder)
+- [ ] WhatsApp / Telegram
+- [ ] Persistent AI memory across sessions
+- [ ] Windows support
+
+Have a feature in mind? Run `request_feature` from any AI client, or [open an issue](https://github.com/lanchuske/local-mcp-releases/issues).
 
 ---
 
@@ -144,22 +180,15 @@ Use Pilot MCP from Claude.ai, ChatGPT or any cloud AI client via the Smithery cl
 
 - **In your AI client:** ask Claude to run `report_bug` or `request_feature`
 - **GitHub:** [open an issue](https://github.com/lanchuske/local-mcp-releases/issues)
-- **Email:** support@local-mcp.com
-- **Website:** [local-mcp.com](https://local-mcp.com?utm_source=github)
+- **Email:** [ctpo@colibird.co](mailto:ctpo@colibird.co)
+- **Website:** [local-mcp.com](https://local-mcp.com?ref=github)
 
 ---
 
-## Roadmap
+## License
 
-- Write support for Teams (send messages)
-- Slack integration
-- Google Drive (local sync folder)
-- WhatsApp / Telegram
-- Persistent AI memory across sessions
-- Linux support
-
-Have a feature in mind? Run `request_feature` from any AI client, or [open an issue](https://github.com/lanchuske/local-mcp-releases/issues).
+Pilot MCP is proprietary software with a free 14-day trial. See [LICENSE](LICENSE) for details.
 
 ---
 
-⭐ **If Pilot MCP is useful to you, [star the repo](https://github.com/lanchuske/local-mcp-releases)** — it's the best way to help us grow.
+⭐ **If Pilot MCP saves you time, [star the repo](https://github.com/lanchuske/local-mcp-releases)** — it's the best way to help others discover it.
