@@ -1,3 +1,7 @@
+## v3.0.8 — 2026-04-05
+
+Send rich HTML emails. You can now send beautifully formatted emails with tables, links, and styling using the new html_body parameter. Cloud connector discovery is smarter — AI agents get useful tool descriptions and one-command install instructions.
+
 ## v3.0.7 — 2026-04-05
 
 Send rich HTML emails. The send_email tool now supports an html_body parameter, so you can send beautifully formatted emails with tables, links, and styling — directly from your AI agent.
