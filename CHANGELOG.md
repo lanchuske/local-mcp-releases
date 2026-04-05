@@ -1,3 +1,7 @@
+## v3.0.0 — 2026-04-05
+
+Version numbering is now clearer and more consistent. Under the hood, all version comparisons have been upgraded to full semantic versioning for more reliable updates.
+
 ## v2.13 — 2026-04-05
 
 Smarter updates and self-healing. Excel and PowerPoint tools now auto-install dependencies. Improved AI client detection for Claude Desktop and Cursor. Leave a review directly from your AI assistant. Push notifications now reach your menu bar.
