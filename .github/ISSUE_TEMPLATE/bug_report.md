@@ -1,23 +1,39 @@
 ---
-name: Bug report
-about: Something isn't working as expected
+name: Bug Report
+about: Report a problem with Pilot MCP
+title: "[Bug] "
 labels: bug
 ---
 
-**Describe the bug**
-A clear description of what's happening.
+### Environment
 
-**To reproduce**
-Steps to reproduce the behavior.
+- **macOS version**: <!-- e.g. 15.4 -->
+- **Pilot MCP version**: <!-- visible in the menu bar tray icon popover -->
+- **AI client**: <!-- Claude Desktop / Cursor / Windsurf / VS Code / other -->
 
-**Expected behavior**
-What you expected to happen.
+### Steps to reproduce
 
-**Environment**
-- Local MCP version: (shown in menu bar)
-- macOS version:
-- AI client: Claude Desktop / Cursor / Windsurf / VS Code / other
-- Install method: npm / zip
+1. 
+2. 
+3. 
 
-**Logs**
-Open Settings → Logs in the menu bar app and paste any relevant errors here.
+### Expected behavior
+
+<!-- What you expected to happen -->
+
+### Actual behavior
+
+<!-- What actually happened -->
+
+### Logs
+
+<!-- Paste the last 50 lines of your server log. Run: -->
+<!-- tail -50 ~/Library/Application\ Support/Local\ MCP/server.log -->
+
+```
+(paste logs here)
+```
+
+### Additional context
+
+<!-- Screenshots, error messages, or anything else that might help -->

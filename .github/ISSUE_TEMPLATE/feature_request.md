@@ -1,17 +1,18 @@
 ---
-name: Feature request
-about: Suggest a new tool or improvement
-labels: feature request
+name: Feature Request
+about: Suggest a feature or improvement
+title: "[Feature] "
+labels: enhancement
 ---
 
-**What would you like Local MCP to be able to do?**
-Describe the feature clearly.
+### Description
 
-**Which app or service does it involve?**
-e.g. Mail, Calendar, Teams, OneDrive, a new app...
+<!-- What would you like Pilot MCP to do? -->
 
-**How would you use it?**
-Give an example prompt you'd type in Claude Desktop.
+### Use case
 
-**Any additional context?**
-Screenshots, links, or anything else that helps.
+<!-- Why do you need this? What problem does it solve? -->
+
+### Related app or integration
+
+<!-- Which app does this relate to? e.g. Mail, Calendar, Teams, OneDrive, Contacts, etc. -->
