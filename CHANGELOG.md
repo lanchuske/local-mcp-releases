@@ -1,3 +1,7 @@
+## v3.0.1 — 2026-04-05
+
+Outlook integration now guides you to connect accounts through Mail.app for full email access. Claude Code is now automatically configured during setup. Smarter version numbering for more reliable updates.
+
 ## v3.0.0 — 2026-04-05
 
 Version numbering is now clearer and more consistent. Under the hood, all version comparisons have been upgraded to full semantic versioning for more reliable updates.
