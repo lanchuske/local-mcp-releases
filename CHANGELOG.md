@@ -1,3 +1,7 @@
+## v3.0.11 — 2026-04-06
+
+PDF files now open reliably — no more dependency errors. Calendar all-day events show the correct end date. OneDrive files download automatically when your AI reads them — no need to open Finder first.
+
 ## v3.0.8 — 2026-04-05
 
 Send rich HTML emails. You can now send beautifully formatted emails with tables, links, and styling using the new html_body parameter. Cloud connector discovery is smarter — AI agents get useful tool descriptions and one-command install instructions.
