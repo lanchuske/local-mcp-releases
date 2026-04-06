@@ -1,6 +1,6 @@
-# Contributing to Pilot MCP
+# Contributing to LMCP
 
-Pilot MCP is proprietary software. The core binary is not open source and we don't accept code contributions to the server itself.
+LMCP is proprietary software. The core binary is not open source and we don't accept code contributions to the server itself.
 
 ## What we welcome
 
@@ -14,7 +14,7 @@ Pilot MCP is proprietary software. The core binary is not open source and we don
 Two ways:
 
 1. **From your AI client**: use the `report_bug` tool — it captures your version, macOS version, and logs automatically.
-2. **GitHub Issue**: open an issue using the Bug Report template. Include your macOS version, Pilot MCP version (visible in the menu bar tray), and relevant logs.
+2. **GitHub Issue**: open an issue using the Bug Report template. Include your macOS version, LMCP version (visible in the menu bar tray), and relevant logs.
 
 ## Requesting features
 

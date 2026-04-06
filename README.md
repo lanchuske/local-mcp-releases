@@ -1,11 +1,11 @@
-# Pilot MCP — Give Your AI Native Access to Mac Apps
+# LMCP — Give Your AI Native Access to Mac Apps
 
 [![npm](https://img.shields.io/npm/v/local-mcp)](https://www.npmjs.com/package/local-mcp)
 [![macOS 12+](https://img.shields.io/badge/macOS-12%2B-blue)](https://local-mcp.com)
 [![GDPR](https://img.shields.io/badge/GDPR-compliant-green)](https://local-mcp.com/en/privacy)
 [![smithery badge](https://smithery.ai/badge/@lanchuske/local-mcp)](https://smithery.ai/server/@lanchuske/local-mcp)
 
-**Pilot MCP connects your AI assistant to Mail, Calendar, Contacts, Microsoft Teams, OneDrive, Notes, Reminders, OmniFocus, and more — 82 tools, all running locally on your Mac. No cloud. No API keys. No OAuth. Your data never leaves your machine.**
+**LMCP connects your AI assistant to Mail, Calendar, Contacts, Microsoft Teams, OneDrive, Notes, Reminders, OmniFocus, and more — 82 tools, all running locally on your Mac. No cloud. No API keys. No OAuth. Your data never leaves your machine.**
 
 ```bash
 curl -fsSL https://local-mcp.com/install?ref=github | bash
@@ -13,17 +13,17 @@ curl -fsSL https://local-mcp.com/install?ref=github | bash
 
 > Installs in 2 minutes. Auto-configures Claude Desktop, Claude Code, Cursor, Windsurf, VS Code, and Zed. **Free for the first 500 installs — yours forever.**
 
-⭐ **Like it? [Star this repo](https://github.com/lanchuske/local-mcp-releases)** — it helps others discover Pilot MCP.
+⭐ **Like it? [Star this repo](https://github.com/lanchuske/local-mcp-releases)** — it helps others discover LMCP.
 
 <p align="center">
-  <img src="assets/claude-tools.png" alt="Claude Desktop showing 82 tools across 15 categories with Pilot MCP" width="700">
+  <img src="assets/claude-tools.png" alt="Claude Desktop showing 82 tools across 15 categories with LMCP" width="700">
 </p>
 <p align="center"><em>82 tools across 15 categories — Mail, Calendar, Teams, OneDrive, Notes, OmniFocus, and more</em></p>
 
 <details>
 <summary>Menu bar app</summary>
 <p align="center">
-  <img src="assets/tray-app.png" alt="Pilot MCP menu bar app" width="340">
+  <img src="assets/tray-app.png" alt="LMCP menu bar app" width="340">
 </p>
 <p align="center"><em>Status at a glance — all your Mac apps connected</em></p>
 </details>
@@ -76,7 +76,7 @@ Restart your AI client once. That's it.
 └───────────┬─────────────────────┘
             │  MCP protocol (stdio)
 ┌───────────▼─────────────────────┐
-│        Pilot MCP server          │
+│        LMCP server          │
 │  JXA · EventKit · AppleScript   │
 │  LevelDB · native macOS APIs    │
 └───────────┬─────────────────────┘
@@ -89,7 +89,7 @@ Restart your AI client once. That's it.
 
 ### Why native?
 
-Most MCP servers call cloud APIs. Pilot MCP talks directly to macOS frameworks:
+Most MCP servers call cloud APIs. LMCP talks directly to macOS frameworks:
 
 - **EventKit** for Calendar — reads all providers (iCloud, Google, Exchange)
 - **AppleScript/JXA** for Mail — works with any IMAP account
@@ -117,7 +117,7 @@ Claude.ai and ChatGPT can't reach localhost. Enable Cloud Relay in the menu bar 
 
 ## Comparison with alternatives
 
-| Feature | **Pilot MCP** | apple-mcp | Composio | MS 365 Connector |
+| Feature | **LMCP** | apple-mcp | Composio | MS 365 Connector |
 |---------|:---:|:---:|:---:|:---:|
 | **Runs locally** | ✅ | ✅ | ❌ Cloud | ❌ Cloud |
 | **API keys needed** | ❌ None | ❌ None | ✅ Required | ✅ Azure AD |
@@ -187,8 +187,8 @@ Have a feature in mind? Run `request_feature` from any AI client, or [open an is
 
 ## License
 
-Pilot MCP is proprietary software. Free for the first 500 installs — permanent license, no expiration. See [LICENSE](LICENSE) for details.
+LMCP is proprietary software. Free for the first 500 installs — permanent license, no expiration. See [LICENSE](LICENSE) for details.
 
 ---
 
-⭐ **If Pilot MCP saves you time, [star the repo](https://github.com/lanchuske/local-mcp-releases)** — it's the best way to help others discover it.
+⭐ **If LMCP saves you time, [star the repo](https://github.com/lanchuske/local-mcp-releases)** — it's the best way to help others discover it.
