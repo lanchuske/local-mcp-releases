@@ -1,3 +1,7 @@
+## v3.0.13 — 2026-04-06
+
+LMCP is the new name. Same product, same tools, shorter name. Also includes: PDF reading fixed (native PDFKit), calendar all-day dates corrected, OneDrive files auto-download.
+
 ## v3.0.11 — 2026-04-06
 
 PDF files now open reliably — no more dependency errors. Calendar all-day events show the correct end date. OneDrive files download automatically when your AI reads them — no need to open Finder first.
