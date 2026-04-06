@@ -1,3 +1,7 @@
+## v3.0.14 — 2026-04-06
+
+LMCP is now free for all early adopters — no more trial countdown. Your license never expires. Also: new name (LMCP), PDF reading fixed, calendar dates corrected, OneDrive auto-download.
+
 ## v3.0.13 — 2026-04-06
 
 LMCP is the new name. Same product, same tools, shorter name. Also includes: PDF reading fixed (native PDFKit), calendar all-day dates corrected, OneDrive files auto-download.
