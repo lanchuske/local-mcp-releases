@@ -1,3 +1,7 @@
+## v3.0.17 — 2026-04-08
+
+Fixed tray build — now correctly compiles with TrayStrings.swift. LMCP branding in tray menu bar.
+
 ## v3.0.16 — 2026-04-08
 
 Tray rebrand to LMCP. Server binary auto-updates on version mismatch.
