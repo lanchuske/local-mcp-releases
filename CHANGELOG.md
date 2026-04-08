@@ -1,3 +1,7 @@
+## v3.0.16 — 2026-04-08
+
+Tray rebrand to LMCP. Server binary auto-updates on version mismatch.
+
 ## v3.0.15 — 2026-04-08
 
 Server binary now auto-updates when a new version is available. Previously, machines could stay on old versions indefinitely. Also includes all recent bug fixes and the LMCP rebrand.
