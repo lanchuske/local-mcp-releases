@@ -1,3 +1,7 @@
+## v3.0.15 — 2026-04-08
+
+Server binary now auto-updates when a new version is available. Previously, machines could stay on old versions indefinitely. Also includes all recent bug fixes and the LMCP rebrand.
+
 ## v3.0.14 — 2026-04-06
 
 LMCP is now free for all early adopters — no more trial countdown. Your license never expires. Also: new name (LMCP), PDF reading fixed, calendar dates corrected, OneDrive auto-download.
