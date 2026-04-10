@@ -1,3 +1,7 @@
+## v3.0.36 — 2026-04-10
+
+Smarter problem reports — Claude.ai now auto-attaches versions, permissions, recent logs, and tool history when something fails.
+
 ## v3.0.35 — 2026-04-10
 
 Bug reports and feature requests now reach the team. Feature Requests panel shows only real requests. Support email updated.
