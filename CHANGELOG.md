@@ -1,3 +1,7 @@
+## v3.0.37 — 2026-04-10
+
+Smarter problem reports — Claude.ai now auto-attaches versions, permissions, recent logs, and tool history when something fails.
+
 ## v3.0.36 — 2026-04-10
 
 Smarter problem reports — Claude.ai now auto-attaches versions, permissions, recent logs, and tool history when something fails.
