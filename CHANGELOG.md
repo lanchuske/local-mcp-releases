@@ -1,3 +1,7 @@
+## v3.0.32 — 2026-04-10
+
+VS Code setup now works correctly. Improved AI client detection.
+
 ## v3.0.31 — 2026-04-10
 
 Faster cloud responses — list_emails and other tools no longer make the connector time out.
