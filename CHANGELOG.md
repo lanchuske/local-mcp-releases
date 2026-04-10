@@ -1,3 +1,7 @@
+## v3.0.23 — 2026-04-10
+
+Recent activity history shows your last MCP tool calls in the menu bar. Update notifications now include release notes inline. Behind the scenes: refresh tokens, revoke endpoint, faster admin telemetry, and security headers.
+
 ## v3.0.22 — 2026-04-10
 
 Fix: list_emails and search_emails now work on Macs set to Spanish, French, German and 13 other languages. Previously they could return empty for accounts whose inbox was named in your local language (e.g. 'Bandeja de entrada' in Spanish).
