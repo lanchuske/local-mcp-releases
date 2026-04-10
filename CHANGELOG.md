@@ -1,3 +1,7 @@
+## v3.0.25 — 2026-04-10
+
+Daemon now auto-updates itself: when a new version ships, the daemon downloads it and restarts within ~3 seconds without losing the cloud tunnel for long. No manual restart needed.
+
 ## v3.0.24 — 2026-04-10
 
 Cloud Relay tunnel now stays connected even when you close every MCP client. The LMCP menu bar app keeps a dedicated daemon alive so Claude.ai web and ChatGPT keep working without needing Claude Desktop running in the background.
