@@ -1,3 +1,7 @@
+## v3.0.24 — 2026-04-10
+
+Cloud Relay tunnel now stays connected even when you close every MCP client. The LMCP menu bar app keeps a dedicated daemon alive so Claude.ai web and ChatGPT keep working without needing Claude Desktop running in the background.
+
 ## v3.0.23 — 2026-04-10
 
 Recent activity history shows your last MCP tool calls in the menu bar. Update notifications now include release notes inline. Behind the scenes: refresh tokens, revoke endpoint, faster admin telemetry, and security headers.
