@@ -1,3 +1,7 @@
+## v3.0.19 — 2026-04-10
+
+Cloud Data Forwarding toggle now translated to 10 languages (Spanish, Portuguese, French, German, Italian, Dutch, Chinese, Japanese, Korean).
+
 ## v3.0.18 — 2026-04-10
 
 Cloud Relay is now privacy-first by default. Cloud agents (claude.ai, sheet add-ins) only see setup tools unless you opt in. Toggle 'Cloud Data Forwarding' from the menu bar when you want them to access Mail, Calendar, Teams, and OneDrive on this Mac. Also fixes a duplicate connection issue when running multiple AI client conversations.
