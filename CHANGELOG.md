@@ -1,3 +1,7 @@
+## v3.0.22 — 2026-04-10
+
+Fix: list_emails and search_emails now work on Macs set to Spanish, French, German and 13 other languages. Previously they could return empty for accounts whose inbox was named in your local language (e.g. 'Bandeja de entrada' in Spanish).
+
 ## v3.0.21 — 2026-04-10
 
 Tray icon now pulses when there is MCP activity — green for local stdio calls and indigo for Cloud Relay calls. New step-by-step guide for Claude.ai web setup. Tested end-to-end with real Mail.app accounts via Cloud Relay.
