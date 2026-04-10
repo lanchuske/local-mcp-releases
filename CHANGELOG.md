@@ -1,3 +1,7 @@
+## v3.0.40 — 2026-04-10
+
+Cleaner permission management. Also fixes Gmail/Exchange/iCloud inbox detection and Teams chat duplicates.
+
 ## v3.0.39 — 2026-04-10
 
 Fixes a critical bug where macOS privacy panel was filling with duplicate LMCP entries on every update. Also fixes Gmail/Exchange/iCloud inbox detection and Teams chat duplicates.
