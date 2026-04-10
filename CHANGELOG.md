@@ -1,3 +1,7 @@
+## v3.0.27 — 2026-04-10
+
+Fix: the tray app now auto-updates correctly when the daemon does. Previously the daemon could keep updating its own binary while the tray stayed on the original installed version forever.
+
 ## v3.0.26 — 2026-04-10
 
 One-click OAuth approval from the menu bar. When ChatGPT or Claude.ai web requests access, you get a notification on your Mac and click Approve once — no more copying tokens.
