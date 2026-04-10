@@ -1,3 +1,7 @@
+## v3.0.35 — 2026-04-10
+
+Bug reports and feature requests now reach the team. Feature Requests panel shows only real requests. Support email updated.
+
 ## v3.0.34 — 2026-04-10
 
 Cloud connection more reliable. Tray reliably cleans up after crash. Permission warnings now appear after macOS resets them.
