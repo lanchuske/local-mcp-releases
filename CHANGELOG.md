@@ -1,3 +1,7 @@
+## v3.0.20 — 2026-04-10
+
+Redesigned settings page with clearer Home dashboard and dedicated Connect tab. ChatGPT and Claude.ai web setup is now guided with copy-ready credentials in the menu bar. Settings page opens reliably after updates.
+
 ## v3.0.19 — 2026-04-10
 
 Cloud Data Forwarding toggle now translated to 10 languages (Spanish, Portuguese, French, German, Italian, Dutch, Chinese, Japanese, Korean).
