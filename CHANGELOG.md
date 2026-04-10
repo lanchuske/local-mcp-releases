@@ -1,3 +1,7 @@
+## v3.0.34 — 2026-04-10
+
+Cloud connection more reliable. Tray reliably cleans up after crash. Permission warnings now appear after macOS resets them.
+
 ## v3.0.33 — 2026-04-10
 
 Calendar/Contacts permissions: clearer error messages and a tray notification when macOS resets them after an update.
