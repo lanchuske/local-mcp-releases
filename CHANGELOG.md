@@ -1,3 +1,7 @@
+## v3.0.21 — 2026-04-10
+
+Tray icon now pulses when there is MCP activity — green for local stdio calls and indigo for Cloud Relay calls. New step-by-step guide for Claude.ai web setup. Tested end-to-end with real Mail.app accounts via Cloud Relay.
+
 ## v3.0.20 — 2026-04-10
 
 Redesigned settings page with clearer Home dashboard and dedicated Connect tab. ChatGPT and Claude.ai web setup is now guided with copy-ready credentials in the menu bar. Settings page opens reliably after updates.
