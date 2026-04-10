@@ -1,3 +1,7 @@
+## v3.0.39 — 2026-04-10
+
+Fixes a critical bug where macOS privacy panel was filling with duplicate LMCP entries on every update. Also fixes Gmail/Exchange/iCloud inbox detection and Teams chat duplicates.
+
 ## v3.0.37 — 2026-04-10
 
 Smarter problem reports — Claude.ai now auto-attaches versions, permissions, recent logs, and tool history when something fails.
