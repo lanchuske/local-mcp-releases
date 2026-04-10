@@ -1,3 +1,7 @@
+## v3.0.30 — 2026-04-10
+
+Cloud connection status updates faster and more reliably.
+
 ## v3.0.29 — 2026-04-10
 
 Fixes tray showing 'connecting' when the cloud tunnel is actually up.
