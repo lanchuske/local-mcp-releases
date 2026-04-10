@@ -1,3 +1,7 @@
+## v3.0.29 — 2026-04-10
+
+Fixes tray showing 'connecting' when the cloud tunnel is actually up.
+
 ## v3.0.28 — 2026-04-10
 
 Cloud connection now self-heals after updates and network drops — no more stuck tunnels.
