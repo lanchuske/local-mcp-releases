@@ -1,3 +1,7 @@
+## v3.0.31 — 2026-04-10
+
+Faster cloud responses — list_emails and other tools no longer make the connector time out.
+
 ## v3.0.30 — 2026-04-10
 
 Cloud connection status updates faster and more reliably.
