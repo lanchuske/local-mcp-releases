@@ -1,3 +1,7 @@
+## v3.0.26 — 2026-04-10
+
+One-click OAuth approval from the menu bar. When ChatGPT or Claude.ai web requests access, you get a notification on your Mac and click Approve once — no more copying tokens.
+
 ## v3.0.25 — 2026-04-10
 
 Daemon now auto-updates itself: when a new version ships, the daemon downloads it and restarts within ~3 seconds without losing the cloud tunnel for long. No manual restart needed.
