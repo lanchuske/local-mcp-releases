@@ -1,3 +1,7 @@
+## v3.0.28 — 2026-04-10
+
+Cloud connection now self-heals after updates and network drops — no more stuck tunnels.
+
 ## v3.0.27 — 2026-04-10
 
 Fix: the tray app now auto-updates correctly when the daemon does. Previously the daemon could keep updating its own binary while the tray stayed on the original installed version forever.
