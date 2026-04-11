@@ -1,3 +1,7 @@
+## v3.0.51 — 2026-04-11
+
+Cloud connections from Claude.ai and ChatGPT now work end-to-end. We fixed a routing bug that was preventing tool calls from reaching your Mac through the cloud relay, and we improved how permissions survive across updates so you should see fewer 'permission denied' messages right after auto-update.
+
 ## v3.0.48 — 2026-04-11
 
 Listing emails on Macs with multiple accounts is now reliable — no more timeouts when asking Claude to read your inbox.
