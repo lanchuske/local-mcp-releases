@@ -1,3 +1,7 @@
+## v3.0.46 — 2026-04-11
+
+list_emails is now reliable with multiple Mail accounts on macOS Sequoia — no more stalls or empty results when you ask Claude to check your inbox.
+
 ## v3.0.45 — 2026-04-11
 
 Better admin telemetry for TCC permission state — we can now spot machines that need permission re-enabling after macOS updates.
