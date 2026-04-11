@@ -1,3 +1,7 @@
+## v3.0.42 — 2026-04-11
+
+Microsoft Teams now works for all users (multi-tenant). Cleaner admin push messages. Better warnings for outdated installs.
+
 ## v3.0.41 — 2026-04-11
 
 Fixes 4 bugs found during QA: better error messages for missing files, admin trial-users dashboard, cleaner errors when reading missing chats/notes, and correct version number in tray About box.
