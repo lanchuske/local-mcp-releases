@@ -1,3 +1,7 @@
+## v3.0.47 — 2026-04-11
+
+Teams chat reading is now resilient to corrupted or outdated records in Microsoft Teams' local storage — no more empty results or errors when asking Claude to read a Teams conversation.
+
 ## v3.0.46 — 2026-04-11
 
 list_emails is now reliable with multiple Mail accounts on macOS Sequoia — no more stalls or empty results when you ask Claude to check your inbox.
