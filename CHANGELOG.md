@@ -1,3 +1,7 @@
+## v3.0.44 — 2026-04-11
+
+Admin analytics now reflect the real number of tool calls per machine — previously stuck at zero for stdio clients.
+
 ## v3.0.43 — 2026-04-11
 
 Tray email changes now sync to the admin dashboard and cloud relay in real time.
