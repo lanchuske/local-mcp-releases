@@ -1,3 +1,7 @@
+## v3.0.41 — 2026-04-11
+
+Fixes 4 bugs found during QA: better error messages for missing files, admin trial-users dashboard, cleaner errors when reading missing chats/notes, and correct version number in tray About box.
+
 ## v3.0.40 — 2026-04-10
 
 Cleaner permission management. Also fixes Gmail/Exchange/iCloud inbox detection and Teams chat duplicates.
