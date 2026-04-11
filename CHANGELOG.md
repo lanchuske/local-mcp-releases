@@ -1,3 +1,7 @@
+## v3.0.45 — 2026-04-11
+
+Better admin telemetry for TCC permission state — we can now spot machines that need permission re-enabling after macOS updates.
+
 ## v3.0.44 — 2026-04-11
 
 Admin analytics now reflect the real number of tool calls per machine — previously stuck at zero for stdio clients.
