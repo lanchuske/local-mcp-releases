@@ -1,3 +1,7 @@
+## v3.0.48 — 2026-04-11
+
+Listing emails on Macs with multiple accounts is now reliable — no more timeouts when asking Claude to read your inbox.
+
 ## v3.0.47 — 2026-04-11
 
 Teams chat reading is now resilient to corrupted or outdated records in Microsoft Teams' local storage — no more empty results or errors when asking Claude to read a Teams conversation.
