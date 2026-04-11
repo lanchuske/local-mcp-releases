@@ -1,3 +1,7 @@
+## v3.0.43 — 2026-04-11
+
+Tray email changes now sync to the admin dashboard and cloud relay in real time.
+
 ## v3.0.42 — 2026-04-11
 
 Microsoft Teams now works for all users (multi-tenant). Cleaner admin push messages. Better warnings for outdated installs.
