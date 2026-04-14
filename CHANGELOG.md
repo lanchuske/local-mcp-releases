@@ -1,3 +1,7 @@
+## v3.0.56 — 2026-04-14
+
+Email is much faster on corporate Outlook and Exchange accounts with lots of folders. Previously, asking Claude to 'check my unread email' could time out if your inbox was nested inside a deep folder tree. Now the email tool finds your inbox quickly and gracefully handles accounts that are mid-sync. Also fixed a documentation mismatch where the tool list mentioned Outlook-specific tools that didn't exist — the regular email tools work against Outlook accounts directly once you add them to Mail.app.
+
 ## v3.0.55 — 2026-04-14
 
 Email now works reliably on Macs running in languages other than English. If your Mac's interface is in Spanish, French, German, Italian, Portuguese, Dutch, Japanese, Korean, Chinese, Russian, or most other languages, Claude and other AI agents can now find and read your inbox automatically without you having to spell out the exact mailbox name. This release also includes small behind-the-scenes improvements to the menu bar app and self-update health monitoring.
