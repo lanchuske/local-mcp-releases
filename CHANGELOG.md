@@ -1,3 +1,7 @@
+## v3.0.55 — 2026-04-14
+
+Email now works reliably on Macs running in languages other than English. If your Mac's interface is in Spanish, French, German, Italian, Portuguese, Dutch, Japanese, Korean, Chinese, Russian, or most other languages, Claude and other AI agents can now find and read your inbox automatically without you having to spell out the exact mailbox name. This release also includes small behind-the-scenes improvements to the menu bar app and self-update health monitoring.
+
 ## v3.0.53 — 2026-04-14
 
 Email is more reliable on accounts that take a moment to connect. When one account is slow, LMCP now moves on and shows you the messages from the rest instead of timing out. Saving attachments from Exchange mail is much more dependable too — LMCP retries automatically if the server is still downloading the file. OneDrive files open faster and give a clear message if they haven't finished syncing yet. The file reader now handles text files from banking systems and other legacy sources that use non-UTF-8 encodings. Calendar permission errors are clearer. Stock chart lookups are resilient to Yahoo rate limiting.
