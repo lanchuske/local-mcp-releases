@@ -1,3 +1,7 @@
+## v3.0.53 — 2026-04-14
+
+Email is more reliable on accounts that take a moment to connect. When one account is slow, LMCP now moves on and shows you the messages from the rest instead of timing out. Saving attachments from Exchange mail is much more dependable too — LMCP retries automatically if the server is still downloading the file. OneDrive files open faster and give a clear message if they haven't finished syncing yet. The file reader now handles text files from banking systems and other legacy sources that use non-UTF-8 encodings. Calendar permission errors are clearer. Stock chart lookups are resilient to Yahoo rate limiting.
+
 ## v3.0.52 — 2026-04-12
 
 Email attachments save reliably now. Reading emails on Exchange accounts is faster. OneDrive write errors show clear fix instructions.
