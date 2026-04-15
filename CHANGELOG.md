@@ -1,3 +1,7 @@
+## v3.0.59 — 2026-04-15
+
+Reliability improvements to the auto-updater.
+
 ## v3.0.58 — 2026-04-15
 
 Local MCP now gently asks for your email the first time you open the menu bar — so we can reach you if something breaks or when a major fix ships. You can dismiss the prompt and we won't ask again for a week, or permanently after a few dismissals. If you prefer to stay anonymous, just ignore it. No spam, no marketing — only important fixes and release notes.
