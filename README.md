@@ -5,7 +5,7 @@
 [![GDPR](https://img.shields.io/badge/GDPR-compliant-green)](https://local-mcp.com/en/privacy)
 [![smithery badge](https://smithery.ai/badge/@lanchuske/local-mcp)](https://smithery.ai/server/@lanchuske/local-mcp)
 
-**LMCP connects your AI assistant to Mail, Calendar, Contacts, Microsoft Teams, OneDrive, Notes, Reminders, OmniFocus, and more — 82 tools, all running locally on your Mac. No cloud. No API keys. No OAuth. Your data never leaves your machine.**
+**LMCP connects your AI assistant to Mail, Calendar, Contacts, Microsoft Teams, OneDrive, Notes, Reminders, OmniFocus, and more — 91 tools, all running locally on your Mac. No cloud. No API keys. No OAuth. Your data never leaves your machine.**
 
 ```bash
 curl -fsSL https://local-mcp.com/install?ref=github | bash
@@ -16,9 +16,9 @@ curl -fsSL https://local-mcp.com/install?ref=github | bash
 ⭐ **Like it? [Star this repo](https://github.com/lanchuske/local-mcp-releases)** — it helps others discover LMCP.
 
 <p align="center">
-  <img src="assets/claude-tools.png" alt="Claude Desktop showing 82 tools across 15 categories with LMCP" width="700">
+  <img src="assets/claude-tools.png" alt="Claude Desktop showing 91 tools across 15 categories with LMCP" width="700">
 </p>
-<p align="center"><em>82 tools across 15 categories — Mail, Calendar, Teams, OneDrive, Notes, OmniFocus, and more</em></p>
+<p align="center"><em>91 tools across 15 categories — Mail, Calendar, Teams, OneDrive, Notes, OmniFocus, and more</em></p>
 
 <details>
 <summary>Menu bar app</summary>
@@ -50,7 +50,7 @@ curl -fsSL https://local-mcp.com/install?ref=github | bash
 | **Safari** | "List my bookmarks in the Dev folder" |
 | **Stocks** | "How is AAPL doing today?" · "Show me a chart of MSFT this month" |
 
-82 tools total. Read operations run instantly. Write operations (send email, delete event) show a preview and require confirmation.
+91 tools total. Read operations run instantly. Write operations (send email, delete event) show a preview and require confirmation.
 
 ---
 
@@ -122,7 +122,7 @@ Claude.ai and ChatGPT can't reach localhost. Enable Cloud Relay in the menu bar 
 | **Runs locally** | ✅ | ✅ | ❌ Cloud | ❌ Cloud |
 | **API keys needed** | ❌ None | ❌ None | ✅ Required | ✅ Azure AD |
 | **Setup time** | ~2 min | ~10 min | ~15 min | ~30 min |
-| **Total tools** | 82 | ~20 | Varies | ~15 |
+| **Total tools** | 91 | ~20 | Varies | ~15 |
 | **Microsoft Teams** | ✅ Local cache | ❌ | Via Graph API | Via Graph API |
 | **OneDrive** | ✅ Full CRUD | ❌ | Via Graph API | Via Graph API |
 | **Calendar** | ✅ CRUD | ❌ | Via API | Via Graph API |
