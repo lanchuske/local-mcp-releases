@@ -1,6 +1,6 @@
 ---
 name: Bug Report
-about: Report a problem with Pilot MCP
+about: Report a problem with Local MCP
 title: "[Bug] "
 labels: bug
 ---
@@ -8,7 +8,7 @@ labels: bug
 ### Environment
 
 - **macOS version**: <!-- e.g. 15.4 -->
-- **Pilot MCP version**: <!-- visible in the menu bar tray icon popover -->
+- **Local MCP version**: <!-- visible in the menu bar tray icon popover -->
 - **AI client**: <!-- Claude Desktop / Cursor / Windsurf / VS Code / other -->
 
 ### Steps to reproduce
