@@ -7,7 +7,7 @@ labels: enhancement
 
 ### Description
 
-<!-- What would you like Pilot MCP to do? -->
+<!-- What would you like Local MCP to do? -->
 
 ### Use case
 
