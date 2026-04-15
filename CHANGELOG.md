@@ -1,3 +1,7 @@
+## v3.0.58 — 2026-04-15
+
+Local MCP now gently asks for your email the first time you open the menu bar — so we can reach you if something breaks or when a major fix ships. You can dismiss the prompt and we won't ask again for a week, or permanently after a few dismissals. If you prefer to stay anonymous, just ignore it. No spam, no marketing — only important fixes and release notes.
+
 ## v3.0.56 — 2026-04-14
 
 Email is much faster on corporate Outlook and Exchange accounts with lots of folders. Previously, asking Claude to 'check my unread email' could time out if your inbox was nested inside a deep folder tree. Now the email tool finds your inbox quickly and gracefully handles accounts that are mid-sync. Also fixed a documentation mismatch where the tool list mentioned Outlook-specific tools that didn't exist — the regular email tools work against Outlook accounts directly once you add them to Mail.app.
