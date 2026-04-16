@@ -1,3 +1,7 @@
+## v3.0.65 — 2026-04-16
+
+Teams IndexedDB fix (6910018) + identity tray prompt banner (ba9dea4) — CEO-approved bundle per LMC-9
+
 ## v3.0.63 — 2026-04-16
 
 New onedrive_set_scope tool — your AI assistant can now restrict OneDrive access to a specific folder directly, no config file editing needed. Just ask: Restrict my OneDrive access to the Claude workspace folder.
