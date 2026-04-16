@@ -1,3 +1,7 @@
+## v3.0.63 — 2026-04-16
+
+New onedrive_set_scope tool — your AI assistant can now restrict OneDrive access to a specific folder directly, no config file editing needed. Just ask: Restrict my OneDrive access to the Claude workspace folder.
+
 ## v3.0.62 — 2026-04-16
 
 OneDrive folder scoping — restrict LMCP access to specific folders per OneDrive account. Configure allowed paths in config.json, enforced across all read, write, and delete operations. Built for enterprise teams with sensitive documents.
