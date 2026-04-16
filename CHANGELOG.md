@@ -1,3 +1,7 @@
+## v3.0.66 — 2026-04-16
+
+LMC-29: lower stale_warning threshold 10→7 to push reinstall prompt to v3.0.56 stuck machines
+
 ## v3.0.65 — 2026-04-16
 
 Teams IndexedDB fix (6910018) + identity tray prompt banner (ba9dea4) — CEO-approved bundle per LMC-9
