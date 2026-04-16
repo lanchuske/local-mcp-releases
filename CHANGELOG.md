@@ -1,3 +1,13 @@
+## v3.0.62 — 2026-04-16
+
+OneDrive folder scoping — restrict LMCP access to specific folders per OneDrive account. Configure allowed paths in config.json, enforced across all read, write, and delete operations. Built for enterprise teams with sensitive documents.
+
+Smarter Safari automation — new back button tool, link extraction for navigating dashboards, and automatic page-load waiting after clicks.
+
+Read 55+ file types from OneDrive — now supports HTML, TypeScript, Java, Go, Rust, SQL, Dockerfile, and many more code and config files.
+
+New onedrive_file_info tool — get file size, dates, and type without listing the entire directory.
+
 ## v3.0.61 — 2026-04-16
 
 Email is faster and more reliable on Exchange accounts. Inbox detection now uses a fast lookup before walking the mailbox tree, eliminating timeouts on deep folder hierarchies.
