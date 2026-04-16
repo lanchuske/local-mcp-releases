@@ -1,3 +1,7 @@
+## v3.0.68 — 2026-04-16
+
+LMC-40: show TRIAL badge for trial users (was FREE / Early adopter)
+
 ## v3.0.67 — 2026-04-16
 
 fix(mail): LMC-39 eager property capture — eliminates deferred Exchange round-trips from list_emails sort+serialize
