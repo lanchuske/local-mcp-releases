@@ -1,3 +1,7 @@
+## v3.0.70 — 2026-04-16
+
+v3.0.70: fix list_emails JXA timeout on Ventura+Exchange (FB-C1D537) — budget whose() probe loops to 3s, preventing 13-probe×3s=39s overrun
+
 ## v3.0.69 — 2026-04-16
 
 fix(mail): cache dateSent() + proactive outreach needed for D2494FB7 (LMC-39)
