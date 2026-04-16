@@ -1,3 +1,7 @@
+## v3.0.69 — 2026-04-16
+
+fix(mail): cache dateSent() + proactive outreach needed for D2494FB7 (LMC-39)
+
 ## v3.0.68 — 2026-04-16
 
 LMC-40: show TRIAL badge for trial users (was FREE / Early adopter)
