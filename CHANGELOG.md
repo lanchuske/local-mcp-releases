@@ -1,3 +1,7 @@
+## v3.0.67 — 2026-04-16
+
+fix(mail): LMC-39 eager property capture — eliminates deferred Exchange round-trips from list_emails sort+serialize
+
 ## v3.0.66 — 2026-04-16
 
 LMC-29: lower stale_warning threshold 10→7 to push reinstall prompt to v3.0.56 stuck machines
