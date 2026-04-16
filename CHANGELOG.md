@@ -1,3 +1,11 @@
+## v3.0.61 — 2026-04-16
+
+Email is faster and more reliable on Exchange accounts. Inbox detection now uses a fast lookup before walking the mailbox tree, eliminating timeouts on deep folder hierarchies.
+
+Smarter permission guidance. When a macOS permission is missing, your AI assistant now tells you exactly how to fix it before you hit an error.
+
+Getting started suggestions. New users get concrete examples of what to ask — like Read my latest emails or What is on my calendar — so you can start using LMCP right away.
+
 ## v3.0.60 — 2026-04-15
 
 The menu bar app now reads state directly from a shared file instead of polling your local server over HTTP, making it lighter and faster. Calendar now detects when macOS gives it limited access and shows a clear message explaining how to upgrade to full access in System Settings. The auto-updater no longer silently deadlocks on startup — a threading bug that prevented update telemetry from working since v3.0.54 has been fixed. Fresh installs no longer briefly flash an expired license warning. Activity counts in the menu bar now show cloud vs local calls separately.
