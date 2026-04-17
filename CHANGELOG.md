@@ -1,3 +1,7 @@
+## v3.0.72 — 2026-04-17
+
+Email is more reliable. When Mail.app isn't running, you'll get a clear message instead of a long wait. Excel now handles iCloud files seamlessly. Calendar events with all-day dates and email replies work better. First-time users get helpful example prompts to get started faster. Several stability improvements for Ventura users.
+
 ## v3.0.71 — 2026-04-16
 
 Fixed a bug where sending an email would leave a duplicate message in the Drafts folder.
