@@ -1,3 +1,7 @@
+## v3.0.73 — 2026-04-17
+
+OmniFocus is now instant. Previously, checking tasks could hang for up to 60 seconds when OmniFocus wasn't installed — now it responds immediately with a clear message. Cloud relay handles multiple requests simultaneously for faster email access.
+
 ## v3.0.72 — 2026-04-17
 
 Email is more reliable. When Mail.app isn't running, you'll get a clear message instead of a long wait. Excel now handles iCloud files seamlessly. Calendar events with all-day dates and email replies work better. First-time users get helpful example prompts to get started faster. Several stability improvements for Ventura users.
