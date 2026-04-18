@@ -1,3 +1,7 @@
+## v3.0.78 — 2026-04-18
+
+Stability fix: resolves server disconnections after auto-update. Your tools stay connected now.
+
 ## v3.0.77 — 2026-04-18
 
 Startup fix: automatically cleans up stale processes from previous versions. Resolves 'Server disconnected' errors after updates. Slack now visible in the menu bar.
