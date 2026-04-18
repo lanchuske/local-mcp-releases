@@ -1,3 +1,7 @@
+## v3.0.76 — 2026-04-18
+
+Tray fix: resolves 'Offline' status showing on all services after v3.0.74 update. Slack channels now visible in the menu bar. All your tools and data are safe — just a display fix.
+
 ## v3.0.75 — 2026-04-18
 
 File reading is more reliable — Excel and Word tools no longer hang on cloud-synced files. If macOS resets app permissions after an update, the menu bar now shows a Fix Permissions prompt to get you back on track quickly.
