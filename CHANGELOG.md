@@ -1,3 +1,7 @@
+## v3.0.75 — 2026-04-18
+
+File reading is more reliable — Excel and Word tools no longer hang on cloud-synced files. If macOS resets app permissions after an update, the menu bar now shows a Fix Permissions prompt to get you back on track quickly.
+
 ## v3.0.74 — 2026-04-18
 
 LMCP now guides you from install to first tool call. Smart prompts suggest what to try based on your connected apps. A new Recipes tab shows ready-to-use workflows you can copy and paste. Plus: Slack channel reading is here.
