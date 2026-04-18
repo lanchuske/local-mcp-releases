@@ -1,3 +1,7 @@
+## v3.0.79 — 2026-04-18
+
+Connection stability: LMCP no longer disconnects from Claude Desktop after updates.
+
 ## v3.0.78 — 2026-04-18
 
 Stability fix: resolves server disconnections after auto-update. Your tools stay connected now.
