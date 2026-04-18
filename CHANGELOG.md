@@ -1,3 +1,7 @@
+## v3.0.82 — 2026-04-18
+
+Morning briefing in one call. New daily_brief tool combines your calendar, reminders, and inbox into a single morning overview. Also includes: improved setup flow, chat history blob handling fix, notification improvements, and UI rebrand to LMCP.
+
 ## v3.0.81 — 2026-04-18
 
 v3.0.81: Fix TCC permission cascade, OneDrive cloud placeholders, daemon tunnel conflicts. Add fleet health monitoring, activation nudge, tray suggestions.
