@@ -1,3 +1,7 @@
+## v3.0.74 — 2026-04-18
+
+LMCP now guides you from install to first tool call. Smart prompts suggest what to try based on your connected apps. A new Recipes tab shows ready-to-use workflows you can copy and paste. Plus: Slack channel reading is here.
+
 ## v3.0.73 — 2026-04-17
 
 OmniFocus is now instant. Previously, checking tasks could hang for up to 60 seconds when OmniFocus wasn't installed — now it responds immediately with a clear message. Cloud relay handles multiple requests simultaneously for faster email access.
