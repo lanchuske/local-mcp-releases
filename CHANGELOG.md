@@ -1,3 +1,7 @@
+## v3.0.77 — 2026-04-18
+
+Startup fix: automatically cleans up stale processes from previous versions. Resolves 'Server disconnected' errors after updates. Slack now visible in the menu bar.
+
 ## v3.0.76 — 2026-04-18
 
 Tray fix: resolves 'Offline' status showing on all services after v3.0.74 update. Slack channels now visible in the menu bar. All your tools and data are safe — just a display fix.
