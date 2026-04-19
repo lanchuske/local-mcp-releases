@@ -1,3 +1,7 @@
+## v3.0.89 — 2026-04-19
+
+Anonymous cloud relay activation — no more email prompts during curl|bash installs. Cloud connect works out of the box; link an email later at local-mcp.com/settings to sync across Macs. (LMC-605)
+
 ## v3.0.85 — 2026-04-19
 
 Bug fixes: graceful 45s drain before auto-update prevents dropped tool calls; self-update now restarts in stdio mode (fixes ~48 stuck machines); Gmail IMAP save_attachment retry fix; recover tray-less stuck machines; tray shows Not connected after 60s timeout. New: TCC auto-prompt for Calendar/Contacts/Reminders on startup; WhatsApp Connect button in tray menu.
