@@ -1,3 +1,10 @@
+## v3.0.83 — 2026-04-19
+
+- Fixed an issue where Excel files with only numbers wouldn't open
+- Fixed zombie processes that accumulated when AI clients disconnected
+- Permission setup is now faster — grant access directly from the menu bar
+- Machines stuck on old versions will now update automatically
+
 ## v3.0.82 — 2026-04-18
 
 Morning briefing in one call. New daily_brief tool combines your calendar, reminders, and inbox into a single morning overview. Also includes: improved setup flow, chat history blob handling fix, notification improvements, and UI rebrand to LMCP.
