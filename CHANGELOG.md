@@ -1,3 +1,7 @@
+## v3.0.85 — 2026-04-19
+
+Bug fixes: graceful 45s drain before auto-update prevents dropped tool calls; self-update now restarts in stdio mode (fixes ~48 stuck machines); Gmail IMAP save_attachment retry fix; recover tray-less stuck machines; tray shows Not connected after 60s timeout. New: TCC auto-prompt for Calendar/Contacts/Reminders on startup; WhatsApp Connect button in tray menu.
+
 ## v3.0.84 — 2026-04-19
 
 Fixed a crash where the tray showed as offline when WhatsApp was connected. Fixed duplicate tray icons appearing in the menu bar. Fixed background processes that were not cleaned up during a session. Improved monitoring for machines that go temporarily offline.
