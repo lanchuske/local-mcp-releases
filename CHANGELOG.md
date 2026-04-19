@@ -1,3 +1,7 @@
+## v3.0.84 — 2026-04-19
+
+Fixed a crash where the tray showed as offline when WhatsApp was connected. Fixed duplicate tray icons appearing in the menu bar. Fixed background processes that were not cleaned up during a session. Improved monitoring for machines that go temporarily offline.
+
 ## v3.0.83 — 2026-04-19
 
 - Fixed an issue where Excel files with only numbers wouldn't open
