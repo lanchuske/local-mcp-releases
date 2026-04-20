@@ -1,3 +1,7 @@
+## v3.0.91 — 2026-04-20
+
+Email categories for Outlook/Exchange accounts, faster file search.
+
 ## v3.0.90 — 2026-04-20
 
 Exchange email now works reliably. Read and search messages across all Exchange folders — including Sent Items and nested mailboxes — without errors or missing results.
