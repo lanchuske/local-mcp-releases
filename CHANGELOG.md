@@ -1,3 +1,7 @@
+## v3.0.97 — 2026-04-20
+
+Tray Install button now triggers updates immediately. Fixed duplicate permissions notice after update. Better guidance when Teams channels or emails aren't accessible.
+
 ## v3.0.96 — 2026-04-20
 
 Fixes a permission prompt that appeared when installing on macOS Sonoma and Sequoia. Email reliability improvements for Exchange and Outlook accounts — messages found by search are now accessible via read. Better error messages when Mail automation permission is not granted.
