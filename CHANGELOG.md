@@ -1,3 +1,7 @@
+## v3.0.90 — 2026-04-20
+
+Exchange email now works reliably. Read and search messages across all Exchange folders — including Sent Items and nested mailboxes — without errors or missing results.
+
 ## v3.0.89 — 2026-04-19
 
 Anonymous cloud relay activation — no more email prompts during curl|bash installs. Cloud connect works out of the box; link an email later at local-mcp.com/settings to sync across Macs. (LMC-605)
