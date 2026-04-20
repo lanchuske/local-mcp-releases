@@ -1,3 +1,7 @@
+## v3.0.96 — 2026-04-20
+
+Fixes a permission prompt that appeared when installing on macOS Sonoma and Sequoia. Email reliability improvements for Exchange and Outlook accounts — messages found by search are now accessible via read. Better error messages when Mail automation permission is not granted.
+
 ## v3.0.95 — 2026-04-20
 
 Removed Microsoft 365 directory tools (connect_m365_account, search_m365_directory). These required Azure Active Directory setup and went against local-first principles. Your org directory is still searchable via Contacts — macOS syncs Exchange contacts locally through Contacts.app, no authentication required.
