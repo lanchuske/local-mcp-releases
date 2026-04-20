@@ -1,3 +1,7 @@
+## v3.0.95 — 2026-04-20
+
+Removed Microsoft 365 directory tools (connect_m365_account, search_m365_directory). These required Azure Active Directory setup and went against local-first principles. Your org directory is still searchable via Contacts — macOS syncs Exchange contacts locally through Contacts.app, no authentication required.
+
 ## v3.0.92 — 2026-04-20
 
 You can now edit existing calendar events directly — change the title, time, location, or notes without canceling and recreating. Works with recurring events too (update just this one or all future occurrences).
