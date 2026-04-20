@@ -1,3 +1,7 @@
+## v3.0.92 — 2026-04-20
+
+You can now edit existing calendar events directly — change the title, time, location, or notes without canceling and recreating. Works with recurring events too (update just this one or all future occurrences).
+
 ## v3.0.91 — 2026-04-20
 
 Email categories for Outlook/Exchange accounts, faster file search.
