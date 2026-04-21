@@ -1,3 +1,7 @@
+## v3.0.102 — 2026-04-21
+
+Calendar, Contacts, and Reminders permissions now prompt correctly with the Local MCP icon.
+
 ## v3.0.101 — 2026-04-21
 
 All macOS privacy dialogs (Calendar, Contacts, Reminders) now show the Local MCP icon. Reliability and performance improvements.
