@@ -1,3 +1,7 @@
+## v3.0.103 — 2026-04-21
+
+Calendar, Contacts, and Reminders now show correctly as active after you've granted permission in System Settings. Fixed a display bug where these services appeared as 'Permission needed' even with Full Access enabled.
+
 ## v3.0.102 — 2026-04-21
 
 Calendar, Contacts, and Reminders permissions now prompt correctly with the Local MCP icon.
