@@ -1,3 +1,7 @@
+## v3.0.98 — 2026-04-21
+
+WhatsApp now available for all users. The app automatically installs and keeps WhatsApp tools up to date alongside every other update — no manual setup required. Contacts and Calendar permissions work reliably after updates. Fixed an issue where permissions could appear lost after an update, and another where the system permission dialog would never appear for Contacts. Cleaner System Settings: resolved an issue that caused multiple duplicate entries to accumulate in Privacy & Security over time.
+
 ## v3.0.97 — 2026-04-20
 
 Tray Install button now triggers updates immediately. Fixed duplicate permissions notice after update. Better guidance when Teams channels or emails aren't accessible.
