@@ -1,3 +1,7 @@
+## v3.0.100 — 2026-04-21
+
+Auto-updates now apply seamlessly without breaking your Claude Desktop connection. Silent tool failures are now automatically tracked and surfaced in the admin panel.
+
 ## v3.0.99 — 2026-04-21
 
 Calendar and Reminders status in the menu bar now accurately reflects actual permissions. Fixed a rare issue where Calendar and Reminders could show as available even after macOS reset their permissions. Permission request dialogs now appear proactively for all three services on first launch.
