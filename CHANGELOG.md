@@ -1,3 +1,7 @@
+## v3.0.101 — 2026-04-21
+
+All macOS privacy dialogs (Calendar, Contacts, Reminders) now show the Local MCP icon. Reliability and performance improvements.
+
 ## v3.0.100 — 2026-04-21
 
 Auto-updates now apply seamlessly without breaking your Claude Desktop connection. Silent tool failures are now automatically tracked and surfaced in the admin panel.
