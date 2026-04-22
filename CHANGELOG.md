@@ -1,3 +1,7 @@
+## v3.0.112 — 2026-04-22
+
+Email, Calendar, Contacts, Notes, and Messages tools restored. Fixed a regression introduced in the previous release that caused several tools to appear unavailable or fail with permission errors on macOS 26.x.
+
 ## v3.0.111 — 2026-04-22
 
 Settings now shows the manifest version. Bug fixes and stability improvements.
