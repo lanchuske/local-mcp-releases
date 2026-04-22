@@ -1,3 +1,7 @@
+## v3.0.108 — 2026-04-22
+
+Added support for JetBrains IDEs and Continue as AI client options. Settings and services can now update automatically.
+
 ## v3.0.106 — 2026-04-22
 
 Reminders management is now complete — mark reminders done, delete them, and browse your lists directly from Claude.
