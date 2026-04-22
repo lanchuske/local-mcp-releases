@@ -1,3 +1,7 @@
+## v3.0.110 — 2026-04-22
+
+New: report issues and request integrations directly from Claude. Added to-do list support. Performance improvements and bug fixes.
+
 ## v3.0.109 — 2026-04-22
 
 The admin panel now shows which manifest version is running on each machine.
