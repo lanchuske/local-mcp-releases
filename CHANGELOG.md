@@ -1,3 +1,7 @@
+## v3.0.111 — 2026-04-22
+
+Settings now shows the manifest version. Bug fixes and stability improvements.
+
 ## v3.0.110 — 2026-04-22
 
 New: report issues and request integrations directly from Claude. Added to-do list support. Performance improvements and bug fixes.
