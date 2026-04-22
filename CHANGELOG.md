@@ -1,3 +1,7 @@
+## v3.0.106 — 2026-04-22
+
+Reminders management is now complete — mark reminders done, delete them, and browse your lists directly from Claude.
+
 ## v3.0.105 — 2026-04-21
 
 Calendar, Contacts, and Reminders tools now load dynamically — faster updates without reinstalling.
