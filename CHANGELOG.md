@@ -1,3 +1,7 @@
+## v3.0.109 — 2026-04-22
+
+The admin panel now shows which manifest version is running on each machine.
+
 ## v3.0.108 — 2026-04-22
 
 Added support for JetBrains IDEs and Continue as AI client options. Settings and services can now update automatically.
