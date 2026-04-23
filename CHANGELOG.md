@@ -1,3 +1,7 @@
+## v3.0.119 — 2026-04-23
+
+Mail, Messages, Notes, and Safari now reliably request the required permissions on first launch.
+
 ## v3.0.118 — 2026-04-23
 
 Fixed a bug that could prevent the app from updating to newer versions on some Mac configurations.
