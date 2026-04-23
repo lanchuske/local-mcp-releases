@@ -1,3 +1,7 @@
+## v3.0.120 — 2026-04-23
+
+Fixed iMessage conversations not loading in list_message_chats.
+
 ## v3.0.119 — 2026-04-23
 
 Mail, Messages, Notes, and Safari now reliably request the required permissions on first launch.
