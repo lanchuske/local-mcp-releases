@@ -1,3 +1,7 @@
+## v3.0.114 — 2026-04-23
+
+Automation permissions for Mail, Messages, and Safari no longer reset after updates. A new stable co-process handles all JXA automation so macOS grants it permanent access.
+
 ## v3.0.113 — 2026-04-22
 
 Notes, Messages, Safari, and OmniFocus tools are now fully operational. Fixed a parsing bug that caused all JXA-based tools to return errors since manifest v9.
