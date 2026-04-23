@@ -184,7 +184,7 @@ Have a feature in mind? Run `request_feature` from any AI client, or [open an is
 Run this in Terminal to completely remove LMCP:
 
 ```bash
-curl -fsSL 'https://local-mcp.com/install' | bash -s -- --uninstall
+curl -fsSL 'https://local-mcp.com/uninstall' | bash
 ```
 
 This stops all background processes, removes the auto-start LaunchAgent, deletes the app and binaries, and cleans up the MCP entries from Claude Desktop, Cursor, and other AI clients. Your emails, calendar, and other data are never stored by LMCP and remain untouched.
