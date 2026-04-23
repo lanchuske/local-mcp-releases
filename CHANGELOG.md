@@ -1,3 +1,7 @@
+## v3.0.117 — 2026-04-23
+
+Fixed a bug where the app could get stuck on an older version and stop receiving updates.
+
 ## v3.0.116 — 2026-04-23
 
 Automation permissions for Mail, Messages, Notes, and Safari are now requested automatically on first launch. No more silent permission failures after updates.
