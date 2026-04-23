@@ -1,3 +1,7 @@
+## v3.0.118 — 2026-04-23
+
+Fixed a bug that could prevent the app from updating to newer versions on some Mac configurations.
+
 ## v3.0.117 — 2026-04-23
 
 Fixed a bug where the app could get stuck on an older version and stop receiving updates.
