@@ -1,3 +1,7 @@
+## v3.0.115 — 2026-04-23
+
+First-time setup now automatically installs the background process that handles Automation permissions for Mail, Messages, Safari, and Notes. This prevents permission resets after future updates.
+
 ## v3.0.114 — 2026-04-23
 
 Automation permissions for Mail, Messages, and Safari no longer reset after updates. A new stable co-process handles all JXA automation so macOS grants it permanent access.
