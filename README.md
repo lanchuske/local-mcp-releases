@@ -8,7 +8,7 @@
 **LMCP connects your AI assistant to Mail, Calendar, Contacts, Microsoft Teams, Slack, WhatsApp, OneDrive, Notes, Reminders, OmniFocus, and more — 111 tools, all running locally on your Mac. No cloud. No API keys. No OAuth. Your data never leaves your machine.**
 
 ```bash
-curl -fsSL https://local-mcp.com/install?ref=github | bash
+curl -fsSL 'https://local-mcp.com/install?ref=github' | bash
 ```
 
 > Installs in 2 minutes. Auto-configures Claude Desktop, Claude Code, Cursor, Windsurf, VS Code, and Zed. **Free for the first 500 installs — yours forever.**
@@ -60,7 +60,7 @@ curl -fsSL https://local-mcp.com/install?ref=github | bash
 ## Install
 
 ```bash
-curl -fsSL https://local-mcp.com/install?ref=github | bash
+curl -fsSL 'https://local-mcp.com/install?ref=github' | bash
 ```
 
 Auto-detects and configures: **Claude Desktop · Claude Code · Cursor · Windsurf · VS Code · Zed**
