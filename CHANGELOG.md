@@ -1,3 +1,7 @@
+## v3.0.116 — 2026-04-23
+
+Automation permissions for Mail, Messages, Notes, and Safari are now requested automatically on first launch. No more silent permission failures after updates.
+
 ## v3.0.115 — 2026-04-23
 
 First-time setup now automatically installs the background process that handles Automation permissions for Mail, Messages, Safari, and Notes. This prevents permission resets after future updates.
