@@ -1,3 +1,7 @@
+## v3.0.121 — 2026-04-23
+
+Email is faster (removed a per-message blocking call that caused timeouts on Exchange accounts). Teams chat messages now show better diagnostics when empty. OmniFocus tools handle missing app gracefully. Tray stays visible and auto-restarts after crashes.
+
 ## v3.0.120 — 2026-04-23
 
 Fixed iMessage conversations not loading in list_message_chats.
