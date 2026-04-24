@@ -1,3 +1,7 @@
+## v3.0.123 — 2026-04-24
+
+Mail, Safari, Notes, and Messages tools now work reliably on macOS 26 Tahoe. Fixed a permissions issue where system automations were silently blocked on newer macOS versions.
+
 ## v3.0.122 — 2026-04-24
 
 Email, Notes, Messages, and Safari tools no longer lose access after an update. Fixed a reliability issue where tool permissions would reset each time the app updated.
