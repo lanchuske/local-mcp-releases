@@ -1,3 +1,7 @@
+## v3.0.132 — 2026-04-24
+
+Fixed a startup error that prevented the setup wizard from completing on fresh installs.
+
 ## v3.0.131 — 2026-04-24
 
 Settings email now saves and shows instantly. Tray shows a banner when the server updates itself — prompting you to start a new conversation in your AI client.
