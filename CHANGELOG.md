@@ -1,3 +1,7 @@
+## v3.0.124 — 2026-04-24
+
+Fixed a false notification about missing Calendar and Reminders permissions. Messages now properly requests Automation access on first use.
+
 ## v3.0.123 — 2026-04-24
 
 Mail, Safari, Notes, and Messages tools now work reliably on macOS 26 Tahoe. Fixed a permissions issue where system automations were silently blocked on newer macOS versions.
