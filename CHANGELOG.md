@@ -1,3 +1,7 @@
+## v3.0.133 — 2026-04-24
+
+Setup wizard now exits cleanly after completing instead of hanging in the terminal.
+
 ## v3.0.132 — 2026-04-24
 
 Fixed a startup error that prevented the setup wizard from completing on fresh installs.
