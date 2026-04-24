@@ -1,3 +1,7 @@
+## v3.0.122 — 2026-04-24
+
+Email, Notes, Messages, and Safari tools no longer lose access after an update. Fixed a reliability issue where tool permissions would reset each time the app updated.
+
 ## v3.0.121 — 2026-04-23
 
 Email is faster (removed a per-message blocking call that caused timeouts on Exchange accounts). Teams chat messages now show better diagnostics when empty. OmniFocus tools handle missing app gracefully. Tray stays visible and auto-restarts after crashes.
