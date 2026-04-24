@@ -1,3 +1,7 @@
+## v3.0.125 — 2026-04-24
+
+Fixed a crash that occurred when running multiple tool calls at startup. Messages, Notes, Safari, and Mail permission prompts now appear correctly when the app first launches.
+
 ## v3.0.124 — 2026-04-24
 
 Fixed a false notification about missing Calendar and Reminders permissions. Messages now properly requests Automation access on first use.
