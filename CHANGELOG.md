@@ -1,3 +1,7 @@
+## v3.0.131 — 2026-04-24
+
+Settings email now saves and shows instantly. Tray shows a banner when the server updates itself — prompting you to start a new conversation in your AI client.
+
 ## v3.0.125 — 2026-04-24
 
 Fixed a crash that occurred when running multiple tool calls at startup. Messages, Notes, Safari, and Mail permission prompts now appear correctly when the app first launches.
