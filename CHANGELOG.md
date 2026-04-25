@@ -1,3 +1,7 @@
+## v3.0.138 — 2026-04-25
+
+Fixed a silent connection failure for users with multiple Node.js versions installed via nvm. If Claude Desktop was picking up an old Node version, LMCP would fail to start with no visible error. Now shows a clear message with the fix, and the correct Node version is always used automatically.
+
 ## v3.0.137 — 2026-04-25
 
 Calendar permissions are now detected correctly — users with Add Events Only will see a fix prompt. Setup now works without Python or Homebrew on any Mac. Roo-Cline and Claude Code are now supported as AI clients in the tray. Email searches on machines with many accounts are more reliable.
