@@ -1,3 +1,7 @@
+## v3.0.136 — 2026-04-25
+
+Install setup now captures which AI client was configured. Email prompt errors are now reported correctly. Bug fixes and reliability improvements.
+
 ## v3.0.135 — 2026-04-25
 
 LMCP now restarts automatically if it stops unexpectedly — no more 'Local MCP is not running' errors after an update. The menu bar icon stays visible and reconnects on its own.
