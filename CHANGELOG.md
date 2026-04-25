@@ -1,3 +1,7 @@
+## v3.0.137 — 2026-04-25
+
+Calendar permissions are now detected correctly — users with Add Events Only will see a fix prompt. Setup now works without Python or Homebrew on any Mac. Roo-Cline and Claude Code are now supported as AI clients in the tray. Email searches on machines with many accounts are more reliable.
+
 ## v3.0.136 — 2026-04-25
 
 Install setup now captures which AI client was configured. Email prompt errors are now reported correctly. Bug fixes and reliability improvements.
