@@ -1,3 +1,7 @@
+## v3.0.135 — 2026-04-25
+
+LMCP now restarts automatically if it stops unexpectedly — no more 'Local MCP is not running' errors after an update. The menu bar icon stays visible and reconnects on its own.
+
 ## v3.0.134 — 2026-04-25
 
 Update reliability: LMCP now restarts cleanly after downloading an update — no more dropped connections in Claude Desktop. Search emails is faster, with a timeout so it never hangs on large mailboxes. Notes tools now work even when Notes.app is closed.
