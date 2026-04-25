@@ -1,3 +1,7 @@
+## v3.0.134 — 2026-04-25
+
+Update reliability: LMCP now restarts cleanly after downloading an update — no more dropped connections in Claude Desktop. Search emails is faster, with a timeout so it never hangs on large mailboxes. Notes tools now work even when Notes.app is closed.
+
 ## v3.0.133 — 2026-04-24
 
 Setup wizard now exits cleanly after completing instead of hanging in the terminal.
