@@ -1,3 +1,7 @@
+## v3.0.143 — 2026-04-26
+
+Download for Windows button. Standalone installer — no Node.js required. 57 tools including daily briefing.
+
 ## v3.0.141 — 2026-04-26
 
 57 Windows tools including daily briefing. System tray app. Auto-update. App detection telemetry. 3 new Windows setup guides.
