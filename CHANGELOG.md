@@ -1,3 +1,7 @@
+## v3.0.139 — 2026-04-26
+
+Windows support (beta). 52 tools for Outlook, OneDrive, Excel, Teams, Slack and more. Install on Windows: npx local-mcp setup.
+
 ## v3.0.138 — 2026-04-25
 
 Fixed a silent connection failure for users with multiple Node.js versions installed via nvm. If Claude Desktop was picking up an old Node version, LMCP would fail to start with no visible error. Now shows a clear message with the fix, and the correct Node version is always used automatically.
