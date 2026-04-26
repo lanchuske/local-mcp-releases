@@ -1,3 +1,7 @@
+## v3.0.141 — 2026-04-26
+
+57 Windows tools including daily briefing. System tray app. Auto-update. App detection telemetry. 3 new Windows setup guides.
+
 ## v3.0.140 — 2026-04-26
 
 Windows installer now works with Microsoft Store Claude Desktop. Fixed MSIX path detection and npx command wrapper.
