@@ -1,3 +1,7 @@
+## v3.0.140 — 2026-04-26
+
+Windows installer now works with Microsoft Store Claude Desktop. Fixed MSIX path detection and npx command wrapper.
+
 ## v3.0.139 — 2026-04-26
 
 Windows support (beta). 52 tools for Outlook, OneDrive, Excel, Teams, Slack and more. Install on Windows: npx local-mcp setup.
