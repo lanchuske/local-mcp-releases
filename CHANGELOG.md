@@ -1,3 +1,7 @@
+## v3.0.147 — 2026-04-27
+
+Uninstall now fully cleans AI client configs, security fixes for loopback binding and update verification
+
 ## v3.0.146 — 2026-04-27
 
 Cross-platform Desktop Extension support: install Local MCP in Claude Desktop on macOS or Windows in two clicks.
