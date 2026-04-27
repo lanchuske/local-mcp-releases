@@ -1,11 +1,11 @@
-# LMCP — Give Your AI Native Access to Mac Apps
+# LMCP — Give Your AI Native Access to Your Apps
 
 [![npm](https://img.shields.io/npm/v/local-mcp)](https://www.npmjs.com/package/local-mcp)
 [![macOS 12+](https://img.shields.io/badge/macOS-12%2B-blue)](https://local-mcp.com)
 [![GDPR](https://img.shields.io/badge/GDPR-compliant-green)](https://local-mcp.com/en/privacy)
 [![smithery badge](https://smithery.ai/badge/@lanchuske/local-mcp)](https://smithery.ai/server/@lanchuske/local-mcp)
 
-**LMCP connects your AI assistant to Mail, Calendar, Contacts, Microsoft Teams, Slack, WhatsApp, OneDrive, Notes, Reminders, OmniFocus, and more — 111 tools, all running locally on your Mac. No cloud. No API keys. No OAuth. Your data never leaves your machine.**
+**LMCP connects your AI assistant to Mail, Calendar, Contacts, Microsoft Teams, Slack, WhatsApp, OneDrive, Notes, Reminders, OmniFocus, and more — 189 tools, all running locally on your Mac. No cloud. No API keys. No OAuth. Your data never leaves your machine.**
 
 ```bash
 curl -fsSL 'https://local-mcp.com/install?ref=github' | bash
@@ -16,9 +16,9 @@ curl -fsSL 'https://local-mcp.com/install?ref=github' | bash
 ⭐ **Like it? [Star this repo](https://github.com/lanchuske/local-mcp-releases)** — it helps others discover LMCP.
 
 <p align="center">
-  <img src="assets/claude-tools.png" alt="Claude Desktop showing 111 tools across 18 categories with LMCP" width="700">
+  <img src="assets/claude-tools.png" alt="Claude Desktop showing 189 tools across 18 categories with LMCP" width="700">
 </p>
-<p align="center"><em>111 tools across 18 categories — Mail, Calendar, Teams, Slack, WhatsApp, OneDrive, Notes, OmniFocus, and more</em></p>
+<p align="center"><em>189 tools across 18 categories — Mail, Calendar, Teams, Slack, WhatsApp, OneDrive, Notes, OmniFocus, and more</em></p>
 
 <details>
 <summary>Menu bar app</summary>
@@ -53,7 +53,7 @@ curl -fsSL 'https://local-mcp.com/install?ref=github' | bash
 | **Stocks** | "How is AAPL doing today?" · "Show me a chart of MSFT this month" |
 | **NordVPN** | "Is my VPN connected?" · "Recommend a server in Japan" |
 
-111 tools total. Read operations run instantly. Write operations (send email, delete event) show a preview and require confirmation.
+189 tools total. Read operations run instantly. Write operations (send email, delete event) show a preview and require confirmation.
 
 ---
 
