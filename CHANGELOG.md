@@ -1,3 +1,7 @@
+## v3.0.146 — 2026-04-27
+
+Cross-platform Desktop Extension support: install Local MCP in Claude Desktop on macOS or Windows in two clicks.
+
 ## v3.0.145 — 2026-04-27
 
 Language selector in tray, uninstall with feedback, bug fixes
