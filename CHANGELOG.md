@@ -1,3 +1,7 @@
+## v3.0.145 — 2026-04-27
+
+Language selector in tray, uninstall with feedback, bug fixes
+
 ## v3.0.144 — 2026-04-26
 
 Fixed an issue where LocalMCPTray could not auto-start when launched from Claude Desktop on some machines. Fixed a bug where auto-updates could reset Calendar and Contacts permissions. Improved error messages when LocalMCPTray fails to install.
