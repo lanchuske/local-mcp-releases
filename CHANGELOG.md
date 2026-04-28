@@ -1,3 +1,7 @@
+## v3.0.150 — 2026-04-28
+
+Improved reliability of Email and Notes tools. Fixed Teams detection for accounts set up recently. Internal performance improvements.
+
 ## v3.0.147 — 2026-04-27
 
 Uninstall now fully cleans AI client configs, security fixes for loopback binding and update verification
