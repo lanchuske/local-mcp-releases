@@ -1,3 +1,7 @@
+## v3.0.154 — 2026-04-29
+
+Notes search 10x faster with native query. Notes listing uses batch access (3 calls vs 200). Cloud relay on Windows. Enhanced tray with activity feed. Heartbeat every 5 min. 40 QA tests. Code-signed Windows binaries.
+
 ## v3.0.150 — 2026-04-28
 
 Improved reliability of Email and Notes tools. Fixed Teams detection for accounts set up recently. Internal performance improvements.
