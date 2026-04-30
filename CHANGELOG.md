@@ -1,3 +1,7 @@
+## v3.0.156 — 2026-04-30
+
+Email setup: LMCP now asks for your email during install. Teams and Slack connect faster on Windows. Search and list emails are smarter — no more timeouts on multi-account setups.
+
 ## v3.0.155 — 2026-04-30
 
 Faster setup: LMCP now auto-restarts your AI client after install — no manual restart needed. Calendar events can now target a specific calendar by name.
