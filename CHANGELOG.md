@@ -1,3 +1,7 @@
+## v3.0.155 — 2026-04-30
+
+Faster setup: LMCP now auto-restarts your AI client after install — no manual restart needed. Calendar events can now target a specific calendar by name.
+
 ## v3.0.154 — 2026-04-29
 
 Notes search 10x faster with native query. Notes listing uses batch access (3 calls vs 200). Cloud relay on Windows. Enhanced tray with activity feed. Heartbeat every 5 min. 40 QA tests. Code-signed Windows binaries.
