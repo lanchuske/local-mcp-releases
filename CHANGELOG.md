@@ -1,3 +1,7 @@
+## v3.0.161 — 2026-05-01
+
+One-click install now works on Mac and Windows. Download the extension file, open it in Claude Desktop, done. Also fixes download as .zip issue on Chrome/Edge.
+
 ## v3.0.160 — 2026-05-01
 
 One-click install: download the extension file and open it in Claude Desktop — no terminal needed. Auto-updates included. Also improved Outlook email guidance and privacy enhancements.
