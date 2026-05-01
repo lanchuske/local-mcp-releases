@@ -1,3 +1,7 @@
+## v3.0.158 — 2026-05-01
+
+Your AI agent connects automatically. LMCP now detects when you install a new AI client and offers to configure it with one click — no manual config editing needed.
+
 ## v3.0.157 — 2026-05-01
 
 Privacy improvement: problem reports now ask for your permission before sending, show a preview of what will be sent, and only include anonymous technical data. No personal information is ever transmitted.
