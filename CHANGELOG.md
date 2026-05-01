@@ -1,3 +1,7 @@
+## v3.0.157 — 2026-05-01
+
+Privacy improvement: problem reports now ask for your permission before sending, show a preview of what will be sent, and only include anonymous technical data. No personal information is ever transmitted.
+
 ## v3.0.156 — 2026-04-30
 
 Email setup: LMCP now asks for your email during install. Teams and Slack connect faster on Windows. Search and list emails are smarter — no more timeouts on multi-account setups.
