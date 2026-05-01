@@ -1,3 +1,7 @@
+## v3.0.162 — 2026-05-01
+
+LMCP now starts automatically after install — no AI client needed to begin. The server runs in the background, ready for when you connect your first AI agent.
+
 ## v3.0.161 — 2026-05-01
 
 One-click install now works on Mac and Windows. Download the extension file, open it in Claude Desktop, done. Also fixes download as .zip issue on Chrome/Edge.
