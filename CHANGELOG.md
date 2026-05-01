@@ -1,3 +1,7 @@
+## v3.0.160 — 2026-05-01
+
+One-click install: download the extension file and open it in Claude Desktop — no terminal needed. Auto-updates included. Also improved Outlook email guidance and privacy enhancements.
+
 ## v3.0.159 — 2026-05-01
 
 One-click install: download the .mcpb extension and drop it into Claude Desktop. Also improved Outlook guidance — email tools now explain how to connect Exchange accounts.
