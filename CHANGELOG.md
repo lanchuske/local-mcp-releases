@@ -1,3 +1,7 @@
+## v3.0.159 — 2026-05-01
+
+One-click install: download the .mcpb extension and drop it into Claude Desktop. Also improved Outlook guidance — email tools now explain how to connect Exchange accounts.
+
 ## v3.0.158 — 2026-05-01
 
 Your AI agent connects automatically. LMCP now detects when you install a new AI client and offers to configure it with one click — no manual config editing needed.
