@@ -1,3 +1,7 @@
+## v3.0.167 — 2026-05-02
+
+Messages search now works reliably on all macOS versions.
+
 ## v3.0.166 — 2026-05-02
 
 Windows updates are now more reliable. The app no longer crashes when downloading updates while running.
