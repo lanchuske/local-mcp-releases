@@ -1,14 +1,13 @@
 #!/usr/bin/env node
 /**
  * Minimal MCP stub for Glama inspection.
- * Lists all Pilot MCP tools so Glama can detect them.
- * The real server is a native macOS binary.
+ * Lists all Local MCP tools so Glama can detect them.
+ * The real server is a native binary (macOS/Windows/Linux).
  */
-const { McpServer } = require("@modelcontextprotocol/sdk/server/mcp.js");
-const { StdioServerTransport } = require("@modelcontextprotocol/sdk/server/stdio.js");
-const { z } = require("zod");
+import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
+import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
 
-const server = new McpServer({ name: "pilot-mcp", version: "2.2.0" });
+const server = new McpServer({ name: "local-mcp", version: "3.0.163" });
 
 const TOOLS = [
   ["list_emails", "List emails from Mail.app inbox with optional filters"],
@@ -22,6 +21,7 @@ const TOOLS = [
   ["list_calendar_events", "List calendar events for a date range"],
   ["create_calendar_event", "Create a new calendar event"],
   ["delete_calendar_event", "Delete a calendar event with preview"],
+  ["update_calendar_event", "Update an existing calendar event"],
   ["list_reminders", "List reminders from a specific list"],
   ["list_reminder_lists", "List all reminder lists"],
   ["create_reminder", "Create a new reminder"],
@@ -54,6 +54,9 @@ const TOOLS = [
   ["onedrive_write_file", "Write or upload file to OneDrive"],
   ["onedrive_delete_file", "Delete file from OneDrive"],
   ["onedrive_move_file", "Move or rename file in OneDrive"],
+  ["onedrive_root", "List mounted OneDrive directories"],
+  ["onedrive_file_info", "Get file or folder metadata"],
+  ["onedrive_set_scope", "Restrict OneDrive access to a folder"],
   ["finder_list", "List files in a Finder directory"],
   ["finder_search", "Search files using Spotlight"],
   ["pdf_read", "Read text content from a PDF file"],
@@ -70,24 +73,41 @@ const TOOLS = [
   ["teams_list_teams", "List Teams and their channels"],
   ["teams_list_channels", "List channels in a Teams team"],
   ["teams_read_channel_messages", "Read messages from a Teams channel"],
+  ["teams_send_message", "Send a message to a Teams chat or channel"],
+  ["slack_list_workspaces", "List Slack workspaces"],
+  ["slack_list_channels", "List Slack channels"],
+  ["slack_read_channel_messages", "Read messages from a Slack channel"],
+  ["slack_search_messages", "Search Slack messages"],
+  ["stocks_get_quote", "Get current stock price and market data"],
+  ["stocks_search_symbol", "Search for a stock ticker symbol"],
+  ["stocks_get_chart", "Get historical price data for a stock"],
+  ["whatsapp_list_chats", "List WhatsApp conversations"],
+  ["whatsapp_read_messages", "Read messages from a WhatsApp chat"],
+  ["whatsapp_search_messages", "Search WhatsApp messages"],
+  ["whatsapp_send_message", "Send a WhatsApp message"],
+  ["whatsapp_send_file", "Send a file via WhatsApp"],
+  ["safari_read_tab", "Read content of a Safari tab"],
+  ["safari_click", "Click an element in Safari"],
+  ["safari_search_tabs", "Search text across Safari tabs"],
+  ["safari_wait_for", "Wait for an element in Safari"],
   ["list_safari_bookmarks", "List Safari bookmarks"],
   ["list_accounts", "List configured email and calendar accounts"],
   ["create_email_folder", "Create a new email folder/mailbox"],
-  ["diagnose", "Run diagnostic checks on all connected services"],
-  ["report_bug", "Report a bug or issue to the development team"],
-  ["request_feature", "Request a new feature"],
-  ["request_integration", "Request integration with an unsupported app"],
+  ["daily_brief", "Morning briefing: calendar, reminders, inbox"],
+  ["nordvpn_status", "Check NordVPN connection status"],
+  ["nordvpn_servers", "Get recommended NordVPN servers"],
+  ["nordvpn_diagnose", "Diagnose NordVPN issues"],
+  ["lmcp_state", "LMCP environment health snapshot"],
+  ["run_diagnostics", "Run diagnostic checks on all services"],
+  ["report_problem", "Report a problem to the LMCP team"],
+  ["get_config", "Get current LMCP configuration"],
 ];
 
 for (const [name, desc] of TOOLS) {
   server.tool(name, desc, {}, async () => ({
-    content: [{ type: "text", text: "This is an inspection stub. Install Pilot MCP on macOS: npx -y local-mcp@latest setup" }],
+    content: [{ type: "text", text: "This is an inspection stub. Install Local MCP: npx -y local-mcp@latest setup" }],
   }));
 }
 
-async function main() {
-  const transport = new StdioServerTransport();
-  await server.connect(transport);
-}
-
-main().catch(console.error);
+const transport = new StdioServerTransport();
+await server.connect(transport);
