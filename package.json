@@ -1,10 +1,5 @@
 {
   "name": "local-mcp-releases",
-  "version": "3.0.163",
-  "type": "module",
-  "description": "Local MCP — connect AI to Mail, Calendar, Teams, Outlook, OneDrive, Excel, Word and more. 107 tools on macOS, 82 on Windows. 100% local.",
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.29.0",
-    "zod": "^3.22.0"
-  }
+  "version": "3.0.164",
+  "description": "Local MCP — native macOS MCP server with 76 tools"
 }
