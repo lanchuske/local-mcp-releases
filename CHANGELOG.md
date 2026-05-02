@@ -1,3 +1,7 @@
+## v3.0.166 — 2026-05-02
+
+Windows updates are now more reliable. The app no longer crashes when downloading updates while running.
+
 ## v3.0.165 — 2026-05-02
 
 Installation is more reliable on Windows. The dashboard now shows a close button when opened as a popup window.
