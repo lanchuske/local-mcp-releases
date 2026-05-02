@@ -1,3 +1,7 @@
+## v3.0.164 — 2026-05-02
+
+Windows tray now opens a native-looking dashboard popup with the same rich UI as Mac. Toast notifications for first tool call, updates, and starter prompts. Improved service detection and cloud relay status.
+
 ## v3.0.162 — 2026-05-01
 
 LMCP now starts automatically after install — no AI client needed to begin. The server runs in the background, ready for when you connect your first AI agent.
