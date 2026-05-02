@@ -1,3 +1,7 @@
+## v3.0.165 — 2026-05-02
+
+Installation is more reliable on Windows. The dashboard now shows a close button when opened as a popup window.
+
 ## v3.0.164 — 2026-05-02
 
 Windows tray now opens a native-looking dashboard popup with the same rich UI as Mac. Toast notifications for first tool call, updates, and starter prompts. Improved service detection and cloud relay status.
