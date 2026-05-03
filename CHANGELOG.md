@@ -1,3 +1,7 @@
+## v3.0.168 — 2026-05-03
+
+Introducing Local Studio — a full AI workspace built into the app. Open it from the tray and chat with your AI model while browsing your local files. Your data stays private on your machine. Available on Mac and Windows.
+
 ## v3.0.167 — 2026-05-02
 
 Messages search now works reliably on all macOS versions.
