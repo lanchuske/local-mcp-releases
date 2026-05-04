@@ -1,3 +1,7 @@
+## v3.0.169 — 2026-05-04
+
+Meeting participants now visible in calendar events. When you ask Claude about your calendar, each event now includes the attendee list with names, emails, and their roles (organizer, required, optional). Perfect for meeting-prep workflows. Local Studio improvements: sign in with Anthropic or OpenAI directly from the settings panel — no need to paste API keys manually. The settings drawer has been redesigned to show connection status and let you disconnect providers individually.
+
 ## v3.0.168 — 2026-05-03
 
 Introducing Local Studio — a full AI workspace built into the app. Open it from the tray and chat with your AI model while browsing your local files. Your data stays private on your machine. Available on Mac and Windows.
