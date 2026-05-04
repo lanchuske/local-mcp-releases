@@ -1,3 +1,7 @@
+## v3.0.171 — 2026-05-04
+
+Fixed an issue on Windows where the server could get stuck in a not-running state after an automatic update.
+
 ## v3.0.170 — 2026-05-04
 
 Calendar events now filter correctly by calendar name. When you ask Claude to show events from a specific calendar, it now returns only those events instead of all calendars combined. Google Drive tools no longer show an error when Google Drive is not installed.
