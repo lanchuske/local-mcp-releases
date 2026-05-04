@@ -1,3 +1,7 @@
+## v3.0.170 — 2026-05-04
+
+Calendar events now filter correctly by calendar name. When you ask Claude to show events from a specific calendar, it now returns only those events instead of all calendars combined. Google Drive tools no longer show an error when Google Drive is not installed.
+
 ## v3.0.169 — 2026-05-04
 
 Meeting participants now visible in calendar events. When you ask Claude about your calendar, each event now includes the attendee list with names, emails, and their roles (organizer, required, optional). Perfect for meeting-prep workflows. Local Studio improvements: sign in with Anthropic or OpenAI directly from the settings panel — no need to paste API keys manually. The settings drawer has been redesigned to show connection status and let you disconnect providers individually.
