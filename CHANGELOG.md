@@ -1,3 +1,7 @@
+## v3.0.172 — 2026-05-06
+
+Fixed Windows tar extraction issue and improved admin dashboard reliability.
+
 ## v3.0.171 — 2026-05-04
 
 Fixed an issue on Windows where the server could get stuck in a not-running state after an automatic update.
