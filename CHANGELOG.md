@@ -1,3 +1,7 @@
+## v3.0.174 — 2026-05-09
+
+Better error messages when Mail is syncing — now tells you exactly what to do. Improved Teams diagnostics. Clearer message when OneDrive file access is blocked.
+
 ## v3.0.173 — 2026-05-09
 
 Improved reliability for users without Node.js installed — Local MCP no longer resets your AI client configuration on restart. Better diagnostics when Microsoft Teams data is unavailable.
