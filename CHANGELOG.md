@@ -1,3 +1,7 @@
+## v3.0.173 — 2026-05-09
+
+Improved reliability for users without Node.js installed — Local MCP no longer resets your AI client configuration on restart. Better diagnostics when Microsoft Teams data is unavailable.
+
 ## v3.0.172 — 2026-05-06
 
 Fixed Windows tar extraction issue and improved admin dashboard reliability.
