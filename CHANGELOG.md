@@ -1,3 +1,7 @@
+## v3.0.176 — 2026-05-10
+
+Fixed Google sign-in — Gemini models now work correctly after connecting your Google account.
+
 ## v3.0.175 — 2026-05-10
 
 Local Studio now loads correctly on all installations.
