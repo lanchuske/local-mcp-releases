@@ -1,3 +1,7 @@
+## v3.0.175 — 2026-05-10
+
+Local Studio now loads correctly on all installations.
+
 ## v3.0.174 — 2026-05-09
 
 Better error messages when Mail is syncing — now tells you exactly what to do. Improved Teams diagnostics. Clearer message when OneDrive file access is blocked.
