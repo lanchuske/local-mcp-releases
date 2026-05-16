@@ -1,3 +1,7 @@
+## v3.0.177 — 2026-05-16
+
+Microsoft 365 directory search is back. Connect your M365 account to search your organization's directory, look up colleagues, and see who you work with most. Developer ID signing now keeps app permissions stable across updates.
+
 ## v3.0.176 — 2026-05-10
 
 Fixed Google sign-in — Gemini models now work correctly after connecting your Google account.
