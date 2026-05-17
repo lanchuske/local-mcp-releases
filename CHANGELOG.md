@@ -1,3 +1,7 @@
+## v3.0.184 — 2026-05-17
+
+Microsoft 365 contacts and email search now work correctly. Gatekeeper warnings resolved — the app is fully signed and notarized.
+
 ## v3.0.183 — 2026-05-17
 
 Improved reliability for Mac users. Signing and verification updates.
