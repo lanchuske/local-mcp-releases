@@ -1,3 +1,7 @@
+## v3.0.187 — 2026-05-17
+
+After an automatic update, a one-click Restart button now appears in the menu bar to reconnect Claude Desktop instantly — no manual steps needed. New: ask Claude to show your tool call history for auditing and compliance.
+
 ## v3.0.186 — 2026-05-17
 
 Your email is now requested right at the top of the app — no more scrolling to find it. Added IT admin controls (read-only mode and tool blocking) in the Advanced settings tab. Email tools now handle Drafts folder and verify moves completed successfully.
