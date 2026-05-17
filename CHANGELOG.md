@@ -1,3 +1,7 @@
+## v3.0.179 — 2026-05-17
+
+Settings page redesigned: all service controls are now in a single Overview tab. Tray is lighter — shows status only, opens Settings for configuration. Fixed a bug where TCC permissions (Calendar, Mail, etc.) were lost on every update.
+
 ## v3.0.178 — 2026-05-17
 
 You can now enable or disable individual services (Calendar, Mail, Contacts, etc.) directly from the menu bar or Settings. Fixed a crash on first install when the tray app was being set up in the background. Microsoft 365 and ServiceNow integrations now appear in the Connect tab.
