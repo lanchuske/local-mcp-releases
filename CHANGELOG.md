@@ -1,3 +1,7 @@
+## v3.0.188 — 2026-05-17
+
+Fixes a bug where macOS Automation permission dialogs (for Mail, Notes, Safari, etc.) would reappear on every app restart. Permission dialogs now appear only once.
+
 ## v3.0.187 — 2026-05-17
 
 After an automatic update, a one-click Restart button now appears in the menu bar to reconnect Claude Desktop instantly — no manual steps needed. New: ask Claude to show your tool call history for auditing and compliance.
