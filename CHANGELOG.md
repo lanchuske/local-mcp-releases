@@ -1,3 +1,7 @@
+## v3.0.180 — 2026-05-17
+
+Service toggles now work in Settings. Microsoft 365, ServiceNow, and all new tools are visible in the Overview tab even before connecting. Fixed a bug where toggling a service on/off had no effect.
+
 ## v3.0.179 — 2026-05-17
 
 Settings page redesigned: all service controls are now in a single Overview tab. Tray is lighter — shows status only, opens Settings for configuration. Fixed a bug where TCC permissions (Calendar, Mail, etc.) were lost on every update.
