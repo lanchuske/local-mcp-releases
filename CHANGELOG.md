@@ -1,3 +1,7 @@
+## v3.0.178 — 2026-05-17
+
+You can now enable or disable individual services (Calendar, Mail, Contacts, etc.) directly from the menu bar or Settings. Fixed a crash on first install when the tray app was being set up in the background. Microsoft 365 and ServiceNow integrations now appear in the Connect tab.
+
 ## v3.0.177 — 2026-05-16
 
 Microsoft 365 directory search is back. Connect your M365 account to search your organization's directory, look up colleagues, and see who you work with most. Developer ID signing now keeps app permissions stable across updates.
