@@ -1,3 +1,7 @@
+## v3.0.185 — 2026-05-17
+
+Email fixes: move email now detects sync failures, Drafts messages readable, categories field consistent across all email tools.
+
 ## v3.0.184 — 2026-05-17
 
 Microsoft 365 contacts and email search now work correctly. Gatekeeper warnings resolved — the app is fully signed and notarized.
