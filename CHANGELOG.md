@@ -1,3 +1,7 @@
+## v3.0.191 — 2026-05-17
+
+Evernote integration. Intel Mac support. Improved reliability for Calendar, Reminders, and M365 connections.
+
 ## v3.0.189 — 2026-05-17
 
 Fixes Calendar, Reminders, and Contacts permission dialogs appearing repeatedly after updates. Dialogs now appear once at startup in the proper context and are suppressed during background service scans. Also fixes Outlook showing setup prompt when Microsoft 365 is already connected.
