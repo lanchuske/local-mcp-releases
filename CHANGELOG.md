@@ -1,3 +1,7 @@
+## v3.0.192 — 2026-05-17
+
+Fixes a disconnect that could occur when Claude Desktop updated the server in the background. Improved stability on macOS.
+
 ## v3.0.191 — 2026-05-17
 
 Evernote integration. Intel Mac support. Improved reliability for Calendar, Reminders, and M365 connections.
