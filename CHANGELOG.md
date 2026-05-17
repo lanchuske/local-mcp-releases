@@ -1,3 +1,7 @@
+## v3.0.183 — 2026-05-17
+
+Improved reliability for Mac users. Signing and verification updates.
+
 ## v3.0.182 — 2026-05-17
 
 Stability improvements and bug fixes.
