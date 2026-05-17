@@ -1,3 +1,7 @@
+## v3.0.189 — 2026-05-17
+
+Fixes Calendar, Reminders, and Contacts permission dialogs appearing repeatedly after updates. Dialogs now appear once at startup in the proper context and are suppressed during background service scans. Also fixes Outlook showing setup prompt when Microsoft 365 is already connected.
+
 ## v3.0.188 — 2026-05-17
 
 Fixes a bug where macOS Automation permission dialogs (for Mail, Notes, Safari, etc.) would reappear on every app restart. Permission dialogs now appear only once.
