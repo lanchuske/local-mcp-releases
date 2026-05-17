@@ -1,3 +1,7 @@
+## v3.0.182 — 2026-05-17
+
+Stability improvements and bug fixes.
+
 ## v3.0.180 — 2026-05-17
 
 Service toggles now work in Settings. Microsoft 365, ServiceNow, and all new tools are visible in the Overview tab even before connecting. Fixed a bug where toggling a service on/off had no effect.
