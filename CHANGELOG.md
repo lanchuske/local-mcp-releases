@@ -1,3 +1,7 @@
+## v3.0.201 — 2026-05-18
+
+Improved setup tracking — the tray now correctly records when it configures Claude Desktop, Cursor, or other AI clients.
+
 ## v3.0.200 — 2026-05-18
 
 Fixed a system dialog that appeared on every update asking for permission to access data from other apps.
