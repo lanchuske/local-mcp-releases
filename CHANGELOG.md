@@ -1,3 +1,7 @@
+## v3.0.193 — 2026-05-18
+
+Permissions are no longer requested on every update. Calendar, Contacts, and Reminders access now persists across app updates.
+
 ## v3.0.192 — 2026-05-17
 
 Fixes a disconnect that could occur when Claude Desktop updated the server in the background. Improved stability on macOS.
