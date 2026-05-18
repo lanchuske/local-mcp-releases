@@ -1,3 +1,7 @@
+## v3.0.200 — 2026-05-18
+
+Fixed a system dialog that appeared on every update asking for permission to access data from other apps.
+
 ## v3.0.199 — 2026-05-18
 
 Fixed a privacy permission dialog that appeared on every update.
