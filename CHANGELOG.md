@@ -1,3 +1,7 @@
+## v3.0.203 — 2026-05-18
+
+New installs via DMG now auto-configure Claude Desktop, Cursor, and other AI clients on first launch — no manual setup needed. Email fixes: reply, search, and read email are now more reliable on Exchange and multi-account setups.
+
 ## v3.0.202 — 2026-05-18
 
 Improved diagnostics to help detect and fix update issues faster.
