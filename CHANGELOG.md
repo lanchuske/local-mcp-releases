@@ -1,3 +1,7 @@
+## v3.0.196 — 2026-05-18
+
+Improved reliability and performance.
+
 ## v3.0.195 — 2026-05-18
 
 Tray menu now shows all component versions: tray, server, and when the settings UI was last loaded.
