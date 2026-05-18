@@ -1,3 +1,7 @@
+## v3.0.195 — 2026-05-18
+
+Tray menu now shows all component versions: tray, server, and when the settings UI was last loaded.
+
 ## v3.0.193 — 2026-05-18
 
 Permissions are no longer requested on every update. Calendar, Contacts, and Reminders access now persists across app updates.
