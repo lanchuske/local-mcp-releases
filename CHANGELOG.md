@@ -1,3 +1,7 @@
+## v3.0.197 — 2026-05-18
+
+Fixed a privacy permission dialog that appeared on every update.
+
 ## v3.0.196 — 2026-05-18
 
 Improved reliability and performance.
