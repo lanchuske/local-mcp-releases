@@ -1,3 +1,7 @@
+## v3.0.202 — 2026-05-18
+
+Improved diagnostics to help detect and fix update issues faster.
+
 ## v3.0.201 — 2026-05-18
 
 Improved setup tracking — the tray now correctly records when it configures Claude Desktop, Cursor, or other AI clients.
