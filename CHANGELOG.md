@@ -1,3 +1,7 @@
+## v3.0.205 — 2026-05-20
+
+Teams and Slack now work reliably on macOS 26. Fixed a code signing issue that caused the Teams and Slack co-processes to fail at startup on hardened runtime (exit 255).
+
 ## v3.0.204 — 2026-05-20
 
 Fixed a macOS permission dialog that appeared on startup. The app is now properly signed and notarized so this won't happen again.
