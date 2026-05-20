@@ -1,3 +1,7 @@
+## v3.0.206 — 2026-05-20
+
+Fixed a crash when copying or regenerating the API key in Settings. ChatGPT now shows as connected when the Cloud Relay is active. Uninstall is more reliable and cleans up all files completely.
+
 ## v3.0.205 — 2026-05-20
 
 Teams and Slack now work reliably on macOS 26. Fixed a code signing issue that caused the Teams and Slack co-processes to fail at startup on hardened runtime (exit 255).
