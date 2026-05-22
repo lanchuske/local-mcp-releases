@@ -1,3 +1,7 @@
+## v3.0.208 — 2026-05-22
+
+Windows users: fixed a connectivity issue that was preventing the cloud connector from working. AI tools now connect reliably on the first try. Microsoft 365 users: credentials are now refreshed silently before expiry, and the app shows a clearer message when re-authentication is needed.
+
 ## v3.0.206 — 2026-05-20
 
 Fixed a crash when copying or regenerating the API key in Settings. ChatGPT now shows as connected when the Cloud Relay is active. Uninstall is more reliable and cleans up all files completely.
