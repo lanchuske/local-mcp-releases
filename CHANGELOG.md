@@ -1,3 +1,7 @@
+## v3.0.209 — 2026-05-22
+
+Microsoft 365 users: the app now silently refreshes expiring credentials before they fail, and shows the specific error code when re-authentication is needed. Fixed: running 'uninstall' now permanently removes Local MCP — the app will no longer restart after uninstalling.
+
 ## v3.0.208 — 2026-05-22
 
 Windows users: fixed a connectivity issue that was preventing the cloud connector from working. AI tools now connect reliably on the first try. Microsoft 365 users: credentials are now refreshed silently before expiry, and the app shows a clearer message when re-authentication is needed.
