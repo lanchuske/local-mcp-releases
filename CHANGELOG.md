@@ -1,3 +1,7 @@
+## v3.0.212 — 2026-05-22
+
+Fixes a rare disconnect that could occur right after installation. The app now detects when an existing session is active and avoids interrupting it.
+
 ## v3.0.211 — 2026-05-22
 
 Fixed: Microsoft Teams integration now works reliably when Teams is actively syncing in the background.
