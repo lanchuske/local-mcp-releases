@@ -1,3 +1,7 @@
+## v3.0.211 — 2026-05-22
+
+Fixed: Microsoft Teams integration now works reliably when Teams is actively syncing in the background.
+
 ## v3.0.210 — 2026-05-22
 
 Fixed: Excel files with multiple sheets now read correctly — previously some files with renamed or reordered sheets would fail to open.
