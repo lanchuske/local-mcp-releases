@@ -1,3 +1,7 @@
+## v3.0.210 — 2026-05-22
+
+Fixed: Excel files with multiple sheets now read correctly — previously some files with renamed or reordered sheets would fail to open.
+
 ## v3.0.209 — 2026-05-22
 
 Microsoft 365 users: the app now silently refreshes expiring credentials before they fail, and shows the specific error code when re-authentication is needed. Fixed: running 'uninstall' now permanently removes Local MCP — the app will no longer restart after uninstalling.
