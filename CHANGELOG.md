@@ -1,3 +1,7 @@
+## v3.0.214 — 2026-05-23
+
+Microsoft 365: the app now shows a warning banner when your M365 session has expired, with a one-click reconnect button. Sessions are also renewed automatically in the background before they expire. Error details from Microsoft are now logged to help diagnose reconnection issues.
+
 ## v3.0.213 — 2026-05-23
 
 Improved reliability when reading Teams data on machines with large conversation histories or multiple tenants.
