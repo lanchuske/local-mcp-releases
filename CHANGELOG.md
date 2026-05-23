@@ -1,3 +1,7 @@
+## v3.0.213 — 2026-05-23
+
+Improved reliability when reading Teams data on machines with large conversation histories or multiple tenants.
+
 ## v3.0.212 — 2026-05-22
 
 Fixes a rare disconnect that could occur right after installation. The app now detects when an existing session is active and avoids interrupting it.
