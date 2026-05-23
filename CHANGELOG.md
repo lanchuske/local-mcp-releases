@@ -1,3 +1,7 @@
+## v3.0.215 — 2026-05-23
+
+Connection stability improvements. The app now reconnects more smoothly when updates are installed in the background, with fewer interruptions to your workflow.
+
 ## v3.0.214 — 2026-05-23
 
 Microsoft 365: the app now shows a warning banner when your M365 session has expired, with a one-click reconnect button. Sessions are also renewed automatically in the background before they expire. Error details from Microsoft are now logged to help diagnose reconnection issues.
