@@ -1,3 +1,7 @@
+## v3.0.216 — 2026-05-23
+
+Activity history is now visible in Settings → Advanced. See every tool call with timestamp, source, and status — and clear the log with one click.
+
 ## v3.0.215 — 2026-05-23
 
 Connection stability improvements. The app now reconnects more smoothly when updates are installed in the background, with fewer interruptions to your workflow.
