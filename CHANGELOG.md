@@ -1,3 +1,7 @@
+## v3.0.217 — 2026-05-24
+
+Fixed a crash where the app could disconnect mid-session when updating in the background.
+
 ## v3.0.216 — 2026-05-23
 
 Activity history is now visible in Settings → Advanced. See every tool call with timestamp, source, and status — and clear the log with one click.
