@@ -1,3 +1,7 @@
+## v3.0.219 — 2026-05-24
+
+AI editors like Cursor stay connected to Local MCP more reliably. Calendar and Reminders respond within seconds when permissions are still pending, with clear steps to approve access on your Mac. Teams shows a helpful message when no account is signed in.
+
 ## v3.0.218 — 2026-05-24
 
 Fixed a critical bug where Cursor and Claude Desktop would disconnect after the first tool call. Connections are now stable throughout the entire session.
