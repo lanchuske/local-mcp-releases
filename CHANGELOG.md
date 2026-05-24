@@ -1,3 +1,7 @@
+## v3.0.218 — 2026-05-24
+
+Fixed a critical bug where Cursor and Claude Desktop would disconnect after the first tool call. Connections are now stable throughout the entire session.
+
 ## v3.0.217 — 2026-05-24
 
 Fixed a crash where the app could disconnect mid-session when updating in the background.
