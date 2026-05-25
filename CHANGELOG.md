@@ -1,3 +1,7 @@
+## v3.0.221 — 2026-05-25
+
+The menu bar app now updates to the latest version automatically after you close your AI editor, instead of staying on an older release while Cursor is open. Fleet version reporting now reflects the app installed on your Mac.
+
 ## v3.0.220 — 2026-05-25
 
 Cursor and Claude stay connected to Local MCP more reliably after updates. Running npx local-mcp in Terminal now shows a clear finished message instead of hanging silently. Calendar permission prompts return faster with clearer guidance when access is still pending.
