@@ -1,3 +1,7 @@
+## v3.0.220 — 2026-05-25
+
+Cursor and Claude stay connected to Local MCP more reliably after updates. Running npx local-mcp in Terminal now shows a clear finished message instead of hanging silently. Calendar permission prompts return faster with clearer guidance when access is still pending.
+
 ## v3.0.219 — 2026-05-24
 
 AI editors like Cursor stay connected to Local MCP more reliably. Calendar and Reminders respond within seconds when permissions are still pending, with clear steps to approve access on your Mac. Teams shows a helpful message when no account is signed in.
