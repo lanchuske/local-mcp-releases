@@ -1,3 +1,7 @@
+## v3.0.222 — 2026-05-26
+
+M365 mail is more reliable with fewer connection errors. Teams works better on large accounts. You can restart LMCP from the menu bar without closing your AI editor.
+
 ## v3.0.221 — 2026-05-25
 
 The menu bar app now updates to the latest version automatically after you close your AI editor, instead of staying on an older release while Cursor is open. Fleet version reporting now reflects the app installed on your Mac.
