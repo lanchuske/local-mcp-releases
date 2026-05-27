@@ -7,7 +7,7 @@
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
 
-const server = new McpServer({ name: "local-mcp", version: "3.0.163" });
+const server = new McpServer({ name: "local-mcp", version: "3.0.223" });
 
 const TOOLS = [
   ["list_emails", "List emails from Mail.app inbox with optional filters"],
