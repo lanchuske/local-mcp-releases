@@ -1,3 +1,7 @@
+## v3.0.223 — 2026-05-27
+
+Setup is clearer after you connect an AI app: step-by-step prompts to try your first command, with one-tap copy. Email signup in the menu bar is more reliable. General stability improvements.
+
 ## v3.0.222 — 2026-05-26
 
 M365 mail is more reliable with fewer connection errors. Teams works better on large accounts. You can restart LMCP from the menu bar without closing your AI editor.
