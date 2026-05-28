@@ -1,3 +1,7 @@
+## v3.0.226 — 2026-05-28
+
+Service status display is clearer in the tray when apps are not active. OmniFocus diagnostics now avoid mislabeling Pro-feature limits as permission issues. This improves troubleshooting clarity and day-to-day reliability.
+
 ## v3.0.225 — 2026-05-28
 
 OmniFocus diagnostics now correctly identify Pro-feature limitations instead of showing a permissions issue. This update improves troubleshooting accuracy and setup guidance. Minor reliability improvements for diagnostic error classification.
