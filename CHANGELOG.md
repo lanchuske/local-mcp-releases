@@ -1,3 +1,7 @@
+## v3.0.225 — 2026-05-28
+
+OmniFocus diagnostics now correctly identify Pro-feature limitations instead of showing a permissions issue. This update improves troubleshooting accuracy and setup guidance. Minor reliability improvements for diagnostic error classification.
+
 ## v3.0.224 — 2026-05-28
 
 Diagnostics now distinguish permission issues from app limitations and improve setup guidance in Settings. Service detection is more accurate for Mail, Notes, and OmniFocus. Stability and reliability improvements across local integrations.
