@@ -1,3 +1,7 @@
+## v3.0.224 — 2026-05-28
+
+Diagnostics now distinguish permission issues from app limitations and improve setup guidance in Settings. Service detection is more accurate for Mail, Notes, and OmniFocus. Stability and reliability improvements across local integrations.
+
 ## v3.0.223 — 2026-05-27
 
 Setup is clearer after you connect an AI app: step-by-step prompts to try your first command, with one-tap copy. Email signup in the menu bar is more reliable. General stability improvements.
