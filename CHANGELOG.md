@@ -1,3 +1,7 @@
+## v3.0.227 — 2026-05-28
+
+OmniFocus diagnostics now use a single JXA probe path, preventing false permission warnings when OmniFocus reports a Pro-feature limitation. This improves reliability of troubleshooting results.
+
 ## v3.0.226 — 2026-05-28
 
 Service status display is clearer in the tray when apps are not active. OmniFocus diagnostics now avoid mislabeling Pro-feature limits as permission issues. This improves troubleshooting clarity and day-to-day reliability.
