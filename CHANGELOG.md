@@ -1,3 +1,7 @@
+## v3.0.228 — 2026-05-29
+
+OmniFocus, Mail, Notes and Safari now work on first install — no separate permissions needed. Tapping the version number checks for updates instantly. Restart is more reliable.
+
 ## v3.0.227 — 2026-05-28
 
 OmniFocus diagnostics now use a single JXA probe path, preventing false permission warnings when OmniFocus reports a Pro-feature limitation. This improves reliability of troubleshooting results.
