@@ -207,3 +207,9 @@ LMCP is proprietary software. Free for the first 500 installs — permanent lice
 ---
 
 ⭐ **If LMCP saves you time, [star the repo](https://github.com/lanchuske/local-mcp-releases)** — it's the best way to help others discover it.
+
+## 📬 Stay Updated
+
+Get notified about new tools, bug fixes and major releases — no spam.
+
+**[Subscribe to release notes →](https://local-mcp.com/#newsletter)**
