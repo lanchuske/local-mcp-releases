@@ -1,3 +1,7 @@
+## v3.0.232 — 2026-05-30
+
+OmniFocus Standard users now see a clear message instead of a cryptic error. Teams chat history: clearer guidance when messages haven't synced locally yet.
+
 ## v3.0.231 — 2026-05-30
 
 Update checks are now more reliable — the app will detect and install new versions faster.
