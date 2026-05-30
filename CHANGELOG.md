@@ -1,3 +1,7 @@
+## v3.0.234 — 2026-05-30
+
+OmniFocus now requests permission automatically during installation — reinstalling resolves the issue. Downloading the DMG from local-mcp.com/get now opens the installer correctly instead of showing binary text. The confirmation email arrives in your language with DMG installation instructions. Minor improvements to the download flow.
+
 ## v3.0.233 — 2026-05-30
 
 OmniFocus tools now show a clear fix when Automation permission needs to be re-granted — tap 'Fix in Settings' directly from the tray. Auto-update is now more reliable for machines that were stuck on older versions. iMessage search no longer fails on accounts with attachments.
