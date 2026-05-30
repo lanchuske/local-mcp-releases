@@ -1,3 +1,7 @@
+## v3.0.230 — 2026-05-30
+
+Language switcher is now in the top menu for easier access. WhatsApp shows a cleaner status once connected. Teams and other services show cleaner status information.
+
 ## v3.0.229 — 2026-05-30
 
 OmniFocus now shows 'Requires Pro' when Standard edition is detected. Safari displays your bookmark count. Language switcher moved to the top of the menu. Error details now visible in the Activity log for easier diagnosis.
