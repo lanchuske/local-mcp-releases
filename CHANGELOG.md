@@ -1,3 +1,7 @@
+## v3.0.229 — 2026-05-30
+
+OmniFocus now shows 'Requires Pro' when Standard edition is detected. Safari displays your bookmark count. Language switcher moved to the top of the menu. Error details now visible in the Activity log for easier diagnosis.
+
 ## v3.0.228 — 2026-05-29
 
 OmniFocus, Mail, Notes and Safari now work on first install — no separate permissions needed. Tapping the version number checks for updates instantly. Restart is more reliable.
