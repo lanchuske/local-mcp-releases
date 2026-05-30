@@ -1,3 +1,7 @@
+## v3.0.233 — 2026-05-30
+
+OmniFocus tools now show a clear fix when Automation permission needs to be re-granted — tap 'Fix in Settings' directly from the tray. Auto-update is now more reliable for machines that were stuck on older versions. iMessage search no longer fails on accounts with attachments.
+
 ## v3.0.232 — 2026-05-30
 
 OmniFocus Standard users now see a clear message instead of a cryptic error. Teams chat history: clearer guidance when messages haven't synced locally yet.
