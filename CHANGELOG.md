@@ -1,3 +1,7 @@
+## v3.0.231 — 2026-05-30
+
+Update checks are now more reliable — the app will detect and install new versions faster.
+
 ## v3.0.230 — 2026-05-30
 
 Language switcher is now in the top menu for easier access. WhatsApp shows a cleaner status once connected. Teams and other services show cleaner status information.
