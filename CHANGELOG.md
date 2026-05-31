@@ -1,3 +1,7 @@
+## v3.0.241 — 2026-05-31
+
+Messages is more reliable. Listing, reading, and searching your conversations now works across every chat — including ones whose latest message is an attachment or reaction. Slack workspaces now show up correctly. Setup is smoother too: connecting Claude Desktop and Claude Code is more dependable, leftover copies are cleaned up automatically on update, and the menu bar settings window always opens in the right spot. Onboarding is now fully translated.
+
 ## v3.0.240 — 2026-05-31
 
 Reinstalling or updating now cleans up after itself automatically — old leftover copies are removed and Local MCP always launches the current version. Plus more reliable setup for Claude Code and OmniFocus.
