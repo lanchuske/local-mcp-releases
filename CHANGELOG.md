@@ -1,3 +1,7 @@
+## v3.0.239 — 2026-05-31
+
+Claude Code now connects reliably. Local MCP configures Claude Code in the right place and repairs any stale connection automatically, so the tools are there after every update, reinstall, or version change — no manual setup needed.
+
 ## v3.0.238 — 2026-05-31
 
 Updating and uninstalling now work the way you expect. Clicking Install in the menu bar applies the new version right away instead of waiting on a restart. And Uninstall now fully removes Local MCP — the app and all its connections to your AI clients — in a single click.
