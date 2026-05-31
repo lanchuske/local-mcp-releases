@@ -1,3 +1,7 @@
+## v3.0.242 — 2026-05-31
+
+Updating is more reliable. Local MCP now confirms it's actually running the newest version before marking an update complete, fixing cases where the app could get stuck on an older release and keep reinstalling without ever moving forward. Tool results also always display correctly now, including for a few tools that could previously return a blank response.
+
 ## v3.0.241 — 2026-05-31
 
 Messages is more reliable. Listing, reading, and searching your conversations now works across every chat — including ones whose latest message is an attachment or reaction. Slack workspaces now show up correctly. Setup is smoother too: connecting Claude Desktop and Claude Code is more dependable, leftover copies are cleaned up automatically on update, and the menu bar settings window always opens in the right spot. Onboarding is now fully translated.
