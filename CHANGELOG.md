@@ -1,3 +1,7 @@
+## v3.0.240 — 2026-05-31
+
+Reinstalling or updating now cleans up after itself automatically — old leftover copies are removed and Local MCP always launches the current version. Plus more reliable setup for Claude Code and OmniFocus.
+
 ## v3.0.239 — 2026-05-31
 
 Claude Code now connects reliably. Local MCP configures Claude Code in the right place and repairs any stale connection automatically, so the tools are there after every update, reinstall, or version change — no manual setup needed.
