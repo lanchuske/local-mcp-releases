@@ -1,3 +1,7 @@
+## v3.0.238 — 2026-05-31
+
+Updating and uninstalling now work the way you expect. Clicking Install in the menu bar applies the new version right away instead of waiting on a restart. And Uninstall now fully removes Local MCP — the app and all its connections to your AI clients — in a single click.
+
 ## v3.0.237 — 2026-05-31
 
 Setup is now more reliable. Local MCP configures Claude Desktop, Cursor, Windsurf, VS Code, and Zed automatically — even on Macs without Node.js installed — and your Mail, Notes, Messages, and Safari permissions stay put across updates, so you don't have to re-approve them after each release.
