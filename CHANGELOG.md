@@ -1,3 +1,7 @@
+## v3.0.235 — 2026-05-31
+
+Microsoft 365 keeps you connected: when your session expires, LMCP now sends a notification and shows a one-tap Reconnect right in the menu bar — so your email and calendar tools never stop working without you knowing. Calendar is faster and more reliable on large or shared calendars, with leaner results. And when your AI reaches for a tool that isn't available, it's now pointed to the right one.
+
 ## v3.0.234 — 2026-05-30
 
 OmniFocus now requests permission automatically during installation — reinstalling resolves the issue. Downloading the DMG from local-mcp.com/get now opens the installer correctly instead of showing binary text. The confirmation email arrives in your language with DMG installation instructions. Minor improvements to the download flow.
