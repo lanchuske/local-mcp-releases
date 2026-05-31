@@ -1,3 +1,7 @@
+## v3.0.236 — 2026-05-31
+
+Microsoft Teams now shows your real chat count in the menu bar instead of telling you to open Teams when it's already working. Behind the scenes, app permissions (Mail, Notes, Messages, Safari) are now more resilient across updates.
+
 ## v3.0.235 — 2026-05-31
 
 Microsoft 365 keeps you connected: when your session expires, LMCP now sends a notification and shows a one-tap Reconnect right in the menu bar — so your email and calendar tools never stop working without you knowing. Calendar is faster and more reliable on large or shared calendars, with leaner results. And when your AI reaches for a tool that isn't available, it's now pointed to the right one.
