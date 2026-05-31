@@ -1,3 +1,7 @@
+## v3.0.237 — 2026-05-31
+
+Setup is now more reliable. Local MCP configures Claude Desktop, Cursor, Windsurf, VS Code, and Zed automatically — even on Macs without Node.js installed — and your Mail, Notes, Messages, and Safari permissions stay put across updates, so you don't have to re-approve them after each release.
+
 ## v3.0.236 — 2026-05-31
 
 Microsoft Teams now shows your real chat count in the menu bar instead of telling you to open Teams when it's already working. Behind the scenes, app permissions (Mail, Notes, Messages, Safari) are now more resilient across updates.
