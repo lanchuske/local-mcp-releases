@@ -81,8 +81,8 @@ the short version:
    **Settings → Apps & Connectors → Advanced settings → enable Developer mode**.
 3. **Apps & Connectors → Create**: Name `LMCP`, URL `https://www.local-mcp.com/mcp`,
    Authentication **OAuth**.
-4. On the **Authorize ChatGPT** page, either enter your LMCP email and click **Approve** in
-   the Mac menu bar, or paste your token from **Settings → Connect**.
+4. On the **Authorize ChatGPT** page, paste your token (**Settings → Connect → Copy** next to
+   **Token**) and click **Authorize**. The token is your secure per-machine credential — no email step.
 5. New chat → **+ → More → LMCP**, then ask *"Summarize my unread emails."*
 
 > Using **Claude Desktop, Cursor, VS Code, Windsurf, or Zed**? Skip all of this — `curl … | bash`
