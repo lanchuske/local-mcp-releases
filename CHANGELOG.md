@@ -1,3 +1,7 @@
+## v3.0.243 — 2026-06-01
+
+OneDrive file listing now stays inside your OneDrive folders — agents can no longer browse your entire Mac by mistake.
+
 ## v3.0.242 — 2026-05-31
 
 Updating is more reliable. Local MCP now confirms it's actually running the newest version before marking an update complete, fixing cases where the app could get stuck on an older release and keep reinstalling without ever moving forward. Tool results also always display correctly now, including for a few tools that could previously return a blank response.
