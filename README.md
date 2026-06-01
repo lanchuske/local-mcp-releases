@@ -69,6 +69,25 @@ Restart your AI client once. That's it.
 
 **Requirements:** macOS 12+ (Monterey or later), Apple Silicon or Intel.
 
+## Use with ChatGPT (web)
+
+ChatGPT can call your Mac apps through LMCP's Cloud Relay. The full walkthrough with
+screenshots is at **[local-mcp.com/guides/chatgpt-mac](https://local-mcp.com/guides/chatgpt-mac)** —
+the short version:
+
+1. **Install LMCP** (above) and open the menu bar app → **Settings → Connect**. Enter your
+   email, click **Connect**, then toggle **Cloud Data Forwarding** ON.
+2. On **[chatgpt.com](https://chatgpt.com)** (web only — Plus/Pro/Business/Enterprise/Edu):
+   **Settings → Apps & Connectors → Advanced settings → enable Developer mode**.
+3. **Apps & Connectors → Create**: Name `LMCP`, URL `https://www.local-mcp.com/mcp`,
+   Authentication **OAuth**.
+4. On the **Authorize ChatGPT** page, either enter your LMCP email and click **Approve** in
+   the Mac menu bar, or paste your token from **Settings → Connect**.
+5. New chat → **+ → More → LMCP**, then ask *"Summarize my unread emails."*
+
+> Using **Claude Desktop, Cursor, VS Code, Windsurf, or Zed**? Skip all of this — `curl … | bash`
+> auto-configures them locally and nothing leaves your Mac.
+
 ---
 
 ## How it works
