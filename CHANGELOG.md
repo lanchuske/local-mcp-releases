@@ -1,3 +1,7 @@
+## v3.0.244 — 2026-06-01
+
+Connecting ChatGPT and Claude.ai is clearer and simpler. The menu bar now shows whether each AI assistant is genuinely connected instead of always reading 'connected,' and points you to setup when it isn't. Linking a connector now takes just your token, and your account email stays in sync between the menu bar and Settings.
+
 ## v3.0.243 — 2026-06-01
 
 OneDrive file listing now stays inside your OneDrive folders — agents can no longer browse your entire Mac by mistake.
