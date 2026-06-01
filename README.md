@@ -5,20 +5,20 @@
 [![GDPR](https://img.shields.io/badge/GDPR-compliant-green)](https://local-mcp.com/en/privacy)
 [![smithery badge](https://smithery.ai/badge/@lanchuske/local-mcp)](https://smithery.ai/server/@lanchuske/local-mcp)
 
-**LMCP connects your AI assistant to Mail, Calendar, Contacts, Microsoft Teams, Slack, WhatsApp, OneDrive, Notes, Reminders, OmniFocus, and more — 189 tools, all running locally on your Mac. No cloud. No API keys. No OAuth. Your data never leaves your machine.**
+**LMCP connects your AI assistant to Mail, Calendar, Contacts, Microsoft Teams, Slack, WhatsApp, OneDrive, Notes, Reminders, OmniFocus, and more — 115 tools, all running locally on your Mac. No cloud. No API keys. No OAuth. Your data never leaves your machine.**
 
 ```bash
 curl -fsSL 'https://local-mcp.com/install?ref=github' | bash
 ```
 
-> Installs in 2 minutes. Auto-configures Claude Desktop, Claude Code, Cursor, Windsurf, VS Code, and Zed. **Free for the first 500 installs — yours forever.**
+> Installs in 2 minutes. Auto-configures Claude Desktop, Claude Code, Cursor, Windsurf, VS Code, and Zed. **Free for the first 1,000 installs — yours forever.**
 
 ⭐ **Like it? [Star this repo](https://github.com/lanchuske/local-mcp-releases)** — it helps others discover LMCP.
 
 <p align="center">
-  <img src="assets/claude-tools.png" alt="Claude Desktop showing 189 tools across 18 categories with LMCP" width="700">
+  <img src="assets/claude-tools.png" alt="Claude Desktop showing 115 tools across 18 categories with LMCP" width="700">
 </p>
-<p align="center"><em>189 tools across 18 categories — Mail, Calendar, Teams, Slack, WhatsApp, OneDrive, Notes, OmniFocus, and more</em></p>
+<p align="center"><em>115 tools across 18 categories — Mail, Calendar, Teams, Slack, WhatsApp, OneDrive, Notes, OmniFocus, and more</em></p>
 
 <details>
 <summary>Menu bar app</summary>
@@ -53,7 +53,7 @@ curl -fsSL 'https://local-mcp.com/install?ref=github' | bash
 | **Stocks** | "How is AAPL doing today?" · "Show me a chart of MSFT this month" |
 | **NordVPN** | "Is my VPN connected?" · "Recommend a server in Japan" |
 
-189 tools total. Read operations run instantly. Write operations (send email, delete event) show a preview and require confirmation.
+115 tools total. Read operations run instantly. Write operations (send email, delete event) show a preview and require confirmation.
 
 ---
 
@@ -135,7 +135,7 @@ Claude.ai and ChatGPT can't reach localhost. Enable Cloud Relay in the menu bar 
 | **OmniFocus** | ✅ | ❌ | ❌ | ❌ |
 | **iMessage** | ✅ Read | ❌ | ❌ | ❌ |
 | **Data privacy** | 100% local | 100% local | Cloud | Cloud |
-| **Price** | Free (first 500) | Free (OSS) | Freemium | Free (M365) |
+| **Price** | Free (first 1,000) | Free (OSS) | Freemium | Free (M365) |
 | **Platform** | macOS | macOS | Cross-platform | Cross-platform |
 
 ---
@@ -202,7 +202,7 @@ This stops all background processes, removes the auto-start LaunchAgent, deletes
 
 ## License
 
-LMCP is proprietary software. Free for the first 500 installs — permanent license, no expiration. See [LICENSE](LICENSE) for details.
+LMCP is proprietary software. Free for the first 1,000 installs — permanent license, no expiration. See [LICENSE](LICENSE) for details.
 
 ---
 
