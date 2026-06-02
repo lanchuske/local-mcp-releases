@@ -2,10 +2,11 @@
 
 [![npm](https://img.shields.io/npm/v/local-mcp)](https://www.npmjs.com/package/local-mcp)
 [![macOS 12+](https://img.shields.io/badge/macOS-12%2B-blue)](https://local-mcp.com)
+[![Windows · Linux](https://img.shields.io/badge/also-Windows%20%C2%B7%20Linux-success)](https://local-mcp.com/guides/windows-setup)
 [![GDPR](https://img.shields.io/badge/GDPR-compliant-green)](https://local-mcp.com/en/privacy)
 [![smithery badge](https://smithery.ai/badge/@lanchuske/local-mcp)](https://smithery.ai/server/@lanchuske/local-mcp)
 
-**LMCP connects your AI assistant to Mail, Calendar, Contacts, Microsoft Teams, Slack, WhatsApp, OneDrive, Notes, Reminders, OmniFocus, and more — 115 tools, all running locally on your Mac. No cloud. No API keys. No OAuth. Your data never leaves your machine.**
+**LMCP connects your AI assistant to Mail, Calendar, Contacts, Microsoft Teams, Slack, WhatsApp, OneDrive, Notes, Reminders, OmniFocus, and more — 140+ tools, all running locally on your Mac (and now Windows + Linux). No cloud. No API keys. No OAuth. Your data never leaves your machine.**
 
 ```bash
 curl -fsSL 'https://local-mcp.com/install?ref=github' | bash
@@ -67,7 +68,7 @@ Auto-detects and configures: **Claude Desktop · Claude Code · Cursor · Windsu
 
 Restart your AI client once. That's it.
 
-**Requirements:** macOS 12+ (Monterey or later), Apple Silicon or Intel.
+**Requirements:** macOS 12+ (Monterey or later, Apple Silicon or Intel). LMCP also runs on **Windows** (beta — Outlook, Teams, Slack, OneDrive, Office, Microsoft To Do, Explorer) and **Linux** (cloud / server agents — Microsoft 365, Slack, Google Drive, Office).
 
 ## Use with ChatGPT (web)
 
@@ -155,7 +156,7 @@ Claude.ai and ChatGPT can't reach localhost. Enable Cloud Relay in the menu bar 
 | **iMessage** | ✅ Read | ❌ | ❌ | ❌ |
 | **Data privacy** | 100% local | 100% local | Cloud | Cloud |
 | **Price** | Free (first 1,000) | Free (OSS) | Freemium | Free (M365) |
-| **Platform** | macOS | macOS | Cross-platform | Cross-platform |
+| **Platform** | macOS · Windows · Linux | macOS | Cross-platform | Cross-platform |
 
 ---
 
@@ -187,12 +188,21 @@ Claude.ai and ChatGPT can't reach localhost. Enable Cloud Relay in the menu bar 
 
 ## Roadmap
 
-- [ ] Write support for Teams (send messages)
-- [ ] Slack integration
+**Shipped:**
+
+- [x] **Windows** (beta) and **Linux** (cloud / server agents) support
+- [x] **Slack** — read channels, DMs, search
+- [x] **WhatsApp** — read & send (local client)
+- [x] **Microsoft Teams** — read **and** send messages
+- [x] **ChatGPT** support via Cloud Relay
+- [x] Guides in 12 languages
+
+**In progress / planned:**
+
+- [ ] Telegram
+- [ ] Obsidian — read & search local vaults
 - [ ] Google Drive (local sync folder)
-- [ ] WhatsApp / Telegram
 - [ ] Persistent AI memory across sessions
-- [ ] Windows support
 
 Have a feature in mind? Run `request_feature` from any AI client, or [open an issue](https://github.com/lanchuske/local-mcp-releases/issues).
 
