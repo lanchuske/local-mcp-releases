@@ -1,3 +1,7 @@
+## v3.0.245 — 2026-06-02
+
+Calendar is more reliable — we fixed a rare crash that could happen with certain recurring events. ChatGPT and other cloud AI assistants can now reach your Mail and Apple Notes through the connector. And when sending email, you can now choose which of your accounts it goes out from.
+
 ## v3.0.244 — 2026-06-01
 
 Connecting ChatGPT and Claude.ai is clearer and simpler. The menu bar now shows whether each AI assistant is genuinely connected instead of always reading 'connected,' and points you to setup when it isn't. Linking a connector now takes just your token, and your account email stays in sync between the menu bar and Settings.
