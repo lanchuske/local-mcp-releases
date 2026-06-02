@@ -1,3 +1,7 @@
+## v3.0.246 — 2026-06-02
+
+Your email, calendar, and notes now appear as clean, interactive cards right inside the chat — in assistants that support it. We also reduced macOS permission pop-ups on startup (LMCP now asks only when it actually needs access) and made results clearer with helpful next-step suggestions.
+
 ## v3.0.245 — 2026-06-02
 
 Calendar is more reliable — we fixed a rare crash that could happen with certain recurring events. ChatGPT and other cloud AI assistants can now reach your Mail and Apple Notes through the connector. And when sending email, you can now choose which of your accounts it goes out from.
