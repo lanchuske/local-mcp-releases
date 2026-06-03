@@ -1,3 +1,11 @@
+## v3.0.249 — 2026-06-03
+
+Updates now apply reliably — if your Mac was stuck on an older version, it catches up on its own, and fresh installs always get the latest build.
+
+A clearer setup screen. Your AI apps are now grouped by how they connect: desktop apps (Claude, Cursor, VS Code) link directly, while web AIs (ChatGPT, Claude.ai, and now Grok) connect through the Cloud Relay. Connecting a web AI no longer asks for an email — it just works.
+
+Grok is now supported as a connected AI.
+
 ## v3.0.248 — 2026-06-03
 
 A cleaner, smarter tool list. Claude now hides integrations like Slack and VPN until you've actually set them up, so it picks the right tool instead of guessing — and connection checks stay available so you can always get set up.
