@@ -1,3 +1,13 @@
+## v3.0.247 — 2026-06-03
+
+Faster, more reliable email. Reading and searching mail on Macs with several accounts is quicker and no longer times out, and moving messages is faster too.
+
+A cleaner, smarter tool list. Claude now sees only the apps and accounts you've actually connected, so it picks the right tool instead of guessing.
+
+Microsoft 365 is steadier. It automatically rides out Microsoft's temporary rate limits and service hiccups, with fewer false 'sign in again' prompts.
+
+The menu bar app keeps itself up to date more reliably.
+
 ## v3.0.246 — 2026-06-02
 
 Your email, calendar, and notes now appear as clean, interactive cards right inside the chat — in assistants that support it. We also reduced macOS permission pop-ups on startup (LMCP now asks only when it actually needs access) and made results clearer with helpful next-step suggestions.
