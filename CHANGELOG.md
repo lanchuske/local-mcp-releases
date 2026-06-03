@@ -1,3 +1,9 @@
+## v3.0.248 — 2026-06-03
+
+A cleaner, smarter tool list. Claude now hides integrations like Slack and VPN until you've actually set them up, so it picks the right tool instead of guessing — and connection checks stay available so you can always get set up.
+
+More reliable installs. Installing LMCP now always delivers the very latest version.
+
 ## v3.0.247 — 2026-06-03
 
 Faster, more reliable email. Reading and searching mail on Macs with several accounts is quicker and no longer times out, and moving messages is faster too.
