@@ -1,3 +1,7 @@
+## v3.0.251 — 2026-06-04
+
+Reminders and Microsoft To Do are more reliable: they no longer report a permission error when access has already been granted. Your calendar and daily briefing now consistently show the events scheduled for today. And when a tool needs a macOS permission such as Full Disk Access for Microsoft Teams, Local MCP now explains exactly how to enable it instead of showing a confusing error.
+
 ## v3.0.250 — 2026-06-04
 
 LMCP now speaks your language. The menu bar app is fully localized — Spanish, Portuguese, French, German, Italian, Dutch, Chinese, Japanese, and Korean — and setup guides open in your language too.
