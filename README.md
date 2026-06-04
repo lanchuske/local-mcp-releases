@@ -12,7 +12,7 @@
 curl -fsSL 'https://local-mcp.com/install?ref=github' | bash
 ```
 
-> Installs in 2 minutes. Auto-configures Claude Desktop, Claude Code, Cursor, Windsurf, VS Code, and Zed. **Free for the first 1,000 installs — yours forever.**
+> Installs in 2 minutes. Auto-configures Claude Desktop, Claude Code, Cursor, Windsurf, VS Code, and Zed. **Free for the first 500 installs — yours forever.**
 
 ⭐ **Like it? [Star this repo](https://github.com/lanchuske/local-mcp-releases)** — it helps others discover LMCP.
 
@@ -211,7 +211,7 @@ Yes — it reads and creates Office documents and reads PDFs locally, without up
 Yes (beta): Outlook Mail/Calendar/Contacts, Microsoft To Do, OneDrive, Teams, Slack, Office (Word/Excel/PowerPoint/PDF), File Explorer, and Stocks.
 
 **How much does it cost?**
-Free for early users — a permanent license, not a 14-day trial — then a one-time purchase, no subscription.
+Free for the first 500 installs — a permanent license (not a 14-day trial), then a one-time purchase, no subscription.
 
 ---
 
@@ -260,7 +260,7 @@ This stops all background processes, removes the auto-start LaunchAgent, deletes
 
 ## License
 
-LMCP is proprietary software. Free for the first 1,000 installs — permanent license, no expiration. See [LICENSE](LICENSE) for details.
+LMCP is proprietary software. Free for the first 500 installs — permanent license, no expiration. See [LICENSE](LICENSE) for details.
 
 ---
 
