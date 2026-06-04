@@ -5,6 +5,7 @@
 [![Windows · Linux](https://img.shields.io/badge/also-Windows%20%C2%B7%20Linux-success)](https://local-mcp.com/guides/windows-setup)
 [![GDPR](https://img.shields.io/badge/GDPR-compliant-green)](https://local-mcp.com/en/privacy)
 [![smithery badge](https://smithery.ai/badge/@lanchuske/local-mcp)](https://smithery.ai/server/@lanchuske/local-mcp)
+[![SafeSkill 94/100](https://img.shields.io/badge/SafeSkill-94%2F100_Verified%20Safe-brightgreen)](https://safeskill.dev/scan/lanchuske-local-mcp-releases)
 
 **LMCP connects your AI assistant to Mail, Calendar, Contacts, Microsoft Teams, Slack, WhatsApp, OneDrive, Notes, Reminders, OmniFocus, and more — 140+ tools, all running locally on your Mac (and now Windows + Linux). No cloud. No API keys. No OAuth. Your data never leaves your machine.**
 
