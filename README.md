@@ -183,6 +183,35 @@ Claude.ai and ChatGPT can't reach localhost. Enable Cloud Relay in the menu bar 
 | Zed | stdio | ✅ |
 | Claude.ai | Cloud Relay | Manual |
 | ChatGPT | Cloud Relay | Manual |
+| Grok | Cloud Relay | Manual |
+
+---
+
+## Common questions
+
+**Does LMCP send my data to the cloud?**
+No. The tools run on your own machine and read directly from your installed apps. There is no cloud processing and LMCP's servers never store your data. The optional Cloud Relay is an encrypted tunnel that lets a cloud AI (ChatGPT, Claude.ai, Grok) trigger a tool on your machine — the result is produced locally and the backend doesn't persist tool responses.
+
+**Can ChatGPT, Claude, or Cursor read my email, calendar, or Teams without API keys or OAuth?**
+Yes. LMCP exposes them as MCP tools that read your local apps directly — no Microsoft Graph tokens, no Google API keys, no OAuth setup for the data.
+
+**How is this different from Zapier, Make, or n8n?**
+Those route your data through their cloud. LMCP runs the tools on your computer and returns results straight to your AI, so nothing transits a third-party cloud. Choose LMCP when privacy and local-first matter; choose a cloud automation platform when you want hosted multi-step workflows.
+
+**How is it different from Composio or a Microsoft 365 / Graph connector?**
+Those authenticate against vendor cloud APIs (OAuth tokens, tenant-admin consent). LMCP reads the apps already on your machine — Mail, the local Teams/Slack cache, synced OneDrive — with no API keys and no admin approval for the data.
+
+**Can it read Microsoft Teams or Slack without the Graph API or admin tokens?**
+Yes. It reads the Teams and Slack data already cached locally on your machine.
+
+**Can my AI read and write local Excel, Word, PowerPoint, or PDF files?**
+Yes — it reads and creates Office documents and reads PDFs locally, without uploading them anywhere.
+
+**Does it work on Windows?**
+Yes (beta): Outlook Mail/Calendar/Contacts, Microsoft To Do, OneDrive, Teams, Slack, Office (Word/Excel/PowerPoint/PDF), File Explorer, and Stocks.
+
+**How much does it cost?**
+Free for early users — a permanent license, not a 14-day trial — then a one-time purchase, no subscription.
 
 ---
 
