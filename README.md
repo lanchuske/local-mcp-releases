@@ -68,6 +68,13 @@ Auto-detects and configures: **Claude Desktop · Claude Code · Cursor · Windsu
 
 Restart your AI client once. That's it.
 
+### Prefer not to use the terminal?
+
+You don't need the command line. Two one-click options:
+
+- **Claude Desktop users** → download the one-click extension at **[local-mcp.com/install/mcpb](https://local-mcp.com/install/mcpb)** and double-click it. No terminal, no config.
+- **Everyone else** → get the Mac app from **[local-mcp.com](https://local-mcp.com)**, drag it to Applications, and open it. The menu-bar app walks you through connecting ChatGPT, Claude.ai, or Grok — no setup files to edit.
+
 **Requirements:** macOS 12+ (Monterey or later, Apple Silicon or Intel). LMCP also runs on **Windows** (beta — Outlook, Teams, Slack, OneDrive, Office, Microsoft To Do, Explorer) and **Linux** (cloud / server agents — Microsoft 365, Slack, Google Drive, Office).
 
 ## Use with ChatGPT (web)
