@@ -1,3 +1,11 @@
+## v3.0.250 — 2026-06-04
+
+LMCP now speaks your language. The menu bar app is fully localized — Spanish, Portuguese, French, German, Italian, Dutch, Chinese, Japanese, and Korean — and setup guides open in your language too.
+
+Connecting a web AI is now one paste. A new Copy URL button hands you a ready-to-use connector link for Grok and Claude.ai — no extra sign-in steps. ChatGPT, Claude.ai, and Grok all show a clear, up-to-date connection status in the menu bar.
+
+Plus smoother, more reliable updates behind the scenes.
+
 ## v3.0.249 — 2026-06-03
 
 Updates now apply reliably — if your Mac was stuck on an older version, it catches up on its own, and fresh installs always get the latest build.
