@@ -1,3 +1,7 @@
+## v3.0.252 — 2026-06-04
+
+Email is more resilient: if a single message ever makes Mail hang, Local MCP now recovers on its own instead of stalling the rest of your session. Checking for updates also no longer triggers an unnecessary restart.
+
 ## v3.0.251 — 2026-06-04
 
 Reminders and Microsoft To Do are more reliable: they no longer report a permission error when access has already been granted. Your calendar and daily briefing now consistently show the events scheduled for today. And when a tool needs a macOS permission such as Full Disk Access for Microsoft Teams, Local MCP now explains exactly how to enable it instead of showing a confusing error.
