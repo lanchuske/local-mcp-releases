@@ -1,3 +1,7 @@
+## v3.0.254 — 2026-06-05
+
+Opening LMCP for the first time now shows a visual welcome card — a live snapshot of what it can see on your Mac plus every app it connects to and ready-to-use automation ideas — so you know exactly what's possible from the first message.
+
 ## v3.0.253 — 2026-06-05
 
 Your very first chat now instantly shows what LMCP can see on your Mac — your contacts, emails, calendar and reminders — so you get real value from the first message instead of an empty screen.
