@@ -1,3 +1,7 @@
+## v3.0.253 — 2026-06-05
+
+Your very first chat now instantly shows what LMCP can see on your Mac — your contacts, emails, calendar and reminders — so you get real value from the first message instead of an empty screen.
+
 ## v3.0.252 — 2026-06-04
 
 Email is more resilient: if a single message ever makes Mail hang, Local MCP now recovers on its own instead of stalling the rest of your session. Checking for updates also no longer triggers an unnecessary restart.
