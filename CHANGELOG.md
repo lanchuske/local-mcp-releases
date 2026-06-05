@@ -1,3 +1,9 @@
+## v3.0.255 — 2026-06-05
+
+Faster, more reliable setup. We removed a setup step that could stall the installer — especially on Windows — so LMCP gets up and running more smoothly.
+
+Discover more as you go. LMCP now points you to other apps on your Mac it can help with, so you find more of what it can automate without hunting for it.
+
 ## v3.0.254 — 2026-06-05
 
 Opening LMCP for the first time now shows a visual welcome card — a live snapshot of what it can see on your Mac plus every app it connects to and ready-to-use automation ideas — so you know exactly what's possible from the first message.
