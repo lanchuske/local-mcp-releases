@@ -2,5 +2,48 @@
   "$schema": "https://glama.ai/mcp/schemas/server.json",
   "maintainers": [
     "lanchuske"
+  ],
+  "name": "Local MCP",
+  "description": "Native macOS MCP server with 143 local tools \u2014 connect Claude Desktop, Cursor, Windsurf to Mail, Calendar, Contacts, Teams, OneDrive, Outlook, OmniFocus, Notes, Messages, Reminders, Finder, Safari, Word, Excel, PowerPoint, and PDF. Also runs on Windows. Privacy-first: all data stays on your machine, no API keys.",
+  "install": {
+    "npm": "npx -y local-mcp@latest setup --ref=glama",
+    "curl": "curl -fsSL \"https://local-mcp.com/install?ref=glama\" | bash"
+  },
+  "mcp": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "local-mcp@latest"
+    ],
+    "env": {
+      "LMCP_REF": "glama"
+    }
+  },
+  "categories": [
+    "App Automation",
+    "Communication",
+    "Workplace & Productivity"
+  ],
+  "tags": [
+    "macos",
+    "mail",
+    "calendar",
+    "contacts",
+    "teams",
+    "onedrive",
+    "outlook",
+    "omnifocus",
+    "notes",
+    "messages",
+    "reminders",
+    "finder",
+    "safari",
+    "word",
+    "excel",
+    "powerpoint",
+    "pdf",
+    "privacy",
+    "local",
+    "native"
   ]
 }
