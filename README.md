@@ -6,20 +6,20 @@
 [![GDPR](https://img.shields.io/badge/GDPR-compliant-green)](https://local-mcp.com/en/privacy)
 [![smithery badge](https://smithery.ai/badge/@lanchuske/local-mcp)](https://smithery.ai/server/@lanchuske/local-mcp)
 
-**LMCP connects your AI assistant to Mail, Calendar, Contacts, Microsoft Teams, Slack, WhatsApp, OneDrive, Notes, Reminders, OmniFocus, and more — 140+ tools, all running locally on your Mac (and now Windows + Linux). No cloud. No API keys. No OAuth. Your data never leaves your machine.**
+**LMCP connects your AI assistant to Mail, Calendar, Contacts, Microsoft Teams, Slack, WhatsApp, OneDrive, Notes, Reminders, OmniFocus, and more — 143 tools, all running locally on your Mac (and now Windows + Linux). No cloud. No API keys. No OAuth. Your data never leaves your machine.**
 
 ```bash
 curl -fsSL 'https://local-mcp.com/install?ref=github' | bash
 ```
 
-> Installs in 2 minutes. Auto-configures Claude Desktop, Claude Code, Cursor, Windsurf, VS Code, and Zed. **Free for the first 500 installs — yours forever.**
+> Installs in 2 minutes. Auto-configures Claude Desktop, Claude Code, Cursor, Windsurf, VS Code, and Zed. **Free — no paid tier yet.**
 
 ⭐ **Like it? [Star this repo](https://github.com/lanchuske/local-mcp-releases)** — it helps others discover LMCP.
 
 <p align="center">
-  <img src="assets/claude-tools.png" alt="Claude Desktop showing 115 tools across 18 categories with LMCP" width="700">
+  <img src="assets/claude-tools.png" alt="Claude Desktop showing tools across 18 categories with LMCP" width="700">
 </p>
-<p align="center"><em>115 tools across 18 categories — Mail, Calendar, Teams, Slack, WhatsApp, OneDrive, Notes, OmniFocus, and more</em></p>
+<p align="center"><em>Native tools across 18 categories — Mail, Calendar, Teams, Slack, WhatsApp, OneDrive, Notes, OmniFocus, and more</em></p>
 
 <details>
 <summary>Menu bar app</summary>
@@ -54,7 +54,7 @@ curl -fsSL 'https://local-mcp.com/install?ref=github' | bash
 | **Stocks** | "How is AAPL doing today?" · "Show me a chart of MSFT this month" |
 | **NordVPN** | "Is my VPN connected?" · "Recommend a server in Japan" |
 
-115 tools total. Read operations run instantly. Write operations (send email, delete event) show a preview and require confirmation.
+143 tools total. Read operations run instantly. Write operations (send email, delete event) show a preview and require confirmation.
 
 ---
 
@@ -152,7 +152,7 @@ Claude.ai and ChatGPT can't reach localhost. Enable Cloud Relay in the menu bar 
 | **Runs locally** | ✅ | ✅ | ❌ Cloud | ❌ Cloud |
 | **API keys needed** | ❌ None | ❌ None | ✅ Required | ✅ Azure AD |
 | **Setup time** | ~2 min | ~10 min | ~15 min | ~30 min |
-| **Total tools** | 91 | ~20 | Varies | ~15 |
+| **Total tools** | 143 | ~20 | Varies | ~15 |
 | **Microsoft Teams** | ✅ Local cache | ❌ | Via Graph API | Via Graph API |
 | **OneDrive** | ✅ Full CRUD | ❌ | Via Graph API | Via Graph API |
 | **Calendar** | ✅ CRUD | ❌ | Via API | Via Graph API |
@@ -162,8 +162,24 @@ Claude.ai and ChatGPT can't reach localhost. Enable Cloud Relay in the menu bar 
 | **OmniFocus** | ✅ | ❌ | ❌ | ❌ |
 | **iMessage** | ✅ Read | ❌ | ❌ | ❌ |
 | **Data privacy** | 100% local | 100% local | Cloud | Cloud |
-| **Price** | Free (first 1,000) | Free (OSS) | Freemium | Free (M365) |
+| **Price** | Free | Free (OSS) | Freemium | Free (M365) |
 | **Platform** | macOS · Windows · Linux | macOS | Cross-platform | Cross-platform |
+
+> Looking for an [Apple MCP server alternative](https://local-mcp.com/guides/apple-mcp-server-alternative)? LMCP is the zero-config, signed-app option that also covers Teams, Slack and WhatsApp.
+
+---
+
+## Popular guides
+
+The things people most often want their AI to reach — and the ones cloud connectors can't:
+
+- **[Read your iMessages](https://local-mcp.com/guides/claude-imessage-mac)** — the only MCP server that does it (iMessage has no API; LMCP reads the local database on-device)
+- **[One server for Mail, iMessage & Teams](https://local-mcp.com/guides/mcp-server-mail-imessage-teams)** — yes, a single MCP server does all three, locally
+- **[Microsoft Teams without Graph API](https://local-mcp.com/guides/claude-teams-no-api)** — reads the local Teams cache, no Azure AD or admin consent
+- **[WhatsApp on Mac](https://local-mcp.com/guides/claude-whatsapp-mac)** — connect your AI to personal WhatsApp (no Business API)
+- **[Connect ChatGPT to your Mac](https://local-mcp.com/guides/chatgpt-mac)** · **[Give Claude your email](https://local-mcp.com/guides/claude-email-mac)** · **[Best MCP server for Mac](https://local-mcp.com/guides/best-mcp-server-mac)**
+
+See all guides at **[local-mcp.com/guides](https://local-mcp.com/guides)**.
 
 ---
 
@@ -218,7 +234,7 @@ Yes — it reads and creates Office documents and reads PDFs locally, without up
 Yes (beta): Outlook Mail/Calendar/Contacts, Microsoft To Do, OneDrive, Teams, Slack, Office (Word/Excel/PowerPoint/PDF), File Explorer, and Stocks.
 
 **How much does it cost?**
-Free for the first 500 installs — a permanent license (not a 14-day trial), then a one-time purchase, no subscription.
+Free, no paid tier yet — a permanent license, not a 14-day trial, no subscription.
 
 ---
 
@@ -267,7 +283,7 @@ This stops all background processes, removes the auto-start LaunchAgent, deletes
 
 ## License
 
-LMCP is proprietary software. Free for the first 500 installs — permanent license, no expiration. See [LICENSE](LICENSE) for details.
+LMCP is proprietary software. Free — permanent license, no expiration. See [LICENSE](LICENSE) for details.
 
 ---
 
