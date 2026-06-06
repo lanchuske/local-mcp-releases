@@ -1,3 +1,7 @@
+## v3.0.257 — 2026-06-06
+
+Performance and reliability improvements under the hood.
+
 ## v3.0.256 — 2026-06-06
 
 Working with large OneDrive folders is now faster and more reliable. This update also includes behind-the-scenes improvements to connection stability and a smoother install experience.
