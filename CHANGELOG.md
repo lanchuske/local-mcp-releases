@@ -1,3 +1,7 @@
+## v3.0.260 — 2026-06-07
+
+Smarter app selection. When you use both your Apple apps and a Microsoft 365 account, your AI assistant now more reliably reaches the right one for calendar, contacts, and reminders — fewer mix-ups between your iCloud and work accounts.
+
 ## v3.0.259 — 2026-06-07
 
 LMCP starts faster and more reliably — every tool is ready the moment the app launches. Your AI can now check the current date and time on your Mac. And uninstalling LMCP now fully cleans up after itself.
