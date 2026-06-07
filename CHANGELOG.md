@@ -1,3 +1,7 @@
+## v3.0.258 — 2026-06-07
+
+The Claude Desktop extension and npm setup now run on their own — no separate app required to get started. If you also install the full Local MCP app, the extension automatically connects to it for cloud access and auto-updates. Reliability improvements under the hood.
+
 ## v3.0.257 — 2026-06-06
 
 Performance and reliability improvements under the hood.
