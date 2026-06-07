@@ -1,3 +1,7 @@
+## v3.0.259 — 2026-06-07
+
+LMCP starts faster and more reliably — every tool is ready the moment the app launches. Your AI can now check the current date and time on your Mac. And uninstalling LMCP now fully cleans up after itself.
+
 ## v3.0.258 — 2026-06-07
 
 The Claude Desktop extension and npm setup now run on their own — no separate app required to get started. If you also install the full Local MCP app, the extension automatically connects to it for cloud access and auto-updates. Reliability improvements under the hood.
