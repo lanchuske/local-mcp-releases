@@ -1,3 +1,7 @@
+## v3.0.261 — 2026-06-07
+
+Safari bookmarks are back — your assistant can read them again. The app also stays responsive when a tool takes a while, instead of hanging the session. Plus smaller reliability fixes.
+
 ## v3.0.260 — 2026-06-07
 
 Smarter app selection. When you use both your Apple apps and a Microsoft 365 account, your AI assistant now more reliably reaches the right one for calendar, contacts, and reminders — fewer mix-ups between your iCloud and work accounts.
