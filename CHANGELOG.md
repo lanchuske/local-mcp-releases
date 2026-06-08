@@ -1,3 +1,7 @@
+## v3.0.262 — 2026-06-08
+
+Updates now take effect right away — fixes and new features reach your assistant without waiting for a restart. Connections to cloud assistants (ChatGPT, Claude.ai, Grok) are also more stable, with fewer dropped sessions.
+
 ## v3.0.261 — 2026-06-07
 
 Safari bookmarks are back — your assistant can read them again. The app also stays responsive when a tool takes a while, instead of hanging the session. Plus smaller reliability fixes.
