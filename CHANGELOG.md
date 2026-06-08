@@ -1,3 +1,7 @@
+## v3.0.264 — 2026-06-08
+
+More reliable tool calls — momentary glitches reading Notes, Safari, OmniFocus, and Messages now retry automatically instead of failing. Updates also apply more dependably.
+
 ## v3.0.263 — 2026-06-08
 
 More reliable under heavy use — fixes a rare freeze that could happen when several AI clients connect and disconnect. Plus smaller stability improvements.
