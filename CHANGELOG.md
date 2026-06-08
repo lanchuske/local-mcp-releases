@@ -1,3 +1,7 @@
+## v3.0.263 — 2026-06-08
+
+More reliable under heavy use — fixes a rare freeze that could happen when several AI clients connect and disconnect. Plus smaller stability improvements.
+
 ## v3.0.262 — 2026-06-08
 
 Updates now take effect right away — fixes and new features reach your assistant without waiting for a restart. Connections to cloud assistants (ChatGPT, Claude.ai, Grok) are also more stable, with fewer dropped sessions.
