@@ -1,3 +1,7 @@
+## v3.0.266 — 2026-06-08
+
+You can now delete reminders and browse files on your Mac, directly from your AI assistant. This release also includes reliability improvements under the hood.
+
 ## v3.0.265 — 2026-06-08
 
 Local MCP is more reliable and more private. We fixed a rare crash, updates now restart cleanly, and we hardened how your data is handled: content from your emails and messages can no longer steer the AI off task, and the local connection is locked to your account. Slack shows clearer status, and you can opt out of anonymous improvement signals in Settings.
