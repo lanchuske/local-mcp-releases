@@ -1,3 +1,7 @@
+## v3.0.267 — 2026-06-09
+
+Local MCP is faster, more reliable, and more private. We rebuilt Mail, Notes, Reminders, OmniFocus, and Safari to run through a leaner, more dependable engine, and you can now delete reminders directly from your assistant. We fixed a rare crash and a bug that could hide file-browsing tools. We also strengthened your privacy: content from your emails, messages, files, and web pages can no longer steer the AI off task, and the local connection is now locked to your account. You can opt out of anonymous improvement signals anytime in Settings.
+
 ## v3.0.266 — 2026-06-08
 
 You can now delete reminders and browse files on your Mac, directly from your AI assistant. This release also includes reliability improvements under the hood.
