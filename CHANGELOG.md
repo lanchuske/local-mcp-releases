@@ -1,3 +1,13 @@
+## v3.0.270 — 2026-06-09
+
+Reliability and polish across your Mac tools:
+
+• File search now understands shortcut paths like ~/Desktop and ~/Documents.
+• Contact search returns more relevant people and better protects your address book.
+• Microsoft Teams threads no longer show duplicate messages.
+• Friendlier, clearer messages when an app isn't installed or you're not signed in.
+• A more accurate at-a-glance view of which of your apps are connected.
+
 ## v3.0.269 — 2026-06-09
 
 Contacts and Calendar are more reliable. Looking up a contact or deleting a calendar event no longer fails when the identifier was copied with extra formatting, and contact lookups now fall back to matching by name. Clearer guidance when an item can't be found.
