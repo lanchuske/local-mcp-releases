@@ -16,9 +16,9 @@ curl -fsSL 'https://local-mcp.com/install?ref=github-releases' | bash
 ⭐ **Like it? [Star this repo](https://github.com/lanchuske/local-mcp-releases)** — it helps others discover LMCP.
 
 <p align="center">
-  <img src="assets/claude-tools.png" alt="Claude Desktop showing tools across 18 categories with LMCP" width="700">
+  <img src="assets/claude-tools.png" alt="Claude Desktop showing tools across 20 categories with LMCP" width="700">
 </p>
-<p align="center"><em>Native tools across 18 categories — Mail, Calendar, Teams, Slack, WhatsApp, OneDrive, Notes, OmniFocus, and more</em></p>
+<p align="center"><em>Native tools across 20 categories — Mail, Calendar, Teams, Slack, WhatsApp, OneDrive, Microsoft 365, Notes, OmniFocus, ServiceNow, and more</em></p>
 
 <details>
 <summary>Menu bar app</summary>
@@ -42,7 +42,9 @@ curl -fsSL 'https://local-mcp.com/install?ref=github-releases' | bash
 | **WhatsApp** | "Summarize my WhatsApp from this morning" · "Find the chat with Carla about the trip" *(via the unofficial Wacli client — requires QR-code sign-in)* |
 | **OneDrive** | "Find the Q1 report" · "Upload this summary to the shared folder" |
 | **Outlook** | "Read my Outlook inbox" · "Search for invoices from last month" |
+| **Microsoft 365** | "Read my Outlook.com inbox" · "Find Sara in the company directory" · "Add a Graph calendar event" |
 | **Reminders** | "Add a reminder to call the bank tomorrow at 9am" · "What's on my list?" |
+| **To Do** | "Add milk to my shopping list" · "What's due today in To Do?" |
 | **OmniFocus** | "Show my overdue tasks" · "Create a task to review the contract" |
 | **Notes** | "Search my notes for the API keys" · "Create a note with today's decisions" |
 | **Messages** | "What did Ana send me this morning?" · "Search iMessages for the address" |
@@ -51,9 +53,10 @@ curl -fsSL 'https://local-mcp.com/install?ref=github-releases' | bash
 | **Finder** | "Find all files named 'invoice' on my Mac" |
 | **Safari** | "List my bookmarks in the Dev folder" |
 | **Stocks** | "How is AAPL doing today?" · "Show me a chart of MSFT this month" |
+| **ServiceNow** | "Show my open incidents" · "Create a P2 for the outage" · "Search the KB for VPN setup" |
 | **NordVPN** | "Is my VPN connected?" · "Recommend a server in Japan" |
 
-138 tools total. Read operations run instantly. Write operations (send email, delete event) show a preview and require confirmation.
+138 tools across 20 app categories. Read operations run instantly. Write operations (send email, delete event) show a preview and require confirmation.
 
 ---
 
@@ -216,15 +219,19 @@ Free, no paid tier yet — a permanent license, not a 14-day trial, no subscript
 
 **Shipped:**
 
-- [x] **Cloud connectors** — ChatGPT, Claude.ai, Grok via the encrypted relay
-- [x] **Slack** — read channels, DMs, search
-- [x] **WhatsApp** — read & send (local client)
-- [x] **Microsoft Teams** — read **and** send messages
-- [x] **ChatGPT** support via Cloud Relay
+- [x] **Cloud connectors** — ChatGPT, Claude.ai, Grok, Perplexity, and OpenClaw via the encrypted relay
+- [x] **Microsoft Teams** — read **and** send chats and channel messages (no Graph API)
+- [x] **Slack** — read channels, DMs, search (local cache)
+- [x] **WhatsApp** — read, search & send, send files (local client)
+- [x] **Microsoft 365** — Outlook.com / work accounts via device-code login (mail, calendar, directory, contacts)
+- [x] **ServiceNow** — incidents and Knowledge Base
+- [x] **Safari** — browser automation (navigate, click, type, fill forms, run JS)
+- [x] **Stocks & NordVPN** — quotes, charts, VPN status
 - [x] Guides in 12 languages
 
 **In progress / planned:**
 
+- [ ] On-device image generation (Apple Image Playground)
 - [ ] Telegram
 - [ ] Obsidian — read & search local vaults
 - [ ] Google Drive (local sync folder)
