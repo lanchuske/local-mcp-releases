@@ -1,3 +1,7 @@
+## v3.0.268 — 2026-06-09
+
+Local MCP is more stable. We fixed an issue where Apple Mail could freeze or stop responding when several requests reached it at once — most noticeable with Exchange accounts during a morning briefing or scheduled sync — by handling app requests one at a time per app. We also resolved a rare crash under heavy use. Your Mail, Calendar, and other apps now handle back-to-back requests smoothly.
+
 ## v3.0.267 — 2026-06-09
 
 Local MCP is faster, more reliable, and more private. We rebuilt Mail, Notes, Reminders, OmniFocus, and Safari to run through a leaner, more dependable engine, and you can now delete reminders directly from your assistant. We fixed a rare crash and a bug that could hide file-browsing tools. We also strengthened your privacy: content from your emails, messages, files, and web pages can no longer steer the AI off task, and the local connection is now locked to your account. You can opt out of anonymous improvement signals anytime in Settings.
