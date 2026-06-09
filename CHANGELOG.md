@@ -1,3 +1,7 @@
+## v3.0.269 — 2026-06-09
+
+Contacts and Calendar are more reliable. Looking up a contact or deleting a calendar event no longer fails when the identifier was copied with extra formatting, and contact lookups now fall back to matching by name. Clearer guidance when an item can't be found.
+
 ## v3.0.268 — 2026-06-09
 
 Local MCP is more stable. We fixed an issue where Apple Mail could freeze or stop responding when several requests reached it at once — most noticeable with Exchange accounts during a morning briefing or scheduled sync — by handling app requests one at a time per app. We also resolved a rare crash under heavy use. Your Mail, Calendar, and other apps now handle back-to-back requests smoothly.
