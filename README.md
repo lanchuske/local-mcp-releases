@@ -233,9 +233,13 @@ Free, no paid tier yet — a permanent license, not a 14-day trial, no subscript
 
 - [ ] On-device image generation (Apple Image Playground)
 - [ ] Telegram
-- [ ] Obsidian — read & search local vaults
-- [ ] Google Drive (local sync folder)
+- [ ] Deeper Obsidian integration (vault links, backlinks, daily notes)
 - [ ] Persistent AI memory across sessions
+
+> **Already works today via the file tools:** any local folder is searchable and
+> readable right now — including your **Obsidian vault** and your **Google Drive**
+> or **Dropbox** sync folders — with `fs_search`, `fs_read`, and the Finder tools.
+> No dedicated integration needed to read those files.
 
 Have a feature in mind? Run `request_feature` from any AI client, or [open an issue](https://github.com/lanchuske/local-mcp-releases/issues).
 
