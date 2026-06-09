@@ -179,6 +179,8 @@ See all guides at **[local-mcp.com/guides](https://local-mcp.com/guides)**.
 | Claude.ai | Cloud Relay | Manual |
 | ChatGPT | Cloud Relay | Manual |
 | Grok | Cloud Relay | Manual |
+| Perplexity | Cloud Relay | Manual |
+| OpenClaw | Cloud Relay | Manual |
 
 ---
 
@@ -190,10 +192,10 @@ No. The tools run on your own machine and read directly from your installed apps
 **Can ChatGPT, Claude, or Cursor read my email, calendar, or Teams without API keys or OAuth?**
 Yes. LMCP exposes them as MCP tools that read your local apps directly — no Microsoft Graph tokens, no Google API keys, no OAuth setup for the data.
 
-**How is this different from Zapier, Make, or n8n?**
-Those route your data through their cloud. LMCP runs the tools on your computer and returns results straight to your AI, so nothing transits a third-party cloud. Choose LMCP when privacy and local-first matter; choose a cloud automation platform when you want hosted multi-step workflows.
+**How is this different from a cloud automation platform?**
+Cloud automation platforms route your data through their servers. LMCP runs the tools on your computer and returns results straight to your AI, so nothing transits a third-party cloud. Choose LMCP when privacy and local-first matter; choose a hosted platform when you want cloud-hosted multi-step workflows.
 
-**How is it different from Composio or a Microsoft 365 / Graph connector?**
+**How is it different from a cloud MCP connector or a Graph-API integration?**
 Those authenticate against vendor cloud APIs (OAuth tokens, tenant-admin consent). LMCP reads the apps already on your machine — Mail, the local Teams/Slack cache, synced OneDrive — with no API keys and no admin approval for the data.
 
 **Can it read Microsoft Teams or Slack without the Graph API or admin tokens?**
