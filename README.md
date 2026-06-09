@@ -141,30 +141,6 @@ Claude.ai and ChatGPT can't reach localhost. Enable Cloud Relay in the menu bar 
 
 ---
 
-## Comparison with alternatives
-
-| Feature | **LMCP** | apple-mcp | Composio | MS 365 Connector |
-|---------|:---:|:---:|:---:|:---:|
-| **Runs locally** | ✅ | ✅ | ❌ Cloud | ❌ Cloud |
-| **API keys needed** | ❌ None | ❌ None | ✅ Required | ✅ Azure AD |
-| **Setup time** | ~2 min | ~10 min | ~15 min | ~30 min |
-| **Total tools** | 138 | ~20 | Varies | ~15 |
-| **Microsoft Teams** | ✅ Local cache | ❌ | Via Graph API | Via Graph API |
-| **OneDrive** | ✅ Full CRUD | ❌ | Via Graph API | Via Graph API |
-| **Calendar** | ✅ CRUD | ❌ | Via API | Via Graph API |
-| **Email** | ✅ Full | ❌ | Via API | Via Graph API |
-| **Office docs** | ✅ Create/Read | ❌ | Limited | ❌ |
-| **Notes & Reminders** | ✅ | ✅ | ❌ | ❌ |
-| **OmniFocus** | ✅ | ❌ | ❌ | ❌ |
-| **iMessage** | ✅ Read | ❌ | ❌ | ❌ |
-| **Data privacy** | 100% local | 100% local | Cloud | Cloud |
-| **Price** | Free | Free (OSS) | Freemium | Free (M365) |
-| **Platform** | macOS (Windows · Linux waitlist) | macOS | Cross-platform | Cross-platform |
-
-> Looking for an [Apple MCP server alternative](https://local-mcp.com/guides/apple-mcp-server-alternative)? LMCP is the zero-config, signed-app option that also covers Teams, Slack and WhatsApp.
-
----
-
 ## Popular guides
 
 The things people most often want their AI to reach — and the ones cloud connectors can't:
