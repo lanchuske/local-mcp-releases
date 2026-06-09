@@ -1,14 +1,14 @@
 # LMCP — Give Your AI Native Access to Your Apps
 
 [![npm](https://img.shields.io/npm/v/local-mcp)](https://www.npmjs.com/package/local-mcp)
-[![macOS 12+](https://img.shields.io/badge/macOS-12%2B-blue)](https://local-mcp.com)
+[![macOS 13+](https://img.shields.io/badge/macOS-13%2B-blue)](https://local-mcp.com)
 [![GDPR](https://img.shields.io/badge/GDPR-compliant-green)](https://local-mcp.com/en/privacy)
 [![smithery badge](https://smithery.ai/badge/@lanchuske/local-mcp)](https://smithery.ai/server/@lanchuske/local-mcp)
 
 **LMCP connects your AI assistant to Mail, Calendar, Contacts, Microsoft Teams, Slack, WhatsApp, OneDrive, Notes, Reminders, OmniFocus, and more — 138 tools, all running locally on your Mac. No cloud. No API keys. No OAuth. Your data never leaves your machine.**
 
 ```bash
-curl -fsSL 'https://local-mcp.com/install?ref=github' | bash
+curl -fsSL 'https://local-mcp.com/install?ref=github-releases' | bash
 ```
 
 > Installs in 2 minutes. Auto-configures Claude Desktop, Claude Code, Cursor, Windsurf, VS Code, and Zed. **Free — no paid tier yet.**
@@ -60,7 +60,7 @@ curl -fsSL 'https://local-mcp.com/install?ref=github' | bash
 ## Install
 
 ```bash
-curl -fsSL 'https://local-mcp.com/install?ref=github' | bash
+curl -fsSL 'https://local-mcp.com/install?ref=github-releases' | bash
 ```
 
 Auto-detects and configures: **Claude Desktop · Claude Code · Cursor · Windsurf · VS Code · Zed**
@@ -69,12 +69,9 @@ Restart your AI client once. That's it.
 
 ### Prefer not to use the terminal?
 
-You don't need the command line. Two one-click options:
+You don't need the command line. Get the Mac app from **[local-mcp.com](https://local-mcp.com)**, drag it to Applications, and open it. The menu-bar app walks you through connecting Claude Desktop, ChatGPT, Claude.ai, or Grok — no setup files to edit. (The terminal install above also auto-configures Claude Desktop, Cursor, VS Code, and more.)
 
-- **Claude Desktop users** → download the one-click extension at **[local-mcp.com/install/mcpb](https://local-mcp.com/install/mcpb)** and double-click it. No terminal, no config.
-- **Everyone else** → get the Mac app from **[local-mcp.com](https://local-mcp.com)**, drag it to Applications, and open it. The menu-bar app walks you through connecting ChatGPT, Claude.ai, or Grok — no setup files to edit.
-
-**Requirements:** macOS 12+ (Monterey or later, Apple Silicon or Intel). Windows & Linux are on the waitlist at [local-mcp.com](https://local-mcp.com).
+**Requirements:** macOS 13+ (Ventura or later, Apple Silicon or Intel). Windows & Linux are on the waitlist at [local-mcp.com](https://local-mcp.com).
 
 ## Use with ChatGPT (web)
 
