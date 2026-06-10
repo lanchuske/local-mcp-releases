@@ -1,3 +1,12 @@
+## v3.0.272 — 2026-06-10
+
+New this release:
+
+• On-device image generation groundwork — your Mac creates images locally with Apple Intelligence (rolling out where supported).
+• Safari tools now guide you clearly when macOS needs a permission refresh.
+• Reminders created by your AI now ring — notifications fire at the due time.
+• Sharper, more accurate guidance for AI assistants connecting to your Mac.
+
 ## v3.0.271 — 2026-06-10
 
 Quality and accuracy improvements:
