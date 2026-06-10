@@ -1,3 +1,7 @@
+## v3.0.273 — 2026-06-10
+
+Three new integrations land today. Notion: your AI can now read and search your Notion pages and databases — no integration token, no admin approval, everything stays on your Mac. Google Drive: read, search, and write the files Google Drive for Desktop already syncs, with no Google Cloud setup. Zoom: summarize your recorded meetings — transcripts and meeting chat are read straight from your local recordings. Also in this update: Gmail inboxes in Spanish are now detected correctly, and tools show clearer names and safety labels in your AI client.
+
 ## v3.0.272 — 2026-06-10
 
 New this release:
