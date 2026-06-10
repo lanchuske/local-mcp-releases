@@ -1,3 +1,12 @@
+## v3.0.271 — 2026-06-10
+
+Quality and accuracy improvements:
+
+• Your daily brief now shows your real unread email count.
+• Slack connection status is reported accurately — no more incorrect reinstall prompts.
+• More consistent tool results when running without the menu bar app.
+• Behind-the-scenes groundwork for on-device image generation.
+
 ## v3.0.270 — 2026-06-09
 
 Reliability and polish across your Mac tools:
