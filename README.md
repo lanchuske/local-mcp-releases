@@ -5,7 +5,7 @@
 [![GDPR](https://img.shields.io/badge/GDPR-compliant-green)](https://local-mcp.com/en/privacy)
 [![smithery badge](https://smithery.ai/badge/@lanchuske/local-mcp)](https://smithery.ai/server/@lanchuske/local-mcp)
 
-**LMCP connects your AI assistant to Mail, Calendar, Contacts, Microsoft Teams, Slack, WhatsApp, OneDrive, Notes, Reminders, OmniFocus, and more — 138 tools, all running locally on your Mac. No cloud. No API keys. No OAuth. Your data never leaves your machine.**
+**LMCP connects your AI assistant to Mail, Calendar, Contacts, Microsoft Teams, Slack, WhatsApp, OneDrive, Google Drive, Zoom, Notes, Reminders, OmniFocus, and more — 146 tools, all running locally on your Mac. No cloud. No API keys. No OAuth. Your data never leaves your machine.**
 
 ```bash
 curl -fsSL 'https://local-mcp.com/install?ref=github-releases' | bash
@@ -41,6 +41,8 @@ curl -fsSL 'https://local-mcp.com/install?ref=github-releases' | bash
 | **Slack** | "Summarize #engineering from today" · "What did Ana say in the #design channel?" |
 | **WhatsApp** | "Summarize my WhatsApp from this morning" · "Find the chat with Carla about the trip" *(via the unofficial Wacli client — requires QR-code sign-in)* |
 | **OneDrive** | "Find the Q1 report" · "Upload this summary to the shared folder" |
+| **Google Drive** | "Find the budget sheet in Drive" · "Read the project notes from My Drive" |
+| **Zoom** | "Summarize my last meeting" · "What did we agree on in the kickoff call?" |
 | **Outlook** | "Read my Outlook inbox" · "Search for invoices from last month" |
 | **Microsoft 365** | "Read my Outlook.com inbox" · "Find Sara in the company directory" · "Add a Graph calendar event" |
 | **Reminders** | "Add a reminder to call the bank tomorrow at 9am" · "What's on my list?" |
@@ -56,7 +58,7 @@ curl -fsSL 'https://local-mcp.com/install?ref=github-releases' | bash
 | **ServiceNow** | "Show my open incidents" · "Create a P2 for the outage" · "Search the KB for VPN setup" |
 | **NordVPN** | "Is my VPN connected?" · "Recommend a server in Japan" |
 
-138 tools across 20 app categories. Read operations run instantly. Write operations (send email, delete event) show a preview and require confirmation.
+146 tools across 22 app categories. Read operations run instantly. Write operations (send email, delete event) show a preview and require confirmation.
 
 ---
 
@@ -225,6 +227,8 @@ Free, no paid tier yet — a permanent license, not a 14-day trial, no subscript
 - [x] **WhatsApp** — read, search & send, send files (local client)
 - [x] **Microsoft 365** — Outlook.com / work accounts via device-code login (mail, calendar, directory, contacts)
 - [x] **ServiceNow** — incidents and Knowledge Base
+- [x] **Google Drive** — read, write & search the locally-synced folder (no Google API)
+- [x] **Zoom** — local meeting recordings & transcripts (no Zoom API)
 - [x] **Safari** — browser automation (navigate, click, type, fill forms, run JS)
 - [x] **Stocks & NordVPN** — quotes, charts, VPN status
 - [x] Guides in 12 languages
