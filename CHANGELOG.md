@@ -1,3 +1,7 @@
+## v3.0.274 — 2026-06-11
+
+Local MCP gets a cleaner menu bar and easier setup. The new two-column design shows all your apps and AI assistants at a glance, and connecting a web assistant like ChatGPT, Claude, or Grok now takes a single click. A new 'Your LMCP' panel shows your usage, streak, and how you rank. Request a new app or feature right from the menu, see your version at a glance, and check for updates with one tap. We also made saving email attachments more reliable, clarified Image Playground's limits, and fixed the Spanish Gmail inbox.
+
 ## v3.0.273 — 2026-06-10
 
 Three new integrations land today. Notion: your AI can now read and search your Notion pages and databases — no integration token, no admin approval, everything stays on your Mac. Google Drive: read, search, and write the files Google Drive for Desktop already syncs, with no Google Cloud setup. Zoom: summarize your recorded meetings — transcripts and meeting chat are read straight from your local recordings. Also in this update: Gmail inboxes in Spanish are now detected correctly, and tools show clearer names and safety labels in your AI client.
