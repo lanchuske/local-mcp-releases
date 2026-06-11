@@ -1,3 +1,7 @@
+## v3.0.275 — 2026-06-11
+
+This update makes your results cleaner and easier to read. Email, calendar, and notes now appear as clear text instead of empty cards. You can limit how many calendar events and reminders are returned, and we improved behind-the-scenes diagnostics so issues get fixed faster.
+
 ## v3.0.274 — 2026-06-11
 
 Local MCP gets a cleaner menu bar and easier setup. The new two-column design shows all your apps and AI assistants at a glance, and connecting a web assistant like ChatGPT, Claude, or Grok now takes a single click. A new 'Your LMCP' panel shows your usage, streak, and how you rank. Request a new app or feature right from the menu, see your version at a glance, and check for updates with one tap. We also made saving email attachments more reliable, clarified Image Playground's limits, and fixed the Spanish Gmail inbox.
