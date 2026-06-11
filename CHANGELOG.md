@@ -1,3 +1,7 @@
+## v3.0.276 — 2026-06-11
+
+This update makes Local MCP cleaner, leaner, and safer. Tool responses are more compact and easier for your AI to use, all-day calendar events read correctly, contact lookups stay small when several people match, and notes and emails come back as clean readable text instead of raw HTML. We also tightened privacy and safety: sensitive tokens are never exposed to the AI, and updates and other one-step actions now confirm before running.
+
 ## v3.0.275 — 2026-06-11
 
 This update makes your results cleaner and easier to read. Email, calendar, and notes now appear as clear text instead of empty cards. You can limit how many calendar events and reminders are returned, and we improved behind-the-scenes diagnostics so issues get fixed faster.
