@@ -1,3 +1,15 @@
+## v3.0.278 — 2026-06-12
+
+Local MCP now speaks your language. The menu bar app is fully translated across 10 languages — no more mixed English text.
+
+Uninstall does what it says. Removing Local MCP now sticks cleanly instead of coming back.
+
+Updates apply on their own. New versions activate during a quiet moment, so you are never stuck on an old build waiting to restart.
+
+Smoother AI connections. ChatGPT, Claude and other assistants handle your calendar, email and message requests more reliably — and connecting ChatGPT is easier with a one-tap Copy token.
+
+Moving emails into nested folders is more reliable.
+
 ## v3.0.277 — 2026-06-12
 
 More reliable connections. We fixed a rare issue that could make tools hang or fail to respond under heavy use — Claude, Cursor and other apps now stay connected smoothly.
