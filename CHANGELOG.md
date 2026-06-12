@@ -1,3 +1,17 @@
+## v3.0.277 — 2026-06-12
+
+More reliable connections. We fixed a rare issue that could make tools hang or fail to respond under heavy use — Claude, Cursor and other apps now stay connected smoothly.
+
+Generate images your way. Image Playground now lets you choose where to save generated images and reveals them in Finder when they're ready.
+
+Calendar and Reminders are more dependable. Deleting an event or reminder now confirms exactly what you're removing, and clearly tells you when an item no longer exists.
+
+Moving emails between folders is more reliable, including nested folders.
+
+Cloud Relay now turns off completely. Switching it off immediately disconnects web connections as expected.
+
+Invite a friend, right from Claude. You can now bring colleagues onboard in your own language — Claude pulls your contacts, drafts the message, and lets you edit before sending.
+
 ## v3.0.276 — 2026-06-11
 
 This update makes Local MCP cleaner, leaner, and safer. Tool responses are more compact and easier for your AI to use, all-day calendar events read correctly, contact lookups stay small when several people match, and notes and emails come back as clean readable text instead of raw HTML. We also tightened privacy and safety: sensitive tokens are never exposed to the AI, and updates and other one-step actions now confirm before running.
