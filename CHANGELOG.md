@@ -1,3 +1,7 @@
+## v3.0.279 — 2026-06-13
+
+More reliable web connections. ChatGPT, Claude and other web assistants now reconnect on their own if their secure session expires — no need to re-paste anything. Plus under-the-hood improvements so AI clients see clearer, safer tool labels.
+
 ## v3.0.278 — 2026-06-12
 
 Local MCP now speaks your language. The menu bar app is fully translated across 10 languages — no more mixed English text.
