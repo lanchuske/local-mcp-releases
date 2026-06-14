@@ -1,3 +1,10 @@
+## v3.0.280 — 2026-06-14
+
+• Image Playground now works on the latest macOS
+• Faster Mail — quicker inbox search and message loading, especially over the cloud connector
+• Smoother, more reliable app updates
+• Reliability improvements across Microsoft 365 and first-time setup
+
 ## v3.0.279 — 2026-06-13
 
 More reliable web connections. ChatGPT, Claude and other web assistants now reconnect on their own if their secure session expires — no need to re-paste anything. Plus under-the-hood improvements so AI clients see clearer, safer tool labels.
