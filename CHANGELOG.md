@@ -1,3 +1,9 @@
+## v3.0.281 — 2026-06-14
+
+• Teams and Slack now set up reliably on a fresh install
+• The app stays running and updates more smoothly
+• Contacts is faster and more reliable on the latest macOS
+
 ## v3.0.280 — 2026-06-14
 
 • Image Playground now works on the latest macOS
