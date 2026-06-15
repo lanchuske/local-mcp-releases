@@ -1,3 +1,10 @@
+## v3.0.285 — 2026-06-15
+
+• Email replies are more reliable.
+• A clearer menu bar — the app and server version and your tool-call count are now labeled at a glance.
+• The first-run setup now appears only on new installs and stays dismissed once you close it.
+• Reliability improvements.
+
 ## v3.0.284 — 2026-06-15
 
 • A new guided setup gets you connected in under a minute — it walks you through permissions, Full Disk Access, and linking your desktop AI app or ChatGPT/Claude.ai, now in 9 languages.
