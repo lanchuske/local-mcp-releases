@@ -1,3 +1,9 @@
+## v3.0.284 — 2026-06-15
+
+• A new guided setup gets you connected in under a minute — it walks you through permissions, Full Disk Access, and linking your desktop AI app or ChatGPT/Claude.ai, now in 9 languages.
+• A cleaner, simpler menu bar.
+• Reliability improvements across Mail, Contacts and Slack.
+
 ## v3.0.283 — 2026-06-15
 
 • Slack channels and messages now load reliably in the latest Slack desktop app.
