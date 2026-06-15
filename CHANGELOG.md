@@ -1,3 +1,9 @@
+## v3.0.282 — 2026-06-15
+
+• Slack works again with the latest Slack desktop app — browse your workspaces and channels and search messages
+• New Restart button in the menu bar to quickly reconnect Claude, ChatGPT, Cursor and others when they haven't picked up LMCP yet
+• Reliability improvements
+
 ## v3.0.281 — 2026-06-14
 
 • Teams and Slack now set up reliably on a fresh install
