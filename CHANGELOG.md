@@ -1,3 +1,10 @@
+## v3.0.283 — 2026-06-15
+
+• Slack channels and messages now load reliably in the latest Slack desktop app.
+• Mail is faster and more dependable — fewer timeouts when listing accounts and opening messages.
+• Contacts no longer hangs on large address books.
+• Reliability improvements.
+
 ## v3.0.282 — 2026-06-15
 
 • Slack works again with the latest Slack desktop app — browse your workspaces and channels and search messages
