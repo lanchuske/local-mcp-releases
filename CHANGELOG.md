@@ -1,3 +1,7 @@
+## v3.0.287 — 2026-06-16
+
+Reading your Signal messages now works reliably — list and search your Signal Desktop conversations straight from your AI assistant. We also made the one-time permission prompt for Slack and Signal clearer, so it's obvious the request is coming from Local MCP.
+
 ## v3.0.286 — 2026-06-16
 
 • Read your Signal chats directly from your AI assistant.
