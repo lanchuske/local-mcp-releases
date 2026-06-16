@@ -1,3 +1,12 @@
+## v3.0.286 — 2026-06-16
+
+• Read your Signal chats directly from your AI assistant.
+• Edit existing notes and reminders — not just create them.
+• A friendlier first-run setup you can reopen anytime from the menu, and that no longer pops up on updates.
+• Permission prompts now clearly say 'LMCP'.
+• A refreshed, translucent menu bar.
+• Reliability improvements.
+
 ## v3.0.285 — 2026-06-15
 
 • Email replies are more reliable.
