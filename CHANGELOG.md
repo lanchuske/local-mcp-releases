@@ -1,3 +1,7 @@
+## v3.0.288 — 2026-06-16
+
+Searching your Notes is faster and no longer times out on large libraries. Signal now appears in your app list, and the first-time permission prompts for Slack and Signal no longer hold things up.
+
 ## v3.0.287 — 2026-06-16
 
 Reading your Signal messages now works reliably — list and search your Signal Desktop conversations straight from your AI assistant. We also made the one-time permission prompt for Slack and Signal clearer, so it's obvious the request is coming from Local MCP.
