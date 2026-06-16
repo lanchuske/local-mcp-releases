@@ -1,3 +1,7 @@
+## v3.0.290 — 2026-06-16
+
+Fix read_email timeout (two-phase body fetch, 8s hard cap), fix fs_list/fs_search/fs_read telemetry misclassification (path_not_allowed instead of jxa_permission_denied), fix image helper guard, fix image PNG dimension check.
+
 ## v3.0.289 — 2026-06-16
 
 Reading your Signal messages now works on the latest versions of Signal Desktop.
