@@ -1,3 +1,7 @@
+## v3.0.292 — 2026-06-17
+
+Reading group chats in Messages now works reliably. And when you change which tools your AI can use in Settings, the update takes effect right away — your AI's available tools always match what you've allowed.
+
 ## v3.0.291 — 2026-06-17
 
 Signal and Telegram now work on Intel-based Macs. You can also invite guests when creating calendar events — your assistant adds them and Calendar sends the invitations.
