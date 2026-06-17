@@ -1,3 +1,7 @@
+## v3.0.293 — 2026-06-17
+
+Mail is more reliable — fixed an issue that could cause long delays or a hang when reading or sending email. Plus onboarding polish so your assistant stays focused on what you ask.
+
 ## v3.0.292 — 2026-06-17
 
 Reading group chats in Messages now works reliably. And when you change which tools your AI can use in Settings, the update takes effect right away — your AI's available tools always match what you've allowed.
