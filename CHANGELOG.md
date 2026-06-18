@@ -1,3 +1,7 @@
+## v3.0.296 — 2026-06-18
+
+Auto-updates are now more reliable — your Mac always runs the latest version, even when more than one copy of the app is installed. This ensures recent fixes (including Slack stability) actually reach you without a manual reinstall.
+
 ## v3.0.295 — 2026-06-18
 
 Local MCP can now map your full mailbox. Your AI assistant discovers every folder and nested subfolder across Mail and Outlook automatically — so organizing and finding email no longer misses anything. We also improved connection reliability, so Local MCP keeps running smoothly right after an update.
