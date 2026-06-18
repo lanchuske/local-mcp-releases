@@ -1,3 +1,7 @@
+## v3.0.294 — 2026-06-18
+
+Reliability and quality improvements across Mail search, Calendar event previews, Reminders, Teams channels, Slack, and document editing. Smoother first-time setup.
+
 ## v3.0.293 — 2026-06-17
 
 Mail is more reliable — fixed an issue that could cause long delays or a hang when reading or sending email. Plus onboarding polish so your assistant stays focused on what you ask.
