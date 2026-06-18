@@ -1,3 +1,7 @@
+## v3.0.295 — 2026-06-18
+
+Local MCP can now map your full mailbox. Your AI assistant discovers every folder and nested subfolder across Mail and Outlook automatically — so organizing and finding email no longer misses anything. We also improved connection reliability, so Local MCP keeps running smoothly right after an update.
+
 ## v3.0.294 — 2026-06-18
 
 Reliability and quality improvements across Mail search, Calendar event previews, Reminders, Teams channels, Slack, and document editing. Smoother first-time setup.
