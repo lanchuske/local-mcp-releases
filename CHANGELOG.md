@@ -1,3 +1,7 @@
+## v3.0.297 — 2026-06-20
+
+Mail is more reliable when several requests run at once. Onboarding is clearer, with simpler permission prompts. And 'Check for Updates' now works as expected.
+
 ## v3.0.296 — 2026-06-18
 
 Auto-updates are now more reliable — your Mac always runs the latest version, even when more than one copy of the app is installed. This ensures recent fixes (including Slack stability) actually reach you without a manual reinstall.
