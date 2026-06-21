@@ -1,3 +1,7 @@
+## v3.0.306 — 2026-06-21
+
+You can now send iMessages straight from your AI assistant — just ask, confirm, and it's sent. Permission prompts are smarter too: Local MCP no longer asks for access to an app that simply isn't open. Plus a more reliable, calmer first-run experience for new installs.
+
 ## v3.0.305 — 2026-06-21
 
 A smoother first run: new users now reliably see the welcome guide that helps them get value right away (it no longer skips itself on machines with leftover permissions). Diagnostics are clearer too — a closed app is reported as simply not running instead of an error. Plus reliability fixes for reading Notes.
