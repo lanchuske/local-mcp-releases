@@ -1,3 +1,7 @@
+## v3.0.304 — 2026-06-21
+
+Notes is more reliable — listing and searching your notes now works smoothly even on large libraries. Permission prompts are calmer too: once you've answered a request, it won't keep popping up, and each prompt now names the correct app.
+
 ## v3.0.303 — 2026-06-21
 
 Getting started is smoother. The moment you connect Local MCP, you'll see tailored suggestions for what you can do with your Mail, Calendar, Notes and more — so you're productive from the first message. And if the app ever gets stuck on an older version, a single tap now reinstalls the latest while keeping all your permissions. Plus behind-the-scenes reliability improvements for AI assistants that work with your data.
