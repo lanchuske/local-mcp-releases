@@ -1,3 +1,7 @@
+## v3.0.302 — 2026-06-21
+
+Connecting Microsoft 365 is now one click — open Settings, tap Connect Microsoft 365, sign in, and it connects automatically (no more typing commands). Mail and Outlook are more reliable: a new watchdog prevents the occasional hang. And results across your apps are richer and more structured, so your AI reads your mail, calendar, files and more with better accuracy.
+
 ## v3.0.301 — 2026-06-21
 
 Your cloud storage and AI results just got better. Browsing Google Drive and OneDrive now works correctly — your assistant can list and navigate those folders instead of seeing them as unreadable files. Results from your apps are now richer and more structured, so AI assistants like ChatGPT read your mail, calendar, files and notes more accurately and reliably. Plus a steadier cloud connection and under-the-hood polish.
