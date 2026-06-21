@@ -1,3 +1,7 @@
+## v3.0.305 — 2026-06-21
+
+A smoother first run: new users now reliably see the welcome guide that helps them get value right away (it no longer skips itself on machines with leftover permissions). Diagnostics are clearer too — a closed app is reported as simply not running instead of an error. Plus reliability fixes for reading Notes.
+
 ## v3.0.304 — 2026-06-21
 
 Notes is more reliable — listing and searching your notes now works smoothly even on large libraries. Permission prompts are calmer too: once you've answered a request, it won't keep popping up, and each prompt now names the correct app.
