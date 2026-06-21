@@ -1,3 +1,7 @@
+## v3.0.300 — 2026-06-21
+
+Connecting Outlook and Microsoft 365 is now seamless — the setup button takes you straight to the right screen. Reading mail is faster and more dependable, with no more long waits. A refreshed first-run experience makes getting started clearer and supports more AI assistants. Plus reliability improvements to uninstall and behind the scenes.
+
 ## v3.0.299 — 2026-06-21
 
 Mail is faster and more reliable — reading a message no longer stalls when an account isn't specified.
