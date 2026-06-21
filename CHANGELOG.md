@@ -1,3 +1,7 @@
+## v3.0.299 — 2026-06-21
+
+Mail is faster and more reliable — reading a message no longer stalls when an account isn't specified.
+
 ## v3.0.298 — 2026-06-20
 
 A smoother first run. Setting up Local MCP is now clearer and more guided — official app icons, better contrast, and a step that helps you connect your AI assistant. Fresh installs land straight into the welcome guide, and OneDrive and Microsoft 365 are easier to connect from the start. Uninstalling also cleans up fully after itself.
