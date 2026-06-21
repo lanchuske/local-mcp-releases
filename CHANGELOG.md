@@ -1,3 +1,7 @@
+## v3.0.307 — 2026-06-21
+
+Granting access to Mail, Notes, Safari and Messages now works as expected — the macOS permission prompt appears so your AI can read and act in those apps. If a grant ever seemed stuck before, this fixes it.
+
 ## v3.0.306 — 2026-06-21
 
 You can now send iMessages straight from your AI assistant — just ask, confirm, and it's sent. Permission prompts are smarter too: Local MCP no longer asks for access to an app that simply isn't open. Plus a more reliable, calmer first-run experience for new installs.
