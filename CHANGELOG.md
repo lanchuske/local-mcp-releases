@@ -1,3 +1,7 @@
+## v3.0.301 — 2026-06-21
+
+Your cloud storage and AI results just got better. Browsing Google Drive and OneDrive now works correctly — your assistant can list and navigate those folders instead of seeing them as unreadable files. Results from your apps are now richer and more structured, so AI assistants like ChatGPT read your mail, calendar, files and notes more accurately and reliably. Plus a steadier cloud connection and under-the-hood polish.
+
 ## v3.0.300 — 2026-06-21
 
 Connecting Outlook and Microsoft 365 is now seamless — the setup button takes you straight to the right screen. Reading mail is faster and more dependable, with no more long waits. A refreshed first-run experience makes getting started clearer and supports more AI assistants. Plus reliability improvements to uninstall and behind the scenes.
