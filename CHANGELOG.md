@@ -1,3 +1,7 @@
+## v3.0.303 — 2026-06-21
+
+Getting started is smoother. The moment you connect Local MCP, you'll see tailored suggestions for what you can do with your Mail, Calendar, Notes and more — so you're productive from the first message. And if the app ever gets stuck on an older version, a single tap now reinstalls the latest while keeping all your permissions. Plus behind-the-scenes reliability improvements for AI assistants that work with your data.
+
 ## v3.0.302 — 2026-06-21
 
 Connecting Microsoft 365 is now one click — open Settings, tap Connect Microsoft 365, sign in, and it connects automatically (no more typing commands). Mail and Outlook are more reliable: a new watchdog prevents the occasional hang. And results across your apps are richer and more structured, so your AI reads your mail, calendar, files and more with better accuracy.
