@@ -5,7 +5,7 @@
 [![GDPR](https://img.shields.io/badge/GDPR-compliant-green)](https://local-mcp.com/en/privacy)
 [![smithery badge](https://smithery.ai/badge/@lanchuske/local-mcp)](https://smithery.ai/server/@lanchuske/local-mcp)
 
-**LMCP connects your AI assistant to Mail, Calendar, Contacts, Microsoft Teams, Slack, WhatsApp, OneDrive, Google Drive, Zoom, Notes, Reminders, OmniFocus, and more — 161 tools, all running locally on your Mac. No cloud. No API keys. No OAuth. Your data never leaves your machine.**
+**LMCP connects your AI assistant to Mail, Calendar, Contacts, Microsoft Teams, Slack, WhatsApp, OneDrive, Google Drive, Zoom, Notes, Reminders, OmniFocus, and more — 162 tools, all running locally on your Mac. No cloud. No API keys. No OAuth. Your data never leaves your machine.**
 
 ```bash
 curl -fsSL 'https://local-mcp.com/install?ref=github-releases' | bash
@@ -58,7 +58,7 @@ curl -fsSL 'https://local-mcp.com/install?ref=github-releases' | bash
 | **ServiceNow** | "Show my open incidents" · "Create a P2 for the outage" · "Search the KB for VPN setup" |
 | **NordVPN** | "Is my VPN connected?" · "Recommend a server in Japan" |
 
-161 tools across 22 app categories. Read operations run instantly. Write operations (send email, delete event) show a preview and require confirmation.
+162 tools across 22 app categories. Read operations run instantly. Write operations (send email, delete event) show a preview and require confirmation.
 
 ---
 
