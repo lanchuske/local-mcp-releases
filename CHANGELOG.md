@@ -1,3 +1,7 @@
+## v3.0.310 — 2026-06-22
+
+Connecting Local MCP to web AI assistants like ChatGPT and Claude.ai is now more reliable — approving a connector turns everything on automatically. Uninstalling stays clean (no more unexpected relaunches), and we fixed a stray startup error on some Macs.
+
 ## v3.0.309 — 2026-06-22
 
 You can now ask your AI to save email drafts in Apple Mail for you to review and send yourself — nothing is sent without you. Plus a stability fix so Local MCP stays running reliably after an automatic update.
