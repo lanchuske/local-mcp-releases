@@ -1,3 +1,7 @@
+## v3.0.309 — 2026-06-22
+
+You can now ask your AI to save email drafts in Apple Mail for you to review and send yourself — nothing is sent without you. Plus a stability fix so Local MCP stays running reliably after an automatic update.
+
 ## v3.0.308 — 2026-06-22
 
 Fewer unnecessary permission prompts. Local MCP no longer asks you to re-allow Mail, Notes, and other apps when access is already granted, and its status now reflects your real permissions more accurately.
