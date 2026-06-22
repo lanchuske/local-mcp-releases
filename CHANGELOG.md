@@ -1,3 +1,7 @@
+## v3.0.308 — 2026-06-22
+
+Fewer unnecessary permission prompts. Local MCP no longer asks you to re-allow Mail, Notes, and other apps when access is already granted, and its status now reflects your real permissions more accurately.
+
 ## v3.0.307 — 2026-06-21
 
 Granting access to Mail, Notes, Safari and Messages now works as expected — the macOS permission prompt appears so your AI can read and act in those apps. If a grant ever seemed stuck before, this fixes it.
