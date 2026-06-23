@@ -5,7 +5,7 @@
 [![GDPR](https://img.shields.io/badge/GDPR-compliant-green)](https://local-mcp.com/en/privacy)
 [![smithery badge](https://smithery.ai/badge/@lanchuske/local-mcp)](https://smithery.ai/server/@lanchuske/local-mcp)
 
-**LMCP connects your AI assistant to Mail, Calendar, Contacts, Microsoft Teams, Slack, WhatsApp, OneDrive, Google Drive, Zoom, Notes, Reminders, OmniFocus, and more — 163 tools, all running locally on your Mac. No cloud. No API keys. No OAuth. Your data never leaves your machine.**
+**The only Mac MCP you can use from ChatGPT, Claude.ai & Grok on the web — plus 163 local tools.** Connect any AI, web or desktop, to your Mail, Calendar, iMessage, Teams, Slack, WhatsApp, Signal, OneDrive, Google Drive & Office. 100% local — your data never leaves your Mac. No API keys, free.
 
 ```bash
 curl -fsSL 'https://local-mcp.com/install?ref=github-releases' | bash
