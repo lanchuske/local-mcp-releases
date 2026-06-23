@@ -1,3 +1,7 @@
+## v3.0.311 — 2026-06-23
+
+Email works better with iCloud — searching now finds messages it sometimes missed, and moving emails to folders is confirmed reliably. Plus a new helper for drafting Signal messages.
+
 ## v3.0.310 — 2026-06-22
 
 Connecting Local MCP to web AI assistants like ChatGPT and Claude.ai is now more reliable — approving a connector turns everything on automatically. Uninstalling stays clean (no more unexpected relaunches), and we fixed a stray startup error on some Macs.
