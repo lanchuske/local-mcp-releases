@@ -1,3 +1,7 @@
+## v3.0.313 — 2026-06-25
+
+Email attachments now work reliably: save attachments from any email to your Mac, and attach files when sending. Setting up Mail access is smoother and more dependable. Connecting Microsoft 365 and Outlook is easier — your AI can do it for you. Plus reliability fixes across Mail and messaging.
+
 ## v3.0.312 — 2026-06-25
 
 Mail is more reliable — no more hangs when opening messages that haven't fully downloaded from iCloud. Excel: writing to existing spreadsheets now works smoothly. Teams runs more reliably. Cleaner uninstall — removing Local MCP now fully clears everything it created. Smoother first-time setup and permission prompts.
