@@ -1,3 +1,7 @@
+## v3.0.312 — 2026-06-25
+
+Mail is more reliable — no more hangs when opening messages that haven't fully downloaded from iCloud. Excel: writing to existing spreadsheets now works smoothly. Teams runs more reliably. Cleaner uninstall — removing Local MCP now fully clears everything it created. Smoother first-time setup and permission prompts.
+
 ## v3.0.311 — 2026-06-23
 
 Email works better with iCloud — searching now finds messages it sometimes missed, and moving emails to folders is confirmed reliably. Plus a new helper for drafting Signal messages.
