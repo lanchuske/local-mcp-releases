@@ -5,7 +5,7 @@
 [![GDPR](https://img.shields.io/badge/GDPR-compliant-green)](https://local-mcp.com/en/privacy)
 [![smithery badge](https://smithery.ai/badge/@lanchuske/local-mcp)](https://smithery.ai/server/@lanchuske/local-mcp)
 
-**The only Mac MCP you can use from ChatGPT, Claude.ai & Grok on the web — plus 163 local tools.** Connect any AI, web or desktop, to your Mail, Calendar, iMessage, Teams, Slack, WhatsApp, Signal, OneDrive, Google Drive & Office. 100% local — your data never leaves your Mac. No API keys, free.
+**The only Mac MCP you can use from ChatGPT, Claude.ai & Grok on the web — plus 166 local tools.** Connect any AI, web or desktop, to your Mail, Calendar, iMessage, Teams, Slack, WhatsApp, Signal, OneDrive, Google Drive & Office. 100% local — your data never leaves your Mac. No API keys, free.
 
 ```bash
 curl -fsSL 'https://local-mcp.com/install?ref=github-releases' | bash
@@ -58,7 +58,7 @@ curl -fsSL 'https://local-mcp.com/install?ref=github-releases' | bash
 | **ServiceNow** | "Show my open incidents" · "Create a P2 for the outage" · "Search the KB for VPN setup" |
 | **NordVPN** | "Is my VPN connected?" · "Recommend a server in Japan" |
 
-163 tools across 22 app categories. Read operations run instantly. Write operations (send email, delete event) show a preview and require confirmation.
+166 tools across 22 app categories. Read operations run instantly. Write operations (send email, delete event) show a preview and require confirmation.
 
 ---
 
