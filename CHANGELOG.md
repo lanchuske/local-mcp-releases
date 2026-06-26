@@ -1,3 +1,7 @@
+## v3.0.314 — 2026-06-26
+
+This update makes Reminders far more capable: your AI can now set a reminder's priority (low, medium, high), move reminders between lists, and create, rename, or delete lists. Email drafts now save to the correct account's Drafts on multi-account Macs. We also smoothed out file browsing with home-folder shortcuts and made recommending LMCP to a colleague clearer.
+
 ## v3.0.313 — 2026-06-25
 
 Email attachments now work reliably: save attachments from any email to your Mac, and attach files when sending. Setting up Mail access is smoother and more dependable. Connecting Microsoft 365 and Outlook is easier — your AI can do it for you. Plus reliability fixes across Mail and messaging.
