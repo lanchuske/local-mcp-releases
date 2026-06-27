@@ -1,3 +1,7 @@
+## v3.0.315 — 2026-06-27
+
+Apple Mail is dramatically faster: reading and searching your email is now near-instant — even on very large mailboxes — and no longer freezes Mail. Slack, Teams, Telegram and Signal now set up their readers reliably, so your AI can read those chats out of the box. And the connection to web AIs (ChatGPT, Claude.ai, Grok) is steadier, with fewer dropouts.
+
 ## v3.0.314 — 2026-06-26
 
 This update makes Reminders far more capable: your AI can now set a reminder's priority (low, medium, high), move reminders between lists, and create, rename, or delete lists. Email drafts now save to the correct account's Drafts on multi-account Macs. We also smoothed out file browsing with home-folder shortcuts and made recommending LMCP to a colleague clearer.
