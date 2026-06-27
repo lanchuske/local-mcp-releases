@@ -1,3 +1,7 @@
+## v3.0.316 — 2026-06-27
+
+Reliability improvements. Reporting a problem to our team now works on the first try — no more confusing errors or duplicate reports. Inviting a colleague is more dependable. And when a tool needs your attention — like granting access to Mail — you'll now see a clear, actionable message instead of a cryptic failure.
+
 ## v3.0.315 — 2026-06-27
 
 Apple Mail is dramatically faster: reading and searching your email is now near-instant — even on very large mailboxes — and no longer freezes Mail. Slack, Teams, Telegram and Signal now set up their readers reliably, so your AI can read those chats out of the box. And the connection to web AIs (ChatGPT, Claude.ai, Grok) is steadier, with fewer dropouts.
