@@ -1,3 +1,7 @@
+## v3.0.317 — 2026-06-27
+
+Faster, more reliable Mac tools. Searching Apple Notes is now near-instant, even on large libraries. More tools respond cleanly instead of occasionally erroring out. You can now send email from an account by its name, calendar searches flag invalid dates instead of silently defaulting to today, and emails with bad sender timestamps show the correct date.
+
 ## v3.0.316 — 2026-06-27
 
 Reliability improvements. Reporting a problem to our team now works on the first try — no more confusing errors or duplicate reports. Inviting a colleague is more dependable. And when a tool needs your attention — like granting access to Mail — you'll now see a clear, actionable message instead of a cryptic failure.
