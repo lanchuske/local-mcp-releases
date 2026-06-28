@@ -1,6 +1,6 @@
 {
   "name": "local-mcp-releases",
-  "version": "3.0.317",
+  "version": "3.0.318",
   "type": "module",
   "description": "Local MCP — native macOS MCP server with 166 tools",
   "dependencies": {
