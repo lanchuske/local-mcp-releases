@@ -1,3 +1,7 @@
+## v3.0.318 — 2026-06-28
+
+Apple Mail keeps getting faster and clearer. Reading, listing and replying to email is now near-instant even on very large mailboxes. Dates from senders with a wrong clock now show correctly. And when a tool needs an app that simply isn't open, Local MCP now tells you to open it instead of showing a confusing permission message.
+
 ## v3.0.317 — 2026-06-27
 
 Faster, more reliable Mac tools. Searching Apple Notes is now near-instant, even on large libraries. More tools respond cleanly instead of occasionally erroring out. You can now send email from an account by its name, calendar searches flag invalid dates instead of silently defaulting to today, and emails with bad sender timestamps show the correct date.
