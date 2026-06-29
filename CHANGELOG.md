@@ -1,3 +1,7 @@
+## v3.0.320 — 2026-06-29
+
+Email search is now much faster and more reliable. Searches that find no matches return instantly instead of making Mail hang, and multi-word searches are more accurate.
+
 ## v3.0.319 — 2026-06-29
 
 Control Google Chrome directly from your AI — open tabs, read pages, click links, and fill in forms, just like Safari. Now you can also link WhatsApp by scanning a QR code right inside the chat, with no Terminal needed, and connecting Signal is clearer with step-by-step guidance. Your messaging apps now always appear in the menu bar with simple instructions to connect them. Plus a smoother first-run setup and reliability improvements throughout.
