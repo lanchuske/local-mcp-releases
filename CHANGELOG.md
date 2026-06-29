@@ -1,3 +1,7 @@
+## v3.0.319 — 2026-06-29
+
+Control Google Chrome directly from your AI — open tabs, read pages, click links, and fill in forms, just like Safari. Now you can also link WhatsApp by scanning a QR code right inside the chat, with no Terminal needed, and connecting Signal is clearer with step-by-step guidance. Your messaging apps now always appear in the menu bar with simple instructions to connect them. Plus a smoother first-run setup and reliability improvements throughout.
+
 ## v3.0.318 — 2026-06-28
 
 Apple Mail keeps getting faster and clearer. Reading, listing and replying to email is now near-instant even on very large mailboxes. Dates from senders with a wrong clock now show correctly. And when a tool needs an app that simply isn't open, Local MCP now tells you to open it instead of showing a confusing permission message.
