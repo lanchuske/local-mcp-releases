@@ -1,3 +1,7 @@
+## v3.0.322 — 2026-06-29
+
+Notes now keep their formatting. When your AI creates or edits an Apple Note, headings, bold and italic text, bullet and numbered lists, and links now appear with Apple Notes' native styling instead of raw Markdown symbols. Creating a note directly in a specific folder is also more reliable. Plus, clearer guidance when a Mac permission still needs to be granted.
+
 ## v3.0.321 — 2026-06-29
 
 Email is smoother and more reliable: search no longer shows the same message twice, archiving and moving messages works correctly, and a message you just listed can be moved right away. Connecting OmniFocus is easier — grant access right from the menu bar. Plus fixes for the latest macOS.
