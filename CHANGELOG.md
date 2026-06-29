@@ -1,3 +1,7 @@
+## v3.0.321 — 2026-06-29
+
+Email is smoother and more reliable: search no longer shows the same message twice, archiving and moving messages works correctly, and a message you just listed can be moved right away. Connecting OmniFocus is easier — grant access right from the menu bar. Plus fixes for the latest macOS.
+
 ## v3.0.320 — 2026-06-29
 
 Email search is now much faster and more reliable. Searches that find no matches return instantly instead of making Mail hang, and multi-word searches are more accurate.
