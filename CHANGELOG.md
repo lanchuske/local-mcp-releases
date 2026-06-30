@@ -1,3 +1,7 @@
+## v3.0.324 — 2026-06-30
+
+WhatsApp linking is clearer. When WhatsApp isn't connected yet, Local MCP now shows you exactly how to link it — with a QR code right in your chat, no Terminal needed.
+
 ## v3.0.323 — 2026-06-30
 
 Local MCP is now easier to discover and connect from more AI assistants and tools. This update also includes behind-the-scenes reliability and connectivity improvements.
