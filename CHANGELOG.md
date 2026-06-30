@@ -1,3 +1,7 @@
+## v3.0.325 — 2026-06-30
+
+New: ask your AI about your Microsoft Teams call history — who you called, missed calls and durations. You can now disconnect WhatsApp from Local MCP too. Plus a more reliable cloud connection, and steadier Contacts, Calendar and Reminders right after an update.
+
 ## v3.0.324 — 2026-06-30
 
 WhatsApp linking is clearer. When WhatsApp isn't connected yet, Local MCP now shows you exactly how to link it — with a QR code right in your chat, no Terminal needed.
