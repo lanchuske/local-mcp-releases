@@ -1,8 +1,7 @@
 {
   "mcpServers": {
     "local-mcp": {
-      "command": "npx",
-      "args": ["-y", "local-mcp"]
+      "url": "https://local-mcp.com/mcp"
     }
   }
 }
