@@ -5,7 +5,7 @@
 [![GDPR](https://img.shields.io/badge/GDPR-compliant-green)](https://local-mcp.com/en/privacy)
 [![smithery badge](https://smithery.ai/badge/@lanchuske/local-mcp)](https://smithery.ai/server/@lanchuske/local-mcp)
 
-**The only Mac MCP you can use from ChatGPT, Claude.ai & Grok on the web — plus 180 local tools.** Connect any AI, web or desktop, to your Mail, Calendar, iMessage, Teams, Slack, WhatsApp, Signal, OneDrive, Google Drive & Office. Tools run **on-device** — for desktop AIs nothing leaves your Mac; an optional, opt-in encrypted relay lets web AIs reach it. No API keys, free.
+**Let your AI actually use your Mac.** Ask ChatGPT, Claude or Cursor to read & reply to your email, manage your calendar, text over iMessage, find your files, and pull data from PDFs — it just does it. It even reaches iMessage and your local apps that the web AIs can't. Tools run **on-device** — for desktop AIs nothing leaves your Mac; an optional, opt-in encrypted relay lets web AIs reach it. No API keys, free.
 
 ```bash
 curl -fsSL 'https://local-mcp.com/install?ref=github-releases' | bash
