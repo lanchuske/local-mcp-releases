@@ -5,7 +5,7 @@
 [![GDPR](https://img.shields.io/badge/GDPR-compliant-green)](https://local-mcp.com/en/privacy)
 [![smithery badge](https://smithery.ai/badge/@lanchuske/local-mcp)](https://smithery.ai/server/@lanchuske/local-mcp)
 
-**The only Mac MCP you can use from ChatGPT, Claude.ai & Grok on the web — plus 180 local tools.** Connect any AI, web or desktop, to your Mail, Calendar, iMessage, Teams, Slack, WhatsApp, Signal, OneDrive, Google Drive & Office. 100% local — your data never leaves your Mac. No API keys, free.
+**The only Mac MCP you can use from ChatGPT, Claude.ai & Grok on the web — plus 180 local tools.** Connect any AI, web or desktop, to your Mail, Calendar, iMessage, Teams, Slack, WhatsApp, Signal, OneDrive, Google Drive & Office. Tools run **on-device** — for desktop AIs nothing leaves your Mac; an optional, opt-in encrypted relay lets web AIs reach it. No API keys, free.
 
 ```bash
 curl -fsSL 'https://local-mcp.com/install?ref=github-releases' | bash
@@ -166,7 +166,7 @@ See all guides at **[local-mcp.com/guides](https://local-mcp.com/guides)**.
 - No API keys, OAuth tokens, or cloud accounts required
 - Uses standard macOS TCC permissions (the same "Allow access?" prompts any app uses)
 - Calendar, Contacts, and Reminders access can be revoked anytime in System Settings
-- GDPR and CCPA compliant **by architecture** — there is no cloud component to process your data
+- GDPR and CCPA compliant **by architecture** — tool results are produced on your Mac, and our backend never stores your tool inputs or outputs (see [SECURITY.md](SECURITY.md))
 - Destructive operations always show a preview and require explicit confirmation
 
 ---
