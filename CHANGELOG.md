@@ -1,3 +1,7 @@
+## v3.0.323 — 2026-06-30
+
+Local MCP is now easier to discover and connect from more AI assistants and tools. This update also includes behind-the-scenes reliability and connectivity improvements.
+
 ## v3.0.322 — 2026-06-29
 
 Notes now keep their formatting. When your AI creates or edits an Apple Note, headings, bold and italic text, bullet and numbered lists, and links now appear with Apple Notes' native styling instead of raw Markdown symbols. Creating a note directly in a specific folder is also more reliable. Plus, clearer guidance when a Mac permission still needs to be granted.
