@@ -1,3 +1,7 @@
+## v3.0.326 — 2026-07-02
+
+OmniFocus is more reliable — it no longer says permission isn't granted when you've actually allowed access. Plus small reliability improvements to email.
+
 ## v3.0.325 — 2026-06-30
 
 New: ask your AI about your Microsoft Teams call history — who you called, missed calls and durations. You can now disconnect WhatsApp from Local MCP too. Plus a more reliable cloud connection, and steadier Contacts, Calendar and Reminders right after an update.
