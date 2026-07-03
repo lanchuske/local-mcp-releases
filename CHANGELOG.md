@@ -1,3 +1,7 @@
+## v3.0.327 — 2026-07-03
+
+OmniFocus now clearly tells you when it needs OmniFocus Pro, instead of a confusing permission error — so you know exactly what's going on. Mail handles large and syncing accounts more gracefully: it flags slow accounts up front so your requests stay fast and reliable. And recommending Local MCP to a colleague is now front-and-center in the menu bar — share it in a click and earn your Ambassador badge.
+
 ## v3.0.326 — 2026-07-02
 
 OmniFocus is more reliable — it no longer says permission isn't granted when you've actually allowed access. Plus small reliability improvements to email.
