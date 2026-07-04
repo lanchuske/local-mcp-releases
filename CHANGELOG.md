@@ -1,3 +1,7 @@
+## v3.0.329 — 2026-07-04
+
+Calendar events now land at the exact time you set — no more events slipping to midnight. Safari and Chrome browsing tools are more reliable, even when no window is open. Sending Microsoft Teams messages now works dependably. Clearer, more accurate guidance when a Mac permission still needs to be granted. And you can now enable terminal commands from Advanced Settings when you want Local MCP to run them.
+
 ## v3.0.328 — 2026-07-04
 
 You can now attach files — like a PDF quote — to email drafts your AI prepares. Reading email is more reliable, including messages tucked into nested folders. New: you can opt in to let your AI run terminal commands — off by default, with a preview-and-confirm step and built-in safety limits. Chrome automation is steadier when no window is open, messaging integrations show clear setup guidance while they finish installing, and slow mail accounts now surface a helpful note instead of quietly stalling.
