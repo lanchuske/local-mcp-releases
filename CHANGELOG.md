@@ -1,3 +1,7 @@
+## v3.0.328 — 2026-07-04
+
+You can now attach files — like a PDF quote — to email drafts your AI prepares. Reading email is more reliable, including messages tucked into nested folders. New: you can opt in to let your AI run terminal commands — off by default, with a preview-and-confirm step and built-in safety limits. Chrome automation is steadier when no window is open, messaging integrations show clear setup guidance while they finish installing, and slow mail accounts now surface a helpful note instead of quietly stalling.
+
 ## v3.0.327 — 2026-07-03
 
 OmniFocus now clearly tells you when it needs OmniFocus Pro, instead of a confusing permission error — so you know exactly what's going on. Mail handles large and syncing accounts more gracefully: it flags slow accounts up front so your requests stay fast and reliable. And recommending Local MCP to a colleague is now front-and-center in the menu bar — share it in a click and earn your Ambassador badge.
