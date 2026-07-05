@@ -7,7 +7,7 @@
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
 
-const server = new McpServer({ name: "local-mcp", version: "3.0.329" });
+const server = new McpServer({ name: "local-mcp", version: "3.0.330" });
 
 const TOOLS = [
   ["chrome_click", "Clicks the first element matching a CSS selector in the current Google Chrome tab."],
@@ -78,7 +78,7 @@ const TOOLS = [
   ["list_reminders", "Lists reminders from Apple Reminders (Reminders.app) on this Mac."],
   ["list_safari_bookmarks", "Lists Safari bookmarks (title + URL) from the Mac's Safari (reads ~/Library/Safari/Bookmarks.plist — needs..."],
   ["lmcp_state", "Returns a structured snapshot of the LMCP environment: server/tray/teams-proxy versions, detected AI client..."],
-  ["lmcp_welcome", "Returns a live snapshot of what LMCP can currently see on this Mac: today's calendar events, due reminders,..."],
+  ["lmcp_welcome", "★ START HERE — the user just installed LMCP and has not run a single tool yet."],
   ["m365_create_event", "Create a calendar event in your Microsoft 365 / Outlook calendar."],
   ["m365_delete_event", "Delete a calendar event from your Microsoft 365 / Outlook calendar by its ID."],
   ["m365_get_contact", "Get full details of a specific Microsoft 365 contact by ID."],
