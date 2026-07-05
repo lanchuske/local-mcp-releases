@@ -1,3 +1,7 @@
+## v3.0.331 — 2026-07-05
+
+LMCP now runs lighter in the background — fewer network requests and improved reliability when you have multiple AI clients connected.
+
 ## v3.0.330 — 2026-07-05
 
 Reading email is more reliable. LMCP now pulls the full message body from more formats — newsletters, forwarded messages, and mixed-format mail that sometimes came through blank — and looks up messages by ID more accurately. You can also rotate your cloud connection token in one click from the menu bar, and new users get a clearer welcome the first time they connect.
