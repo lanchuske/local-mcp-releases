@@ -1,3 +1,7 @@
+## v3.0.330 — 2026-07-05
+
+Reading email is more reliable. LMCP now pulls the full message body from more formats — newsletters, forwarded messages, and mixed-format mail that sometimes came through blank — and looks up messages by ID more accurately. You can also rotate your cloud connection token in one click from the menu bar, and new users get a clearer welcome the first time they connect.
+
 ## v3.0.329 — 2026-07-04
 
 Calendar events now land at the exact time you set — no more events slipping to midnight. Safari and Chrome browsing tools are more reliable, even when no window is open. Sending Microsoft Teams messages now works dependably. Clearer, more accurate guidance when a Mac permission still needs to be granted. And you can now enable terminal commands from Advanced Settings when you want Local MCP to run them.
