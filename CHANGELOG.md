@@ -1,3 +1,7 @@
+## v3.0.332 — 2026-07-06
+
+Reliability improvements: Mail recovers faster when a slow account stalls, WhatsApp messages send reliably right after you link your account, and diagnostic commands with common redirections now run as expected.
+
 ## v3.0.331 — 2026-07-05
 
 LMCP now runs lighter in the background — fewer network requests and improved reliability when you have multiple AI clients connected.
