@@ -146,6 +146,30 @@ Claude.ai and ChatGPT can't reach localhost. Enable Cloud Relay in the menu bar 
 
 ---
 
+## How LMCP compares
+
+There are several Mac MCP servers — they optimize for different things. An honest read:
+
+| | **LMCP** | Apple-native only (e.g. iMCP) | Cloud aggregators (e.g. Composio) | GUI automation (e.g. Macuse) |
+|---|---|---|---|---|
+| Apple apps (Mail, Calendar, iMessage…) | ✅ | ✅ | ⚠️ via cloud APIs | ✅ |
+| **Teams / Slack / WhatsApp (local, no API)** | ✅ | ❌ | ⚠️ cloud/OAuth | ❌ |
+| Works from **web AIs** (ChatGPT, Claude.ai) | ✅ opt-in relay | ❌ | ✅ | ❌ |
+| No API keys / OAuth for local apps | ✅ | ✅ | ❌ | ✅ |
+| Runs on your Mac (not the cloud) | ✅ | ✅ | ❌ | ✅ |
+
+**Where LMCP is unique:** the work & messaging apps most people live in — **Microsoft Teams, Slack, WhatsApp, Microsoft 365** — read locally with no API keys, *and* reachable from web AIs like ChatGPT and Claude.ai. Apple-native-only servers stop at Apple apps; cloud aggregators need OAuth and route your data through their servers.
+
+## Recipes — what your AI can *do* (not just read)
+
+LMCP is an action layer: your AI chains tools into whole workflows on your Mac. A few ([more at local-mcp.com/recipes »](https://local-mcp.com/recipes)):
+
+- **Schedule a meeting end-to-end** — find a free slot, message the person on email *and* WhatsApp with options, and book it when they confirm. (No cloud scheduler reaches a personal WhatsApp; LMCP does.)
+- **Triage across every channel** — "Across my Slack, WhatsApp, Teams and email, what did clients ask that I haven't answered?"
+- **Mirror busy time** — copy work meetings onto your personal calendar as private *Busy* blocks.
+
+Anything the agent **sends** is preview-and-confirm — you approve before it leaves your Mac.
+
 ## Popular guides
 
 The things people most often want their AI to reach — and the ones cloud connectors can't:
