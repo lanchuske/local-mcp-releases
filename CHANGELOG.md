@@ -1,3 +1,7 @@
+## v3.0.333 — 2026-07-08
+
+Weather is here — ask your AI for the forecast in any city, and it's now part of your daily brief. Automated and scheduled emails now send reliably even when Mail isn't already open. Plus reliability improvements behind the scenes.
+
 ## v3.0.332 — 2026-07-06
 
 Reliability improvements: Mail recovers faster when a slow account stalls, WhatsApp messages send reliably right after you link your account, and diagnostic commands with common redirections now run as expected.
