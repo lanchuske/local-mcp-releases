@@ -7,7 +7,7 @@
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
 
-const server = new McpServer({ name: "local-mcp", version: "3.0.332" });
+const server = new McpServer({ name: "local-mcp", version: "3.0.333" });
 
 const TOOLS = [
   ["chrome_click", "Clicks the first element matching a CSS selector in the current Google Chrome tab."],
@@ -34,7 +34,7 @@ const TOOLS = [
   ["create_referral_invites", "Step 2 of the colleague-invite flow."],
   ["create_reminder", "Creates a reminder in Reminders.app."],
   ["create_reminder_list", "Creates a new list in Apple Reminders (Reminders.app)."],
-  ["daily_brief", "Returns a single morning briefing combining today's calendar events, overdue and due-today reminders, and u..."],
+  ["daily_brief", "Returns a single morning briefing combining today's calendar events, overdue and due-today reminders, unrea..."],
   ["delete_calendar_event", "Deletes an event from the Mac's Calendar app (Calendar.app) by ID."],
   ["delete_reminder", "Permanently deletes a reminder in Apple Reminders (Reminders.app) by ID."],
   ["delete_reminder_list", "Deletes an Apple Reminders list AND all reminders inside it — cannot be undone."],
@@ -59,6 +59,7 @@ const TOOLS = [
   ["get_contact", "Gets a contact from the Mac's Contacts app (Contacts.app) by name or ID."],
   ["get_datetime", "Get the current date and time of the machine where LMCP runs — with timezone and UTC offset."],
   ["get_m365_person", "Get detailed information about a specific person in your Microsoft 365 directory by their user ID or email..."],
+  ["get_weather", "Gets the current weather and a short daily forecast for a location."],
   ["list_accounts", "Lists email accounts configured in Mail.app."],
   ["list_calendar_events", "Lists events from the Mac's Calendar app (Calendar.app, local/iCloud calendars) in a date range."],
   ["list_calendar_names", "Lists the calendars in the Mac's Calendar app (Calendar.app, local/iCloud)."],
