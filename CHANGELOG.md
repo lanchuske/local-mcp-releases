@@ -1,3 +1,7 @@
+## v3.0.334 — 2026-07-09
+
+Saving email attachments now works reliably, and Mail is more dependable when matching your accounts. Plus behind-the-scenes reliability and diagnostics improvements.
+
 ## v3.0.333 — 2026-07-08
 
 Weather is here — ask your AI for the forecast in any city, and it's now part of your daily brief. Automated and scheduled emails now send reliably even when Mail isn't already open. Plus reliability improvements behind the scenes.
