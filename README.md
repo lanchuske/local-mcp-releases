@@ -58,7 +58,7 @@ curl -fsSL 'https://local-mcp.com/install?ref=github-releases' | bash
 | **ServiceNow** | "Show my open incidents" · "Create a P2 for the outage" · "Search the KB for VPN setup" |
 | **NordVPN** | "Is my VPN connected?" · "Recommend a server in Japan" |
 
-184 tools across 22 app categories. Read operations run instantly. Write operations (send email, delete event) show a preview and require confirmation.
+211 tools across 22 app categories. Read operations run instantly. Write operations (send email, delete event) show a preview and require confirmation.
 
 ---
 
