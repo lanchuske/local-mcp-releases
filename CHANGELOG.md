@@ -1,3 +1,7 @@
+## v3.0.335 — 2026-07-10
+
+Local MCP can now record and edit screen demos — and drive any app's interface. Capture a screen recording, trim out the dead bits, turn a clip into a GIF, reframe it vertical for social, or blur anything private — all on your Mac, no other tools needed. Your AI can also click, type, and read on-screen to automate whatever you need. Plus a smoother way to connect web AIs (with a clear 'Copied' confirmation and step-by-step) and behind-the-scenes reliability improvements.
+
 ## v3.0.334 — 2026-07-09
 
 Saving email attachments now works reliably, and Mail is more dependable when matching your accounts. Plus behind-the-scenes reliability and diagnostics improvements.
