@@ -7,7 +7,7 @@
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
 
-const server = new McpServer({ name: "local-mcp", version: "3.0.335" });
+const server = new McpServer({ name: "local-mcp", version: "3.0.336" });
 
 const TOOLS = [
   ["chrome_click", "Clicks the first element matching a CSS selector in the current Google Chrome tab."],
@@ -124,7 +124,8 @@ const TOOLS = [
   ["read_note", "Reads the full content of a note by name or ID."],
   ["recipe_get", "Returns the full manifest of a recipe by name."],
   ["recipe_list", "Lists available workflow recipes (bundled + user-saved), with name, description and params."],
-  ["recipe_run", "Executes a recipe end to end: binds params, runs each step's tool in order via the registry, and returns ea..."],
+  ["recipe_run", "Executes a recipe end to end: binds params, runs each step's tool in order via the registry, persists the r..."],
+  ["recipe_runs", "Shows the history of past recipe runs and their results (recorded by recipe_run), so you can reuse, compare..."],
   ["recipe_save", "Saves a user-authored recipe manifest (JSON) to ~/.local/share/local-mcp/recipes/."],
   ["record_marker", "Drops a named marker into the active recording's timeline."],
   ["rename_reminder_list", "Renames an existing Apple Reminders list."],
@@ -207,6 +208,19 @@ const TOOLS = [
   ["video_export_gif", "Exports a video (or a [start_ms,end_ms] slice of it) to an optimized looping GIF — for README/social."],
   ["video_reframe", "Crops a video to a target aspect ratio (e.g."],
   ["video_trim", "Trims a video to one or more time ranges (milliseconds), concatenated in order into a NEW file — e.g."],
+  ["web_click", "Clicks an element on the current page."],
+  ["web_eval", "Runs arbitrary JavaScript in a web session and returns the last expression's value."],
+  ["web_extract", "Scrapes structured data from the current page."],
+  ["web_find", "Finds elements on the current page of a web session so you can decide what to click or type into."],
+  ["web_login", "Opens a real browser window on the Mac for the user to sign into a website themselves (you never handle the..."],
+  ["web_navigate", "Navigates a web session to a URL (using its saved login if any) and returns the resulting URL + page title."],
+  ["web_read", "Reads the current page of a web session so you can reason over it."],
+  ["web_screenshot", "Captures a PNG screenshot of the current page of a web session (returned inline so web AIs can see it)."],
+  ["web_session_close", "Closes a web-automation session's window and frees it."],
+  ["web_session_list", "Lists the open web-automation sessions (named login profiles) with each one's current URL and page title."],
+  ["web_show", "Brings a web session's browser window to the FRONT so the USER can take over directly — solve a CAPTCHA, co..."],
+  ["web_type", "Types text into a form field (input/textarea) on the current page."],
+  ["web_wait_for", "Waits (polls, not a fixed sleep) until a JavaScript condition is truthy on the page, or times out."],
   ["whatsapp_connect", "Link WhatsApp to Local MCP by showing a QR code right here in the chat — no Terminal needed."],
   ["whatsapp_disconnect", "Unlink WhatsApp from Local MCP — logs out the linked device on this Mac (via wacli)."],
   ["whatsapp_list_chats", "Lists WhatsApp conversations with last message preview."],
@@ -219,6 +233,13 @@ const TOOLS = [
   ["word_append", "Appends text to an existing Word (.docx) document."],
   ["word_create", "Creates a new Word (.docx) document with the given content."],
   ["word_read", "Reads text content from a Word (.docx) file."],
+  ["zalo_connect", "Link Zalo to Local MCP by showing a QR code right here in the chat."],
+  ["zalo_diagnose", "Reports whether Zalo is linked to Local MCP (via zalo_connect)."],
+  ["zalo_disconnect", "Unlink Zalo from Local MCP (removes the saved session on this Mac)."],
+  ["zalo_list_chats", "Lists your Zalo conversations — friends and groups — so you can pick a recipient."],
+  ["zalo_read_messages", "Reads recent Zalo messages that Local MCP captured while linked."],
+  ["zalo_search_messages", "Searches your captured Zalo messages by text."],
+  ["zalo_send_message", "Sends a Zalo message to a conversation."],
   ["zoom_list_recordings", "Lists Zoom meeting recordings saved locally on this Mac (~/Documents/Zoom), newest first: meeting name, dat..."],
   ["zoom_read_transcript", "Reads the text artifacts of a local Zoom recording: the transcript/captions (.vtt or closed_caption.txt, cl..."],
 ];
