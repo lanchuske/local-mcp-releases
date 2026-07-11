@@ -1,3 +1,15 @@
+## v3.0.336 — 2026-07-11
+
+Automate any website. Local MCP now includes a built-in browser your AI can drive — log into Instagram, LinkedIn, X or any site once, and let your AI navigate, read pages, fill forms, and pull data for you. You sign in yourself (your password never touches the AI), and anything that posts or sends asks you first.
+
+Connect Zalo. Link Zalo by scanning a QR, then reach and read your Zalo chats from any AI — the same easy way you already use WhatsApp.
+
+Save your work as reusable workflows. Turn a multi-step task into a workflow you can rerun anytime, and look back at exactly what each run did.
+
+Mail is faster and more reliable. Reading and listing email is quicker and no longer gets stuck on large mailboxes. Attachments with accented or special characters in their names now save correctly, and PowerPoint files on OneDrive open reliably.
+
+Setup reflects reality. Local MCP no longer asks you to allow apps you've already granted, and you can add extra folders for file access in Advanced Settings.
+
 ## v3.0.335 — 2026-07-10
 
 Local MCP can now record and edit screen demos — and drive any app's interface. Capture a screen recording, trim out the dead bits, turn a clip into a GIF, reframe it vertical for social, or blur anything private — all on your Mac, no other tools needed. Your AI can also click, type, and read on-screen to automate whatever you need. Plus a smoother way to connect web AIs (with a clear 'Copied' confirmation and step-by-step) and behind-the-scenes reliability improvements.
