@@ -1,3 +1,7 @@
+## v3.0.337 — 2026-07-11
+
+A cleaner, faster menu bar. Local MCP now groups your apps by what you actually do with them, shows everything at a glance, and only asks for a permission when a task truly needs it — no more prompts for access it already has. Setup is smoother too: onboarding now walks you through screen recording and accessibility so browser and screen tools work the first time. Your saved skills are now easy to read, rename, and remove right from Settings. Plus reliability improvements across Mail, Calendar and more.
+
 ## v3.0.336 — 2026-07-11
 
 Automate any website. Local MCP now includes a built-in browser your AI can drive — log into Instagram, LinkedIn, X or any site once, and let your AI navigate, read pages, fill forms, and pull data for you. You sign in yourself (your password never touches the AI), and anything that posts or sends asks you first.
