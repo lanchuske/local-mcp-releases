@@ -16,6 +16,11 @@ curl -fsSL 'https://local-mcp.com/install?ref=github-releases' | bash
 ⭐ **Like it? [Star this repo](https://github.com/lanchuske/local-mcp-releases)** — it helps others discover LMCP.
 
 <p align="center">
+  <img src="assets/claude-web-demo.gif" alt="Real recording: Claude.ai on the web creating a note and a reminder on a Mac through LMCP, including the consent dialog" width="700">
+</p>
+<p align="center"><em>Real recording — Claude.ai (web) using a Mac's apps through LMCP's Cloud Relay: ask → tools run → you approve → done. Captured with LMCP's own screen-capture tools.</em></p>
+
+<p align="center">
   <img src="assets/claude-tools.png" alt="Claude Desktop showing tools across 20 categories with LMCP" width="700">
 </p>
 <p align="center"><em>Native tools across 20 categories — Mail, Calendar, Teams, Slack, WhatsApp, OneDrive, Microsoft 365, Notes, OmniFocus, ServiceNow, and more</em></p>
