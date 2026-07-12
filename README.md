@@ -56,6 +56,9 @@ curl -fsSL 'https://local-mcp.com/install?ref=github-releases' | bash
 | **Safari** | "List my bookmarks in the Dev folder" |
 | **Stocks** | "How is AAPL doing today?" · "Show me a chart of MSFT this month" |
 | **ServiceNow** | "Show my open incidents" · "Create a P2 for the outage" · "Search the KB for VPN setup" |
+| **Signal** | "Read my Signal chats" · "Search Signal for the address Maria sent" *(read-only, local database)* |
+| **Notion** | "Search my workspace for the launch plan" · "Read the roadmap database" |
+| **Any website** | "Log in to the supplier portal and download this month's invoices" · "Check this product's price every morning" *(13-tool web-automation engine, persistent sessions)* |
 | **NordVPN** | "Is my VPN connected?" · "Recommend a server in Japan" |
 
 233 tools across 22 app categories. Read operations run instantly. Write operations (send email, delete event) show a preview and require confirmation.
@@ -159,6 +162,8 @@ There are several Mac MCP servers — they optimize for different things. An hon
 | Runs on your Mac (not the cloud) | ✅ | ✅ | ❌ | ✅ |
 
 **Where LMCP is unique:** the work & messaging apps most people live in — **Microsoft Teams, Slack, WhatsApp, Microsoft 365** — read locally with no API keys, *and* reachable from web AIs like ChatGPT and Claude.ai. Apple-native-only servers stop at Apple apps; cloud aggregators need OAuth and route your data through their servers.
+
+Full head-to-head with the other Mac-native servers: **[LMCP vs Macuse vs iMCP](https://local-mcp.com/guides/lmcp-vs-macuse)** — capabilities, pricing and privacy, kept honest and current.
 
 ## Recipes — what your AI can *do* (not just read)
 
