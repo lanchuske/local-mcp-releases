@@ -1,3 +1,7 @@
+## v3.0.338 — 2026-07-12
+
+Calendar and Reminders no longer show a false 'permissions lost' warning after an update — and their counts show correctly again. WhatsApp now offers a one-click reconnect when sending stops working, and Messages shows a clear way to grant send permission. Email accounts are more reliable (no more 'account not found' for an account that's right there), moving folders in OneDrive works, deleted notes no longer clutter your notes list, and getting set up is smoother if you connect through ChatGPT or Claude.ai in the browser.
+
 ## v3.0.337 — 2026-07-11
 
 A cleaner, faster menu bar. Local MCP now groups your apps by what you actually do with them, shows everything at a glance, and only asks for a permission when a task truly needs it — no more prompts for access it already has. Setup is smoother too: onboarding now walks you through screen recording and accessibility so browser and screen tools work the first time. Your saved skills are now easy to read, rename, and remove right from Settings. Plus reliability improvements across Mail, Calendar and more.
