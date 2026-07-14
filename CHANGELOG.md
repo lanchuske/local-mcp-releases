@@ -1,3 +1,7 @@
+## v3.0.339 — 2026-07-14
+
+WhatsApp is smoother. Link your WhatsApp by scanning a QR code right from the menu bar — no Terminal needed. Plus we fixed an issue where sending WhatsApp messages could get stuck until you reconnected.
+
 ## v3.0.338 — 2026-07-12
 
 Calendar and Reminders no longer show a false 'permissions lost' warning after an update — and their counts show correctly again. WhatsApp now offers a one-click reconnect when sending stops working, and Messages shows a clear way to grant send permission. Email accounts are more reliable (no more 'account not found' for an account that's right there), moving folders in OneDrive works, deleted notes no longer clutter your notes list, and getting set up is smoother if you connect through ChatGPT or Claude.ai in the browser.
