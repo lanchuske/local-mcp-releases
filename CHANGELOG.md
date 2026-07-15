@@ -1,3 +1,11 @@
+## v3.0.340 — 2026-07-15
+
+• LMCP has a fresh new app icon.
+• Granting permissions is smoother — the menu bar updates the moment you allow access.
+• One-click access to Accessibility, Screen Recording, and folders.
+• Notes and Office tools are faster and more reliable with large libraries.
+• A smoother, more dependable installer.
+
 ## v3.0.339 — 2026-07-14
 
 WhatsApp is smoother. Link your WhatsApp by scanning a QR code right from the menu bar — no Terminal needed. Plus we fixed an issue where sending WhatsApp messages could get stuck until you reconnected.
