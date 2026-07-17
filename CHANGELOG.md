@@ -1,3 +1,7 @@
+## v3.0.341 — 2026-07-17
+
+Setting up web AIs is now simpler. ChatGPT, Claude.ai, and Grok each have their own guided, one-step setup, and you can add Cursor or VS Code with a single click. Calendar and Mail are more reliable, and Microsoft 365 now gives clearer next steps when your account's access is limited.
+
 ## v3.0.340 — 2026-07-15
 
 • LMCP has a fresh new app icon.
