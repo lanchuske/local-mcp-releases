@@ -1,3 +1,7 @@
+## v3.0.342 — 2026-07-19
+
+Connecting a web AI is clearer and more reliable. Setup now confirms the moment ChatGPT, Claude.ai, or Grok connects to your Mac — no more guessing whether it worked. And if ChatGPT's connector setup gives you trouble, you'll see a one-tap option to use Claude.ai instead.
+
 ## v3.0.341 — 2026-07-17
 
 Setting up web AIs is now simpler. ChatGPT, Claude.ai, and Grok each have their own guided, one-step setup, and you can add Cursor or VS Code with a single click. Calendar and Mail are more reliable, and Microsoft 365 now gives clearer next steps when your account's access is limited.
