@@ -1,3 +1,7 @@
+## v3.0.343 — 2026-07-21
+
+Mail is faster and now recovers on its own if it ever gets stuck — and reading email on iCloud accounts is more reliable. Fixed listing tasks in OmniFocus, creating Word documents, and reading Microsoft Teams chats. Jan and LM Studio now configure in one click.
+
 ## v3.0.342 — 2026-07-19
 
 Connecting a web AI is clearer and more reliable. Setup now confirms the moment ChatGPT, Claude.ai, or Grok connects to your Mac — no more guessing whether it worked. And if ChatGPT's connector setup gives you trouble, you'll see a one-tap option to use Claude.ai instead.
