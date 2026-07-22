@@ -1,3 +1,7 @@
+## v3.0.344 — 2026-07-22
+
+Mail and Messages are faster and more reliable. Reading an email now works even when the account name differs in capitalization or spacing, listing your mail accounts is instant instead of stalling when Mail is closed, sending an iMessage works even if Messages wasn't already open, and you can now search Messages by date range alone. Plus: Notion pages open reliably by ID, and getting started from the command line is smoother.
+
 ## v3.0.343 — 2026-07-21
 
 Mail is faster and now recovers on its own if it ever gets stuck — and reading email on iCloud accounts is more reliable. Fixed listing tasks in OmniFocus, creating Word documents, and reading Microsoft Teams chats. Jan and LM Studio now configure in one click.
