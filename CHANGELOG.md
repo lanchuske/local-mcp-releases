@@ -1,3 +1,7 @@
+## v3.0.345 — 2026-07-23
+
+Your Mac stays connected to web AIs more reliably — dropped connections now recover in seconds instead of minutes. Calendar invites give clearer guidance when permissions are missing, and the settings page now shows every app LMCP supports, including Chrome, Slack, Signal, Telegram, Notion, Google Drive, Zoom and Office documents.
+
 ## v3.0.344 — 2026-07-22
 
 Mail and Messages are faster and more reliable. Reading an email now works even when the account name differs in capitalization or spacing, listing your mail accounts is instant instead of stalling when Mail is closed, sending an iMessage works even if Messages wasn't already open, and you can now search Messages by date range alone. Plus: Notion pages open reliably by ID, and getting started from the command line is smoother.
