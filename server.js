@@ -7,7 +7,7 @@
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
 
-const server = new McpServer({ name: "local-mcp", version: "3.0.344" });
+const server = new McpServer({ name: "local-mcp", version: "3.0.345" });
 
 const TOOLS = [
   ["chrome_click", "Clicks the first element matching a CSS selector in the current Google Chrome tab."],
