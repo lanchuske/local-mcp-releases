@@ -1,3 +1,7 @@
+## v3.0.346 — 2026-07-24
+
+Mail and Messages are dramatically more reliable. Sending an iMessage now works on the latest macOS, reading email degrades gracefully instead of getting stuck, and when a file or message isn't downloaded yet, LMCP tells you exactly how to fix it. WhatsApp reconnects cleanly, and error messages across the app are clearer and more actionable.
+
 ## v3.0.345 — 2026-07-23
 
 Your Mac stays connected to web AIs more reliably — dropped connections now recover in seconds instead of minutes. Calendar invites give clearer guidance when permissions are missing, and the settings page now shows every app LMCP supports, including Chrome, Slack, Signal, Telegram, Notion, Google Drive, Zoom and Office documents.
