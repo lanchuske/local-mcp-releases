@@ -1,3 +1,7 @@
+## v3.0.347 — 2026-07-25
+
+WhatsApp linking is clearer: if your link has expired, LMCP now shows the QR to reconnect instead of wrongly saying you're already connected, and reassures you that your existing chats stay readable. Apple Notes now finds notes across every account (iCloud, Gmail, Exchange), not just your default one. Reminders with a date now land on the right day in every timezone. When a file can't be opened, LMCP tells you whether it's a permissions issue rather than calling it corrupt. Plus clearer status when Mail isn't open.
+
 ## v3.0.346 — 2026-07-24
 
 Mail and Messages are dramatically more reliable. Sending an iMessage now works on the latest macOS, reading email degrades gracefully instead of getting stuck, and when a file or message isn't downloaded yet, LMCP tells you exactly how to fix it. WhatsApp reconnects cleanly, and error messages across the app are clearer and more actionable.
