@@ -1,3 +1,7 @@
+## v3.0.348 — 2026-07-25
+
+WhatsApp is clearer and more up to date: contacts now show real names and phone numbers instead of technical IDs, and your chats stay current automatically. You can now turn any multi-step workflow into a reusable Skill and share it with other people — ask your assistant to save one. Reading email is more reliable, with clearer handling of messages that aren't downloaded to your Mac yet.
+
 ## v3.0.347 — 2026-07-25
 
 WhatsApp linking is clearer: if your link has expired, LMCP now shows the QR to reconnect instead of wrongly saying you're already connected, and reassures you that your existing chats stay readable. Apple Notes now finds notes across every account (iCloud, Gmail, Exchange), not just your default one. Reminders with a date now land on the right day in every timezone. When a file can't be opened, LMCP tells you whether it's a permissions issue rather than calling it corrupt. Plus clearer status when Mail isn't open.
