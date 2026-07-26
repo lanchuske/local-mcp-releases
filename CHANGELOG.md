@@ -1,3 +1,12 @@
+## v3.0.349 — 2026-07-26
+
+Local MCP is faster, more reliable, and now taps community skills.
+
+• Community skills: ask your AI what skills the LMCP community has shared, and install one in a single step — ready-made workflows for email, meetings, files and more.
+• Mail stays responsive even when several requests run at the same time.
+• Settings you turn on (like allowing terminal commands) now take effect right away.
+• Clearer guidance when a file can't be found, plus security and reliability improvements throughout.
+
 ## v3.0.348 — 2026-07-25
 
 WhatsApp is clearer and more up to date: contacts now show real names and phone numbers instead of technical IDs, and your chats stay current automatically. You can now turn any multi-step workflow into a reusable Skill and share it with other people — ask your assistant to save one. Reading email is more reliable, with clearer handling of messages that aren't downloaded to your Mac yet.
