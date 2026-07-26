@@ -1,3 +1,12 @@
+## v3.0.350 — 2026-07-26
+
+Local MCP is more reliable and lighter on your Mac.
+
+• The menu-bar app uses less energy while idle.
+• A slow or stuck request can no longer make Local MCP unresponsive — and scheduled email routines now open Mail on their own instead of stopping.
+• Everyday terminal commands and file reads handle edge cases (cloud placeholders, safe scripts) smoothly instead of hanging.
+• Improved behind-the-scenes diagnostics so we can spot and fix slowdowns faster.
+
 ## v3.0.349 — 2026-07-26
 
 Local MCP is faster, more reliable, and now taps community skills.
