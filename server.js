@@ -7,7 +7,7 @@
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
 
-const server = new McpServer({ name: "local-mcp", version: "3.0.350" });
+const server = new McpServer({ name: "local-mcp", version: "3.0.351" });
 
 const TOOLS = [
   ["chrome_click", "Clicks the first element matching a CSS selector in the current Google Chrome tab."],
@@ -70,6 +70,7 @@ const TOOLS = [
   ["list_emails", "Use this when the user wants to see or triage their inbox on this Mac (Apple Mail — any account added to Ma..."],
   ["list_m365_people_insights", "List the people most relevant to you in Microsoft 365 — based on your communication patterns, collaboration..."],
   ["list_message_chats", "Lists recent iMessage/Messages.app conversations."],
+  ["list_missing_permissions", "Returns the macOS privacy (TCC) permissions Local MCP needs that are NOT granted yet, each with a one-click..."],
   ["list_notes", "Lists notes from Apple Notes app."],
   ["list_omnifocus_folders", "Lists folders in OmniFocus."],
   ["list_omnifocus_projects", "Lists projects in OmniFocus."],
