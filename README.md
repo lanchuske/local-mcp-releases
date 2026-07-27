@@ -1,5 +1,7 @@
 # LMCP — Give Your AI Native Access to Your Apps
 
+[![MCP Toplist](https://mcptoplist.com/badge/com.local-mcp%2Flocal-mcp.svg)](https://mcptoplist.com/server/com.local-mcp%2Flocal-mcp)
+
 [![npm](https://img.shields.io/npm/v/local-mcp)](https://www.npmjs.com/package/local-mcp)
 [![macOS 13+](https://img.shields.io/badge/macOS-13%2B-blue)](https://local-mcp.com)
 [![GDPR](https://img.shields.io/badge/GDPR-compliant-green)](https://local-mcp.com/en/privacy)
