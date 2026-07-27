@@ -1,3 +1,7 @@
+## v3.0.351 — 2026-07-27
+
+Mail is more dependable — reading your inbox now works reliably with Gmail and Microsoft Exchange accounts, and unread messages sort more accurately. Apple Notes now work even when the Notes app is closed. Deleting a OneDrive file now confirms it was really removed. Calendar events with large guest lists no longer get cut off. Setup is smoother: your AI can tell you exactly which macOS permissions still need approval. And Claude Desktop users get a new one-click install option. Plus reliability and performance improvements under the hood.
+
 ## v3.0.350 — 2026-07-26
 
 Local MCP is more reliable and lighter on your Mac.
