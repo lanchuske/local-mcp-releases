@@ -7,7 +7,7 @@
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
 
-const server = new McpServer({ name: "local-mcp", version: "3.0.351" });
+const server = new McpServer({ name: "local-mcp", version: "3.0.352" });
 
 const TOOLS = [
   ["chrome_click", "Clicks the first element matching a CSS selector in the current Google Chrome tab."],
@@ -24,6 +24,7 @@ const TOOLS = [
   ["chrome_wait_for", "Polls the current Google Chrome tab until a CSS selector appears (or its text matches, if `text_match` is p..."],
   ["complete_omnifocus_task", "Marks an OmniFocus task as complete by task ID or name."],
   ["complete_reminder", "Marks a reminder complete in Apple Reminders (Reminders.app)."],
+  ["configure_clients", "Adds Local MCP to the config of installed MCP-capable AI clients on this Mac (Claude Desktop, Claude Code,..."],
   ["connect_m365_account", "Connect your Microsoft 365 account."],
   ["connect_servicenow", "Connect to your ServiceNow instance using your username and password."],
   ["create_calendar_event", "Creates an event in the Mac's Calendar app (Calendar.app)."],
