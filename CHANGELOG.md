@@ -1,3 +1,7 @@
+## v3.0.354 — 2026-07-28
+
+Mail is more accurate this release. Search now finds your emails even when the text has unusual spacing, dashes, or accented and uppercase words, and it stays within the account you search in. Reading a message no longer fails when that message was recently moved or deleted. Microsoft Teams now tells you clearly when it needs Full Disk Access to read your chats. Plus reliability and diagnostics improvements under the hood.
+
 ## v3.0.353 — 2026-07-28
 
 Email search is more reliable: pasting a subject that contains a dash or other punctuation now finds the message instead of coming up empty, and your Mail accounts are detected reliably right after Mail opens. WhatsApp now tells you clearly when your link has expired so you can reconnect in one click. We also tidied up which integrations appear so you only see the ones that work today, plus reliability improvements across the board.
