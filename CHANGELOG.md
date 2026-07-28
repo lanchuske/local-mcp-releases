@@ -1,3 +1,7 @@
+## v3.0.353 — 2026-07-28
+
+Email search is more reliable: pasting a subject that contains a dash or other punctuation now finds the message instead of coming up empty, and your Mail accounts are detected reliably right after Mail opens. WhatsApp now tells you clearly when your link has expired so you can reconnect in one click. We also tidied up which integrations appear so you only see the ones that work today, plus reliability improvements across the board.
+
 ## v3.0.352 — 2026-07-28
 
 This release is all about speed and reliability. Reading email no longer slows your Mac on large or slow accounts, and Microsoft Teams messages load dramatically faster. WhatsApp is more dependable — large chats read reliably and a sent message is never wrongly reported as failed. Setup is smoother, too: your AI can wire Local MCP into your other AI apps and jump you back to the setup wizard in one step. Plus stability fixes throughout.
