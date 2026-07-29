@@ -1,3 +1,7 @@
+## v3.0.355 — 2026-07-29
+
+Reading email is faster and more reliable on large mailboxes, and you can pull a message's full text on demand when it isn't stored locally. New: search your Safari and Chrome browsing history. Better handling of same-named calendars across multiple accounts, faster file search, and improved iCloud Drive support.
+
 ## v3.0.354 — 2026-07-28
 
 Mail is more accurate this release. Search now finds your emails even when the text has unusual spacing, dashes, or accented and uppercase words, and it stays within the account you search in. Reading a message no longer fails when that message was recently moved or deleted. Microsoft Teams now tells you clearly when it needs Full Disk Access to read your chats. Plus reliability and diagnostics improvements under the hood.
