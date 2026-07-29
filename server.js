@@ -7,13 +7,14 @@
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
 
-const server = new McpServer({ name: "local-mcp", version: "3.0.354" });
+const server = new McpServer({ name: "local-mcp", version: "3.0.355" });
 
 const TOOLS = [
   ["chrome_click", "Clicks the first element matching a CSS selector in the current Google Chrome tab."],
   ["chrome_evaluate_js", "Runs arbitrary JavaScript in the current Google Chrome tab and returns its result."],
   ["chrome_fill_form", "Fills multiple form fields in one shot in the current Google Chrome tab."],
   ["chrome_go_back", "Navigates the current Google Chrome tab back to the previous page."],
+  ["chrome_history", "Lists or searches the user's Google Chrome browsing history (local SQLite, read-only — no page is opened)."],
   ["chrome_list_tabs", "Lists every open tab across all Google Chrome windows with title, URL, and whether it is active."],
   ["chrome_navigate", "Navigates Google Chrome to a URL."],
   ["chrome_query_selector_all", "Runs document.querySelectorAll in the current Google Chrome tab and returns a compact summary of each match."],
@@ -145,6 +146,7 @@ const TOOLS = [
   ["safari_evaluate_js", "Runs arbitrary JavaScript in the current Safari tab and returns its result."],
   ["safari_fill_form", "Fills multiple form fields in one shot."],
   ["safari_go_back", "Navigates the current Safari tab back to the previous page."],
+  ["safari_history", "Lists or searches the user's Safari browsing history (local SQLite, read-only — no page is opened)."],
   ["safari_list_tabs", "Lists every open tab across all Safari windows with title, URL, and whether it is active."],
   ["safari_navigate", "Navigates Safari to a URL."],
   ["safari_query_selector_all", "Runs document.querySelectorAll in the current Safari tab and returns a compact summary of each match."],
