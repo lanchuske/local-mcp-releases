@@ -1,3 +1,7 @@
+## v3.0.356 — 2026-07-30
+
+Mail is more reliable with Exchange and Outlook accounts — your inbox and folders are found correctly, drafts show which account they'll send from, and moving messages is more dependable. Calendar events delete cleanly, and large meetings show attendee counts at a glance. Reminders use consistent IDs across the app. Automations can now pause between steps — so screen recordings capture exactly what you intended — and their results tell you where each file was saved. Excel create-and-read round-trips cleanly. Plus reliability and clarity improvements throughout.
+
 ## v3.0.355 — 2026-07-29
 
 Reading email is faster and more reliable on large mailboxes, and you can pull a message's full text on demand when it isn't stored locally. New: search your Safari and Chrome browsing history. Better handling of same-named calendars across multiple accounts, faster file search, and improved iCloud Drive support.
