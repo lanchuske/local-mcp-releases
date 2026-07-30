@@ -7,7 +7,7 @@
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
 
-const server = new McpServer({ name: "local-mcp", version: "3.0.355" });
+const server = new McpServer({ name: "local-mcp", version: "3.0.356" });
 
 const TOOLS = [
   ["chrome_click", "Clicks the first element matching a CSS selector in the current Google Chrome tab."],
@@ -62,12 +62,12 @@ const TOOLS = [
   ["get_datetime", "Get the current date and time of the machine where LMCP runs — with timezone and UTC offset."],
   ["get_m365_person", "Get detailed information about a specific person in your Microsoft 365 directory by their user ID or email..."],
   ["get_weather", "Gets the current weather and a short daily forecast for a location."],
-  ["list_accounts", "Lists email accounts configured in Mail.app."],
+  ["list_accounts", "Lists Mail.app email accounts WITH each account's email addresses and type (imap/pop/iCloud)."],
   ["list_calendar_events", "Lists events from the Mac's Calendar app (Calendar.app, local/iCloud calendars) in a date range."],
   ["list_calendar_names", "Lists the calendars in the Mac's Calendar app (Calendar.app, local/iCloud)."],
   ["list_contacts", "Lists contacts from the macOS Contacts app."],
   ["list_displays", "Lists connected displays with bounds (global space, top-left origin, points), backing scale_factor, and whi..."],
-  ["list_email_accounts", "Lists all Mail.app accounts by name."],
+  ["list_email_accounts", "Lists all Mail.app account NAMES (fast — cached, no Mail lock)."],
   ["list_email_folders", "Lists the full folder (mailbox) tree for Apple Mail (Mail.app) accounts, including nested subfolders."],
   ["list_emails", "Use this when the user wants to see or triage their inbox on this Mac (Apple Mail — any account added to Ma..."],
   ["list_m365_people_insights", "List the people most relevant to you in Microsoft 365 — based on your communication patterns, collaboration..."],
@@ -78,13 +78,13 @@ const TOOLS = [
   ["list_omnifocus_projects", "Lists projects in OmniFocus."],
   ["list_omnifocus_tags", "Lists all tags defined in OmniFocus."],
   ["list_omnifocus_tasks", "Lists tasks from OmniFocus."],
-  ["list_referral_candidates", "Step 1 of recommending LMCP to a colleague."],
+  ["list_referral_candidates", "Returns the user's emailable contacts plus an invite template, for recommending LMCP to a colleague."],
   ["list_reminder_lists", "Lists the lists (folders) in Apple Reminders (Reminders.app) on this Mac."],
   ["list_reminders", "Lists reminders from Apple Reminders (Reminders.app) on this Mac."],
   ["list_safari_bookmarks", "Lists Safari bookmarks (title + URL) from the Mac's Safari (reads ~/Library/Safari/Bookmarks.plist — needs..."],
   ["list_windows", "Lists on-screen windows of any app with window_id, owning app bundle id + name, title, bounds (global space..."],
   ["lmcp_state", "Returns a structured snapshot of the LMCP environment: server/tray/teams-proxy versions, detected AI client..."],
-  ["lmcp_welcome", "★ START HERE — the user just installed LMCP and has not run a single tool yet."],
+  ["lmcp_welcome", "Onboarding overview for a newly installed LMCP connection."],
   ["m365_create_event", "Create a calendar event in your Microsoft 365 / Outlook calendar."],
   ["m365_delete_event", "Delete a calendar event from your Microsoft 365 / Outlook calendar by its ID."],
   ["m365_get_contact", "Get full details of a specific Microsoft 365 contact by ID."],
@@ -126,7 +126,7 @@ const TOOLS = [
   ["read_messages", "Reads messages from an iMessage conversation by chat ID or contact name."],
   ["read_note", "Reads the full content of a note by name or ID."],
   ["recipe_delete", "Use this when the user wants to remove one of THEIR saved recipes/skills (the manifests under ~/.local/shar..."],
-  ["recipe_discover", "Browse installable community SKILLS — ready-made LMCP workflows other people published (a morning brief, in..."],
+  ["recipe_discover", "Browses installable community SKILLS — ready-made LMCP workflows other people published (a morning brief, i..."],
   ["recipe_export", "Exports a saved SKILL (recipe) as a single portable token the user can send to someone else — paste it in a..."],
   ["recipe_get", "Returns the full manifest of a recipe by name."],
   ["recipe_import", "Installs a SKILL someone shared with you — pass the skill_token from their recipe_export (or a raw recipe m..."],
@@ -139,7 +139,7 @@ const TOOLS = [
   ["rename_reminder_list", "Renames an existing Apple Reminders list."],
   ["reply_email", "Use this when the user wants to reply to an email that lives in the Mac's Apple Mail (message ID from list_..."],
   ["report_problem", "Report a problem, feature request, or integration request to the LMCP team."],
-  ["request_feature", "Submit a feature request to the LMCP team — a new capability, a tool that doesn't exist yet, or an app/inte..."],
+  ["request_feature", "Submits a feature request to the LMCP team — a new capability, a tool that doesn't exist yet, or an app/int..."],
   ["run_diagnostics", "Runs a fast health check of all LMCP integrations on this machine."],
   ["run_terminal_command", "Runs a shell command on the user's Mac and returns its output."],
   ["safari_click", "Clicks the first element matching a CSS selector in the current Safari tab."],
