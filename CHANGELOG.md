@@ -1,3 +1,14 @@
+## v3.0.357 — 2026-07-30
+
+Local MCP keeps getting more reliable.
+
+• Calendar: events you create now go to the calendar you actually chose.
+• Mail: folders list reliably (even empty ones), and reading email from very large mailboxes gives clear guidance instead of a confusing timeout.
+• Microsoft Teams: sending chat messages now works across more account setups.
+• OmniFocus: due dates show the correct day in your local time zone.
+• Automations: multi-step recipes can pass results between steps, with a new wait step.
+• Under the hood: snappier and more responsive, with more reliable update detection.
+
 ## v3.0.356 — 2026-07-30
 
 Mail is more reliable with Exchange and Outlook accounts — your inbox and folders are found correctly, drafts show which account they'll send from, and moving messages is more dependable. Calendar events delete cleanly, and large meetings show attendee counts at a glance. Reminders use consistent IDs across the app. Automations can now pause between steps — so screen recordings capture exactly what you intended — and their results tell you where each file was saved. Excel create-and-read round-trips cleanly. Plus reliability and clarity improvements throughout.
