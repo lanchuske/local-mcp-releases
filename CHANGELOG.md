@@ -1,3 +1,7 @@
+## v3.0.359 — 2026-07-31
+
+Reading and listing your Apple Notes is now much faster and more reliable. Creating Excel and PowerPoint files works on every Mac — no setup required. You can now create repeating calendar events and delete an entire series at once. Plus reliability and behind-the-scenes improvements.
+
 ## v3.0.358 — 2026-07-31
 
 Local MCP is more reliable and easier for your assistant to use.
