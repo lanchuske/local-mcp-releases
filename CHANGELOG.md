@@ -1,3 +1,15 @@
+## v3.0.358 — 2026-07-31
+
+Local MCP is more reliable and easier for your assistant to use.
+
+• Reliability: the connection no longer freezes on a slow task — it's bounded and shows progress instead of a spinner, and status stays responsive even under load.
+• Files: reading, writing, listing and searching local files is smoother, and your assistant finds the right file tool more reliably.
+• Messages: read a conversation by simply naming the contact.
+• Microsoft Teams: search across all your chats at once.
+• Reminders: move reminders between lists, and see when each was created.
+• Smarter discovery: clearer tool descriptions so the assistant picks the right capability — and a hint to retry in English when searching in another language.
+• Under the hood: safer, verified auto-updates.
+
 ## v3.0.357 — 2026-07-30
 
 Local MCP keeps getting more reliable.
