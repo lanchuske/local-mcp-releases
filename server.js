@@ -7,7 +7,7 @@
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
 
-const server = new McpServer({ name: "local-mcp", version: "3.0.358" });
+const server = new McpServer({ name: "local-mcp", version: "3.0.359" });
 
 const TOOLS = [
   ["chrome_click", "Clicks the first element matching a CSS selector in the current Google Chrome tab."],
@@ -33,7 +33,7 @@ const TOOLS = [
   ["create_email_folder", "Creates a new mailbox folder in Mail.app."],
   ["create_note", "Creates a new note in Apple Notes."],
   ["create_omnifocus_task", "Creates a new task in OmniFocus."],
-  ["create_referral_invites", "Step 2 of the colleague-invite flow."],
+  ["create_referral_invites", "Records referral invites for the colleagues a user chose to invite and returns a unique referral link per p..."],
   ["create_reminder", "Creates a reminder in Reminders.app."],
   ["create_reminder_list", "Creates a new list in Apple Reminders (Reminders.app)."],
   ["daily_brief", "Returns a single morning briefing combining today's calendar events, overdue and due-today reminders, unrea..."],
@@ -46,11 +46,11 @@ const TOOLS = [
   ["excel_read", "Reads data from an Excel spreadsheet (.xlsx file)."],
   ["excel_write_cell", "Writes a value to a specific cell in an Excel file."],
   ["file_list", "Lists files and folders in a local directory."],
-  ["file_read", "Reads a text file from anywhere on this Mac's local filesystem — any absolute path (Desktop, Documents, pro..."],
+  ["file_read", "Reads a text file from the local filesystem — the primary tool for reading a local file."],
   ["file_search", "Searches for files and folders by name (case-insensitive, partial match) starting from a root directory."],
   ["file_write", "Writes text to a local file — create, overwrite, or append."],
-  ["finder_list", "Lists files and folders at any absolute path (Spotlight-free directory listing, including outside the home..."],
-  ["finder_search", "Searches for files by name anywhere on the filesystem (uses mdfind/Spotlight)."],
+  ["finder_list", "Lists files and folders in a directory (Spotlight-free)."],
+  ["finder_search", "Searches for files by name within the allowlist (uses mdfind/Spotlight)."],
   ["gdrive_file_info", "Metadata for a file/folder in the synced Google Drive: size, dates, type."],
   ["gdrive_list_files", "Lists files and folders in a Google Drive path (the locally-synced folder)."],
   ["gdrive_read_file", "Reads a text file from the synced Google Drive folder (.txt, .md, .csv, .json, code files...)."],
@@ -139,7 +139,7 @@ const TOOLS = [
   ["record_marker", "Drops a named marker into the active recording's timeline."],
   ["rename_reminder_list", "Renames an existing Apple Reminders list."],
   ["reply_email", "Use this when the user wants to reply to an email that lives in the Mac's Apple Mail (message ID from list_..."],
-  ["report_problem", "Report a problem, feature request, or integration request to the LMCP team."],
+  ["report_problem", "Sends a problem report, feature request, or integration request to the LMCP team — for when a user wants to..."],
   ["request_feature", "Submits a feature request to the LMCP team — a new capability, a tool that doesn't exist yet, or an app/int..."],
   ["run_diagnostics", "Runs a fast health check of all LMCP integrations on this machine."],
   ["run_terminal_command", "Runs a shell command on the user's Mac and returns its output."],
