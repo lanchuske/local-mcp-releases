@@ -1,3 +1,9 @@
+## v3.0.360 — 2026-08-02
+
+Todoist is here. Connect your Todoist account and list, create, and complete tasks right from your AI assistant.
+
+This update also makes everyday tasks smoother: notes read cleanly, contact and file searches are more helpful and precise, and there are reliability and quality improvements across the app.
+
 ## v3.0.359 — 2026-07-31
 
 Reading and listing your Apple Notes is now much faster and more reliable. Creating Excel and PowerPoint files works on every Mac — no setup required. You can now create repeating calendar events and delete an entire series at once. Plus reliability and behind-the-scenes improvements.
