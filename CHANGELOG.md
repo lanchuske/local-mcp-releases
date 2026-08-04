@@ -1,3 +1,13 @@
+## v3.0.361 — 2026-08-04
+
+This update makes Local MCP more reliable and easier for your assistant to use:
+
+• Clearer guidance when something isn't found (a list, a chat, a message) — your assistant gets the exact next step instead of a dead end.
+• Faster responses: actions in Teams and Reminders that could occasionally stall now return quickly.
+• Cleaner, consistent results across Reminders, Calendar, Mail, WhatsApp, Teams, and Slack.
+• Invalid requests (a missing list, an impossible date) are caught up front — no more 'done' confirmations for things that didn't happen.
+• Your assistant finds the right tool faster across your apps.
+
 ## v3.0.360 — 2026-08-02
 
 Todoist is here. Connect your Todoist account and list, create, and complete tasks right from your AI assistant.
