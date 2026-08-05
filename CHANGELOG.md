@@ -1,3 +1,13 @@
+## v3.0.363 — 2026-08-05
+
+More reliable, with fixes to your data and status.
+
+• Spreadsheets: creating an Excel file now keeps every value, including numbers — no more dropped columns.
+• Messages: search now works with names and text containing apostrophes (like O'Brien).
+• WhatsApp: the menu bar shows your real connection status, so you know when to re-link instead of a misleading connected.
+• Mail: opening emails and browsing your mailboxes from your assistant is smoother and more accurate.
+• Under the hood: fixed a rare crash and hardened error handling across the toolset.
+
 ## v3.0.361 — 2026-08-04
 
 This update makes Local MCP more reliable and easier for your assistant to use:
