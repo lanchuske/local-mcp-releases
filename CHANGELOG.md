@@ -1,3 +1,10 @@
+## v3.0.364 — 2026-08-06
+
+WhatsApp status is more reliable, and reinstalling always works.
+
+• WhatsApp connection status now refreshes only when you open the Local MCP menu, with a just-checked indicator — no more background checks that could interfere with your linked session.
+• Fixed a case where reinstalling the app after removing it left it stuck as uninstalled and would not reconnect.
+
 ## v3.0.363 — 2026-08-05
 
 More reliable, with fixes to your data and status.
