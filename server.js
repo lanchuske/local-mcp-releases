@@ -7,7 +7,7 @@
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
 
-const server = new McpServer({ name: "local-mcp", version: "3.0.366" });
+const server = new McpServer({ name: "local-mcp", version: "3.0.367" });
 
 const TOOLS = [
   ["chrome_click", "Clicks the first element matching a CSS selector in the current Google Chrome tab."],
@@ -67,7 +67,7 @@ const TOOLS = [
   ["get_reminder_folders", "Lists the lists (folders) in Apple Reminders (Reminders.app) on this Mac."],
   ["get_weather", "Gets the current weather and a short daily forecast for a location."],
   ["list_accounts", "Lists Mail.app email accounts WITH each account's email addresses and type (imap/pop/iCloud)."],
-  ["list_calendar_events", "Lists events from the Mac's Calendar app (Calendar.app, local/iCloud calendars) in a date range."],
+  ["list_calendar_events", "Lists events from the Mac's Calendar app (Calendar.app, local/iCloud calendars) in a date range, or reads O..."],
   ["list_calendar_names", "Lists the calendars in the Mac's Calendar app (Calendar.app, local/iCloud)."],
   ["list_contacts", "Lists contacts from the macOS Contacts app."],
   ["list_displays", "Lists connected displays with bounds (global space, top-left origin, points), backing scale_factor, and whi..."],
