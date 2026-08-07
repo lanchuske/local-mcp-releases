@@ -1,3 +1,7 @@
+## v3.0.365 — 2026-08-07
+
+This release focuses on reliability. Mail now handles a busy or syncing mailbox gracefully — searching, listing, moving messages, saving attachments, and creating drafts recover instead of erroring out. Opening an email that hasn't downloaded to your Mac yet returns a clearer result. Browsing files gives clearer messages for missing or mistyped paths. WhatsApp group details are tidier. Plus general stability improvements.
+
 ## v3.0.364 — 2026-08-06
 
 WhatsApp status is more reliable, and reinstalling always works.
