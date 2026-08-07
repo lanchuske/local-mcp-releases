@@ -1,3 +1,7 @@
+## v3.0.367 — 2026-08-07
+
+Calendar: event updates no longer silently lose long notes — truncated previews are flagged and the full event can be read by id. Mail: search reliability improvements — breaker recoveries are no longer misreported as errors. Settings: the referral invite flow is now easy to find.
+
 ## v3.0.366 — 2026-08-07
 
 This release focuses on reliability. Moving mail is now dependable: Local MCP only reports a message as moved once it can actually confirm it, and tells you plainly when it can't. Attachments that can't be found are reported instead of quietly going missing. Mail no longer stalls on large mailboxes — slow lookups now fail fast instead of hanging. Calendar events tell you exactly which calendar they landed in, so a hidden calendar no longer looks like a lost event. Relinking WhatsApp now recovers on its own when a previous session was still holding on, and it no longer claims to be connected when it isn't. Plus general stability improvements.
