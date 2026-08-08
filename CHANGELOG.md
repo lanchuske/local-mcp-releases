@@ -1,3 +1,7 @@
+## v3.0.369 — 2026-08-08
+
+One slow call no longer holds up the rest: a heavy web page used to leave every other tool waiting behind it, and now they run side by side. Teams and Slack are dramatically faster to open — chats and channels that took several seconds now come back instantly. We also fixed a case where some tools returned an empty result instead of their data, and surveys from the team now arrive properly formatted in every client.
+
 ## v3.0.368 — 2026-08-08
 
 Faster problem-solving: when something fails, LMCP now pinpoints the real cause — if Mail access was turned off it tells you exactly where to re-enable it instead of asking you to retry, and problem reports include recent tool names and error codes (never your content) so issues get fixed faster. Surveys and notices from the team now appear reliably right in your chat. Plus stability improvements across Mail and the status panel.
