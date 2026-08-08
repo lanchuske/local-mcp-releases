@@ -1,3 +1,7 @@
+## v3.0.368 — 2026-08-08
+
+Faster problem-solving: when something fails, LMCP now pinpoints the real cause — if Mail access was turned off it tells you exactly where to re-enable it instead of asking you to retry, and problem reports include recent tool names and error codes (never your content) so issues get fixed faster. Surveys and notices from the team now appear reliably right in your chat. Plus stability improvements across Mail and the status panel.
+
 ## v3.0.367 — 2026-08-07
 
 Calendar: event updates no longer silently lose long notes — truncated previews are flagged and the full event can be read by id. Mail: search reliability improvements — breaker recoveries are no longer misreported as errors. Settings: the referral invite flow is now easy to find.
