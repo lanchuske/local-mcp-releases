@@ -7,7 +7,7 @@
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
 
-const server = new McpServer({ name: "local-mcp", version: "3.0.367" });
+const server = new McpServer({ name: "local-mcp", version: "3.0.368" });
 
 const TOOLS = [
   ["chrome_click", "Clicks the first element matching a CSS selector in the current Google Chrome tab."],
@@ -193,7 +193,7 @@ const TOOLS = [
   ["stocks_get_chart", "Gets historical price data for a stock symbol."],
   ["stocks_get_quote", "Gets current stock price and market data for one or more symbols (e.g."],
   ["stocks_search_symbol", "Searches for a stock ticker symbol by company name (e.g."],
-  ["survey_respond", "Submits the user's answers to the short in-product survey Local MCP just showed them."],
+  ["survey_respond", "Shows or submits the short in-product survey Local MCP assigned to this machine."],
   ["survey_skip", "Skips the short in-product survey Local MCP showed the user, for now — use this when the user doesn't want..."],
   ["teams_call_history", "Reads Microsoft Teams call & meeting history from the Mac's local Teams cache — no Graph API, no token, no..."],
   ["teams_list_channels", "Lists channels in a Microsoft Teams workspace."],
