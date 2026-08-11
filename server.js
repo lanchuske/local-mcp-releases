@@ -7,9 +7,20 @@
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
 
-const server = new McpServer({ name: "local-mcp", version: "3.0.369" });
+const server = new McpServer({ name: "local-mcp", version: "3.0.370" });
 
 const TOOLS = [
+  ["agent_ack", "Tells the senders that you actually read the messages agent_inbox gave you."],
+  ["agent_checkin", "Announces YOU (this agent session) to the mesh: your role, the repo you are working on and what you can do."],
+  ["agent_inbox", "Reads the messages other agents sent to this machine since your last poll (check in first with agent_checkin)."],
+  ["agent_mesh_create", "Starts a new agent mesh with THIS machine as its first member."],
+  ["agent_mesh_invite", "Creates a single-use pairing code (valid 15 minutes) that another of the user's machines can redeem with ag..."],
+  ["agent_mesh_join", "Enrolls THIS machine into an existing agent mesh using a pairing code the user got from another of their ma..."],
+  ["agent_mesh_revoke", "Removes another machine from this mesh, immediately: it stops appearing in the directory, stops receiving m..."],
+  ["agent_mesh_status", "Shows whether THIS machine belongs to an agent mesh — the group of the user's own machines whose AI agents..."],
+  ["agent_send", "Sends a coordination message to an agent on ANOTHER of the user's machines (get its handle from agents_list)."],
+  ["agent_sent", "Shows what THIS machine sent and what happened to it: who it was delivered to and who acknowledged it."],
+  ["agents_list", "Lists the agents currently working across ALL the user's machines in the mesh — which machine each is on, i..."],
   ["chrome_click", "Clicks the first element matching a CSS selector in the current Google Chrome tab."],
   ["chrome_evaluate_js", "Runs arbitrary JavaScript in the current Google Chrome tab and returns its result."],
   ["chrome_fill_form", "Fills multiple form fields in one shot in the current Google Chrome tab."],
@@ -28,7 +39,7 @@ const TOOLS = [
   ["configure_clients", "Adds Local MCP to the config of installed MCP-capable AI clients on this Mac (Claude Desktop, Claude Code,..."],
   ["connect_m365_account", "Connect your Microsoft 365 account."],
   ["connect_servicenow", "Connect ServiceNow."],
-  ["connect_todoist", "Connect Todoist using your personal API token (Todoist → Settings → Integrations → Developer → copy the API..."],
+  ["connect_todoist", "Connect Todoist."],
   ["create_calendar_event", "Creates an event in the Mac's Calendar app (Calendar.app)."],
   ["create_draft", "Saves an email to the Mail.app Drafts folder for the user to review and send manually — never sends."],
   ["create_email_folder", "Creates a new mailbox folder in Mail.app."],
