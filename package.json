@@ -1,8 +1,9 @@
 {
   "name": "local-mcp-releases",
-  "version": "3.0.369",
+  "version": "3.0.370",
   "type": "module",
-  "description": "Local MCP — native macOS MCP server with 260 tools",
+  "description": "Local MCP — native macOS MCP server with 271 tools",
+  "license": "SEE LICENSE IN LICENSE",
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.12.0",
     "zod": "^3.22.0"
