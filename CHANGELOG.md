@@ -1,3 +1,12 @@
+## v3.0.370 — 2026-08-11
+
+Local MCP is more reliable and more secure in this release.
+
+• Connect Todoist and ServiceNow directly from the tray — no browser needed.
+• The connection to web AIs (ChatGPT, Claude, Grok) now recovers on its own and stays steady through long sessions.
+• Your contact email updates instantly across the app the moment you change it.
+• Plus a broad set of privacy and security improvements under the hood.
+
 ## v3.0.369 — 2026-08-08
 
 One slow call no longer holds up the rest: a heavy web page used to leave every other tool waiting behind it, and now they run side by side. Teams and Slack are dramatically faster to open — chats and channels that took several seconds now come back instantly. We also fixed a case where some tools returned an empty result instead of their data, and surveys from the team now arrive properly formatted in every client.
