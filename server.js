@@ -7,7 +7,7 @@
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
 
-const server = new McpServer({ name: "local-mcp", version: "3.0.370" });
+const server = new McpServer({ name: "local-mcp", version: "3.0.371" });
 
 const TOOLS = [
   ["agent_ack", "Tells the senders that you actually read the messages agent_inbox gave you."],
@@ -100,7 +100,6 @@ const TOOLS = [
   ["lmcp_install_upgrade", "Checks for and installs a newer LMCP version — a self-upgrade of the LMCP app itself (not editing any of yo..."],
   ["lmcp_state", "Returns a structured snapshot of the LMCP environment: server/tray/teams-proxy versions, detected AI client..."],
   ["lmcp_upgrade_diagnostics", "Returns LMCP's self-upgrade health (the LMCP app upgrading itself, not editing your data): current version,..."],
-  ["lmcp_welcome", "Onboarding overview for a newly installed LMCP connection."],
   ["m365_create_event", "Create a calendar event in your Microsoft 365 / Outlook calendar."],
   ["m365_delete_event", "Delete a calendar event from your Microsoft 365 / Outlook calendar by its ID."],
   ["m365_get_contact", "Get full details of a specific Microsoft 365 contact by ID."],
@@ -251,7 +250,7 @@ const TOOLS = [
   ["web_session_list", "Lists your web-automation login profiles: every SAVED login (persisted on disk, so web_login/web_navigate c..."],
   ["web_show", "Brings a web session's browser window to the FRONT so the USER can take over directly — solve a CAPTCHA, co..."],
   ["web_type", "Types text into a form field (input/textarea) on the current page."],
-  ["web_wait_for", "Waits (polls, not a fixed sleep) until a JavaScript condition is truthy on the page, or times out."],
+  ["web_wait_for", "Waits (polls, not a fixed sleep) until an element appears on the page, or times out."],
   ["whatsapp_connect", "Link WhatsApp to Local MCP by showing a QR code right here in the chat — no Terminal needed."],
   ["whatsapp_create_group", "Creates a WhatsApp group and adds the given participants."],
   ["whatsapp_diagnose", "WhatsApp health check (wacli doctor): which account is linked (number), whether the live connection is up,..."],
