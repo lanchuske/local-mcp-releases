@@ -1,3 +1,7 @@
+## v3.0.371 — 2026-08-14
+
+Reading Microsoft Teams chats is cleaner — call and system events now show a short label instead of raw technical text. Connecting a web AI is smoother: the setup guide links open the right walkthrough, and the Microsoft 365 sign-in step is clearer and easier to tap. You can now invite colleagues to LMCP straight from the menu — pick contacts and send each a personal invite. Plus reliability improvements across Mail, Calendar and more.
+
 ## v3.0.370 — 2026-08-11
 
 Local MCP is more reliable and more secure in this release.
