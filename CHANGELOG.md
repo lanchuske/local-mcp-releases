@@ -1,3 +1,7 @@
+## v3.0.373 — 2026-08-18
+
+Mail is dramatically more reliable. Emails that appeared empty now load their full content — especially on Exchange and corporate accounts — and search handles accented text correctly. Teams no longer sends duplicate messages. WhatsApp unlinking asks for confirmation and completes cleanly. Notes browsing stays fast with large collections. Plus stability fixes across the board: fewer background crashes and more dependable connections for web-based AIs.
+
 ## v3.0.371 — 2026-08-14
 
 Reading Microsoft Teams chats is cleaner — call and system events now show a short label instead of raw technical text. Connecting a web AI is smoother: the setup guide links open the right walkthrough, and the Microsoft 365 sign-in step is clearer and easier to tap. You can now invite colleagues to LMCP straight from the menu — pick contacts and send each a personal invite. Plus reliability improvements across Mail, Calendar and more.
