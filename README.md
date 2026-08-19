@@ -297,7 +297,7 @@ This stops all background processes, removes the auto-start LaunchAgent, deletes
 
 ## Support
 
-- **In your AI client:** ask Claude to run `report_bug` or `request_feature`
+- **In your AI client:** ask Claude to run `report_problem` or `request_feature`
 - **GitHub:** [open an issue](https://github.com/lanchuske/local-mcp-releases/issues)
 - **Email:** [ctpo@colibird.co](mailto:ctpo@colibird.co)
 - **Website:** [local-mcp.com](https://local-mcp.com?ref=github)

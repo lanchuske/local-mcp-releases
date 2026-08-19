@@ -13,7 +13,7 @@ LMCP is proprietary software. The core binary is not open source and we don't ac
 
 Two ways:
 
-1. **From your AI client**: use the `report_bug` tool — it captures your version, macOS version, and logs automatically.
+1. **From your AI client**: use the `report_problem` tool — it captures your version, macOS version, and logs automatically.
 2. **GitHub Issue**: open an issue using the Bug Report template. Include your macOS version, LMCP version (visible in the menu bar tray), and relevant logs.
 
 ## Requesting features
