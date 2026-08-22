@@ -1,3 +1,7 @@
+## v3.0.374 — 2026-08-22
+
+ChatGPT connects itself again — one click in the menu bar creates the connector, signs in, and authorizes, matching ChatGPT's redesigned interface. A new Reconnect button lets you refresh the connection anytime. Search your email by content: Mail search now looks inside message bodies, powered by a private on-device index. A single, faster engine now powers all web automation — pages that fail to load say so honestly, and sites with popups and file uploads work. Microsoft 365 stays signed in — fixed a bug that asked you to reconnect while your session was healthy. Hardened security: file writes go through one guarded path, and helper components verify their publisher before updating. Dozens of reliability fixes across Mail, Teams, Calendar, and Outlook.
+
 ## v3.0.373 — 2026-08-18
 
 Mail is dramatically more reliable. Emails that appeared empty now load their full content — especially on Exchange and corporate accounts — and search handles accented text correctly. Teams no longer sends duplicate messages. WhatsApp unlinking asks for confirmation and completes cleanly. Notes browsing stays fast with large collections. Plus stability fixes across the board: fewer background crashes and more dependable connections for web-based AIs.
