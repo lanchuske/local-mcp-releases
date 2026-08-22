@@ -66,7 +66,7 @@ curl -fsSL 'https://local-mcp.com/install?ref=github-releases' | bash
 | **Any website** | "Log in to the supplier portal and download this month's invoices" · "Check this product's price every morning" *(13-tool web-automation engine, persistent sessions)* |
 | **NordVPN** | "Is my VPN connected?" · "Recommend a server in Japan" |
 
-215+ tools across 22 app categories. Read operations run instantly. Write operations (send email, delete event) show a preview and require confirmation.
+188+ tools across 22 app categories. Read operations run instantly. Write operations (send email, delete event) show a preview and require confirmation.
 
 ---
 
