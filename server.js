@@ -7,7 +7,7 @@
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
 
-const server = new McpServer({ name: "local-mcp", version: "3.0.373" });
+const server = new McpServer({ name: "local-mcp", version: "3.0.374" });
 
 const TOOLS = [
   ["agent_ack", "Tells the senders that you actually read the messages agent_inbox gave you."],
@@ -21,19 +21,6 @@ const TOOLS = [
   ["agent_send", "Sends a coordination message to an agent on ANOTHER of the user's machines (get its handle from agents_list)."],
   ["agent_sent", "Shows what THIS machine sent and what happened to it: who it was delivered to and who acknowledged it."],
   ["agents_list", "Lists the agents currently working across ALL the user's machines in the mesh — which machine each is on, i..."],
-  ["chrome_click", "Clicks the first element matching a CSS selector in the current Google Chrome tab."],
-  ["chrome_evaluate_js", "Runs arbitrary JavaScript in the current Google Chrome tab and returns its result."],
-  ["chrome_fill_form", "Fills multiple form fields in one shot in the current Google Chrome tab."],
-  ["chrome_go_back", "Navigates the current Google Chrome tab back to the previous page."],
-  ["chrome_history", "Lists or searches the user's Google Chrome browsing history (local SQLite, read-only — no page is opened)."],
-  ["chrome_list_tabs", "Lists every open tab across all Google Chrome windows with title, URL, and whether it is active."],
-  ["chrome_navigate", "Navigates Google Chrome to a URL."],
-  ["chrome_query_selector_all", "Runs document.querySelectorAll in the current Google Chrome tab and returns a compact summary of each match."],
-  ["chrome_read_tab", "Reads the rendered text content of a Google Chrome tab."],
-  ["chrome_search_tabs", "Searches the rendered text of every open Google Chrome tab for a substring."],
-  ["chrome_setup_check", "Reports whether Google Chrome is ready for interactive tools (chrome_click, chrome_type, chrome_evaluate_js..."],
-  ["chrome_type", "Sets the value of an input/textarea matching a CSS selector in the current Google Chrome tab and fires inpu..."],
-  ["chrome_wait_for", "Polls the current Google Chrome tab until a CSS `selector` appears, or until `text_match` appears (anywhere..."],
   ["complete_omnifocus_task", "Marks an OmniFocus task as complete by task ID or name."],
   ["complete_reminder", "Marks a reminder complete in Apple Reminders (Reminders.app)."],
   ["configure_clients", "Adds Local MCP to the config of installed MCP-capable AI clients on this Mac (Claude Desktop, Claude Code,..."],
@@ -95,7 +82,6 @@ const TOOLS = [
   ["list_omnifocus_tasks", "Lists tasks from OmniFocus."],
   ["list_referral_candidates", "Returns the user's emailable contacts plus an invite template, for recommending LMCP to a colleague."],
   ["list_reminders", "Lists reminders from Apple Reminders (Reminders.app) on this Mac."],
-  ["list_safari_bookmarks", "Lists Safari bookmarks (title + URL) from the Mac's Safari (reads ~/Library/Safari/Bookmarks.plist — needs..."],
   ["list_windows", "Lists on-screen windows of any app with window_id, owning app bundle id + name, title, bounds (global space..."],
   ["lmcp_install_upgrade", "Checks for and installs a newer LMCP version — a self-upgrade of the LMCP app itself (not editing any of yo..."],
   ["lmcp_state", "Returns a structured snapshot of the LMCP environment: server/tray/teams-proxy versions, detected AI client..."],
@@ -158,19 +144,6 @@ const TOOLS = [
   ["request_feature", "Submits a feature request to the LMCP team — a new capability, a tool that doesn't exist yet, or an app/int..."],
   ["run_diagnostics", "Runs a fast health check of all LMCP integrations on this machine."],
   ["run_terminal_command", "Runs a shell command on the user's Mac and returns its output."],
-  ["safari_click", "Clicks the first element matching a CSS selector in the current Safari tab."],
-  ["safari_evaluate_js", "Runs arbitrary JavaScript in the current Safari tab and returns its result."],
-  ["safari_fill_form", "Fills multiple form fields in one shot."],
-  ["safari_go_back", "Navigates the current Safari tab back to the previous page."],
-  ["safari_history", "Lists or searches the user's Safari browsing history (local SQLite, read-only — no page is opened)."],
-  ["safari_list_tabs", "Lists every open tab across all Safari windows with title, URL, and whether it is active."],
-  ["safari_navigate", "Navigates Safari to a URL."],
-  ["safari_query_selector_all", "Runs document.querySelectorAll in the current Safari tab and returns a compact summary of each match."],
-  ["safari_read_tab", "Reads the rendered text content of a Safari tab."],
-  ["safari_search_tabs", "Searches the rendered text of every open Safari tab for a substring."],
-  ["safari_setup_check", "Reports whether Safari is ready for interactive tools (safari_click, safari_type, safari_evaluate_js)."],
-  ["safari_type", "Sets the value of an input/textarea matching a CSS selector and fires input/change events."],
-  ["safari_wait_for", "Polls the current Safari tab until a CSS `selector` appears, or until `text_match` appears (anywhere on the..."],
   ["save_attachment", "Saves an attachment from an email to disk."],
   ["screen_record_start", "Begins a screen recording (ScreenCaptureKit) of a display, window, or region."],
   ["screen_record_status", "Reports whether a recording is active, with the session_id, elapsed_ms, output path, and marker_count."],
