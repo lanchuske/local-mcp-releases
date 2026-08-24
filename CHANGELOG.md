@@ -1,3 +1,7 @@
+## v3.0.375 — 2026-08-24
+
+Connecting to ChatGPT is more reliable. Web automation now works with sites that expect real mouse input — menus and dropdowns open the way they do when you click them yourself. Approving a folder sticks: Local MCP no longer asks again for a folder you already allowed. Mail finds your mailboxes by name in any language, including localized inboxes. And when the menu bar icon has no room to appear, double-clicking Local MCP brings the window back instead of doing nothing.
+
 ## v3.0.374 — 2026-08-22
 
 ChatGPT connects itself again — one click in the menu bar creates the connector, signs in, and authorizes, matching ChatGPT's redesigned interface. A new Reconnect button lets you refresh the connection anytime. Search your email by content: Mail search now looks inside message bodies, powered by a private on-device index. A single, faster engine now powers all web automation — pages that fail to load say so honestly, and sites with popups and file uploads work. Microsoft 365 stays signed in — fixed a bug that asked you to reconnect while your session was healthy. Hardened security: file writes go through one guarded path, and helper components verify their publisher before updating. Dozens of reliability fixes across Mail, Teams, Calendar, and Outlook.
