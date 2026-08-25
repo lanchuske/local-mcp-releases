@@ -1,3 +1,7 @@
+## v3.0.376 — 2026-08-25
+
+Mail search indexing is faster on large mailboxes and uses less CPU when it can't make progress.
+
 ## v3.0.375 — 2026-08-24
 
 Connecting to ChatGPT is more reliable. Web automation now works with sites that expect real mouse input — menus and dropdowns open the way they do when you click them yourself. Approving a folder sticks: Local MCP no longer asks again for a folder you already allowed. Mail finds your mailboxes by name in any language, including localized inboxes. And when the menu bar icon has no room to appear, double-clicking Local MCP brings the window back instead of doing nothing.
