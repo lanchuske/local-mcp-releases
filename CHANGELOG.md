@@ -1,3 +1,55 @@
+## v3.0.377 — 2026-08-26
+
+New
+
+• Delete notes, Google Drive files, and saved browser sessions. Local MCP could create notes but never remove them. Each deletion shows exactly what it will remove and waits for your confirmation.
+• Windows: connecting an account now completes in the app instead of dead-ending in the browser.
+• Windows is out of the waitlist — connecting from the cloud now works.
+
+Fixed
+
+Calendar
+• Turning an all-day event into a timed one kept the whole day instead of the hours you asked for, and reported success anyway. Changing only the start time had the same problem.
+• A repeating meeting showed up once instead of on every date it occurs.
+
+Mail
+• Moving a message to Trash or Archive in Gmail was refused.
+• A message could be reported as moved while it was still in your inbox.
+• New folders were reported as created when nothing had been created.
+• Messages written with rich text were sent and saved with an empty body.
+• A folder that could not be opened was reported as empty.
+• Exchange accounts showed up unnamed in the account list.
+• Mail search could report it was still indexing long after it had finished.
+
+Notes
+• Reading a note returned plain text, so bold, lists, and headings were lost each time a note was read and saved again.
+• Deleted notes kept appearing in search results and could still be opened.
+
+Reminders
+• Folder lists could be served from an old snapshot without saying so.
+• Moving a reminder to another list silently changed its identifier, breaking later updates.
+
+Slack, WhatsApp and Teams
+• Slack search returned results with no message text.
+• WhatsApp search reported no results when it had found some.
+• Local MCP could report WhatsApp as connected without having checked.
+
+Privacy
+• Listing Notion workspaces could include names and email addresses of people outside your account. It no longer does.
+
+Screen, windows and the web
+• Screenshots reported the same scale on every display.
+• Saving a screenshot or recording to a new folder failed instead of creating the folder.
+• Clicking a link in a web session could report the wrong page while it was still loading.
+• Asking for a window that does not exist now says which windows are open.
+• Keyboard shortcuts could leave a modifier key held down and swallow the next thing typed.
+
+The menu bar app
+• "Quit LMCP (until next login)" now stays quit.
+• Declining a folder permission request left no trace on screen; it now tells you what happened and how to change it.
+• When the Cloud Relay is unreachable, Local MCP now says why.
+• Connecting ChatGPT no longer reports you as signed out while you are signing in, and the setup guide matches what ChatGPT shows.
+
 ## v3.0.376 — 2026-08-25
 
 Mail search indexing is faster on large mailboxes and uses less CPU when it can't make progress.
