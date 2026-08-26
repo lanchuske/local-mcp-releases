@@ -7,7 +7,7 @@
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
 
-const server = new McpServer({ name: "local-mcp", version: "3.0.376" });
+const server = new McpServer({ name: "local-mcp", version: "3.0.377" });
 
 const TOOLS = [
   ["agent_ack", "Tells the senders that you actually read the messages agent_inbox gave you."],
@@ -37,6 +37,7 @@ const TOOLS = [
   ["create_reminder_list", "Creates a new list in Apple Reminders (Reminders.app)."],
   ["daily_brief", "Returns a single morning briefing combining today's calendar events, overdue and due-today reminders, unrea..."],
   ["delete_calendar_event", "Deletes an event from the Mac's Calendar app (Calendar.app) by ID."],
+  ["delete_note", "Deletes a note from Apple Notes, by ID or exact title."],
   ["delete_reminder", "Permanently deletes a reminder in Apple Reminders (Reminders.app) by ID."],
   ["delete_reminder_folder", "Deletes an Apple Reminders list AND all reminders inside it — cannot be undone."],
   ["disconnect_m365_account", "Disconnect your Microsoft 365 account and remove stored tokens."],
@@ -51,6 +52,7 @@ const TOOLS = [
   ["file_write", "Writes text to a local file — create, overwrite, or append."],
   ["finder_list", "Lists files and folders in a directory (Spotlight-free)."],
   ["finder_search", "Searches for files by name within the allowlist (uses mdfind/Spotlight)."],
+  ["gdrive_delete_file", "Deletes a file or an empty folder from the synced Google Drive folder — Google Drive for Desktop syncs the..."],
   ["gdrive_file_info", "Metadata for a file/folder in the synced Google Drive: size, dates, type."],
   ["gdrive_list_files", "Lists files and folders in a Google Drive path (the locally-synced folder)."],
   ["gdrive_read_file", "Reads a text file from the synced Google Drive folder (.txt, .md, .csv, .json, code files...)."],
@@ -64,7 +66,7 @@ const TOOLS = [
   ["get_m365_person", "Get detailed information about a specific person in your Microsoft 365 directory by their user ID or email..."],
   ["get_reminder_folders", "Lists the lists (folders) in Apple Reminders (Reminders.app) on this Mac."],
   ["get_weather", "Gets the current weather and a short daily forecast for a location."],
-  ["list_accounts", "Lists Mail.app email accounts WITH each account's email addresses and type (imap/pop/iCloud)."],
+  ["list_accounts", "Lists Mail.app email accounts WITH each account's email addresses, server_name and type."],
   ["list_calendar_events", "Lists events from the Mac's Calendar app (Calendar.app, local/iCloud calendars) in a date range, or reads O..."],
   ["list_calendar_names", "Lists the calendars in the Mac's Calendar app (Calendar.app, local/iCloud)."],
   ["list_contacts", "Lists contacts from the macOS Contacts app."],
@@ -104,7 +106,7 @@ const TOOLS = [
   ["nordvpn_status", "Check NordVPN connection status: connected/disconnected, auto-connect, snooze, and last known location."],
   ["notion_list_databases", "Lists Notion databases cached on this Mac with their schema (column names and types)."],
   ["notion_list_pages", "Lists Notion pages cached on this Mac (titles, last edited, hierarchy), newest first."],
-  ["notion_list_workspaces", "Lists the Notion workspaces cached on this Mac with their members (names and emails)."],
+  ["notion_list_workspaces", "Lists the Notion workspaces cached on this Mac."],
   ["notion_open_page", "Opens a Notion page in the desktop app (deep link)."],
   ["notion_read_database", "Reads the cached rows of a Notion database with their properties mapped through the schema."],
   ["notion_read_page", "Reads a Notion page from the local cache and returns its content as markdown (headings, lists, to-dos, code..."],
@@ -172,7 +174,7 @@ const TOOLS = [
   ["slack_list_channels", "Lists channels in a Slack workspace, including public channels, private channels, and direct messages (DMs)."],
   ["slack_list_workspaces", "Lists the Slack workspaces (teams) the user has connected in Slack Desktop."],
   ["slack_read_channel_messages", "Reads recent messages from a Slack channel or DM."],
-  ["slack_search_messages", "Searches Slack messages across locally-cached channels using full-text substring matching."],
+  ["slack_search_messages", "Searches Slack messages."],
   ["stocks_get_chart", "Gets historical price data for a stock symbol."],
   ["stocks_get_quote", "Gets current stock price and market data for one or more symbols (e.g."],
   ["stocks_search_symbol", "Searches for a stock ticker symbol by company name (e.g."],
@@ -220,13 +222,14 @@ const TOOLS = [
   ["web_read", "Reads the current page of a web session so you can reason over it."],
   ["web_screenshot", "Captures a PNG screenshot of the current page of a web session (returned inline so web AIs can see it)."],
   ["web_session_close", "Closes a web-automation session's window and frees it."],
+  ["web_session_delete", "Deletes a SAVED web-automation login profile: closes its window if open, erases its cookies and site data f..."],
   ["web_session_list", "Lists your web-automation login profiles: every SAVED login (persisted on disk, so web_login/web_navigate c..."],
   ["web_show", "Brings a web session's browser window to the FRONT so the USER can take over directly — solve a CAPTCHA, co..."],
   ["web_type", "Types text into a form field (input/textarea) on the current page."],
   ["web_wait_for", "Waits (polls, not a fixed sleep) until an element appears on the page, or times out."],
   ["whatsapp_connect", "Link WhatsApp to Local MCP by showing a QR code right here in the chat — no Terminal needed."],
   ["whatsapp_create_group", "Creates a WhatsApp group and adds the given participants."],
-  ["whatsapp_diagnose", "WhatsApp health check (wacli doctor): which account is linked (number), whether the live connection is up,..."],
+  ["whatsapp_diagnose", "WhatsApp health check (wacli doctor): which account is linked (number), last sync time, store lock, message..."],
   ["whatsapp_disconnect", "Unlink WhatsApp from Local MCP — logs out the linked device on this Mac (via wacli)."],
   ["whatsapp_group_info", "Fetches a WhatsApp group's live info + participant list."],
   ["whatsapp_list_chats", "Lists WhatsApp conversations with last message preview."],
