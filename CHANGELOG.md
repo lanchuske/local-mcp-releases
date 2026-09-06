@@ -8,14 +8,27 @@ Agent Mesh stays accurate. Agents remain visible while they work, and the status
 
 Setup tells the truth about Claude Code. If another install shadows the one you configured, the app says so instead of reporting it as configured. Mail moves only name folders that were verified.
 
-## v3.0.380 2026-09-01 — 
+## v3.0.380 — 2026-09-01
 
+Updates are safer. If an update is interrupted, your working version is kept until the new one is verified — the app can no longer be left without a client installed.
 
-## v3.0.379 2026-08-29 — 
+Setup remembers what you already did. Microsoft 365 sign-in and the permissions you grant now survive a restart instead of asking again.
 
+Mail and Teams fixes. Messages are sent from the account that owns the conversation, and mailbox lookups resolve correctly across multiple accounts.
 
-## v3.0.378 2026-08-28 — 
+Steadier under load, with faster reconnection after a network drop.
 
+## v3.0.379 — 2026-08-29
+
+Fixes for spreadsheets, reminders, email, and cloud files
+
+Opening a PDF or Office file stored in OneDrive or iCloud Drive no longer stops Local MCP when the file has not finished downloading. When a mail request takes longer than expected, Local MCP now tells you whether Mail is stuck or simply working through a large mailbox, and suggests narrowing the search instead of restarting Mail. Requests that used to stop responding now come back with an answer, and a mail error no longer blames a permission you already granted. Reading an email now names its attachments, so you can save one without guessing. If a setup guide link does not open in your browser, the link is shown so you can copy it. And background components that quietly failed to update now report the failure and retry.
+
+## v3.0.378 — 2026-08-28
+
+Fixes for spreadsheets, reminders, and email
+
+Writing a number to a spreadsheet cell now confirms correctly instead of reporting a failure that did not happen. Asking for your reminders returns what is still open — ask for completed ones when you want them. Email and command limits now tell you when a value was adjusted, and folder access messages no longer list every folder you have shared.
 
 ## v3.0.377 — 2026-08-26
 
