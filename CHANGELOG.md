@@ -1,3 +1,13 @@
+## v3.0.381 — 2026-09-06
+
+Connect to ChatGPT works again. The Developer mode step that used to stop with "settings page didn't load" now completes.
+
+Teams is more robust. A single message with a date the system cannot display no longer breaks listing or reading chats, and accented text comes through intact on every platform.
+
+Agent Mesh stays accurate. Agents remain visible while they work, and the status panel explains itself when the mesh is off or the settings file cannot be read.
+
+Setup tells the truth about Claude Code. If another install shadows the one you configured, the app says so instead of reporting it as configured. Mail moves only name folders that were verified.
+
 ## v3.0.377 — 2026-08-26
 
 New
