@@ -8,6 +8,15 @@ Agent Mesh stays accurate. Agents remain visible while they work, and the status
 
 Setup tells the truth about Claude Code. If another install shadows the one you configured, the app says so instead of reporting it as configured. Mail moves only name folders that were verified.
 
+## v3.0.380 2026-09-01 — 
+
+
+## v3.0.379 2026-08-29 — 
+
+
+## v3.0.378 2026-08-28 — 
+
+
 ## v3.0.377 — 2026-08-26
 
 New
