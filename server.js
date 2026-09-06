@@ -7,7 +7,7 @@
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
 
-const server = new McpServer({ name: "local-mcp", version: "3.0.377" });
+const server = new McpServer({ name: "local-mcp", version: "3.0.381" });
 
 const TOOLS = [
   ["agent_ack", "Tells the senders that you actually read the messages agent_inbox gave you."],
@@ -241,7 +241,7 @@ const TOOLS = [
   ["whatsapp_send_file", "Sends a file attachment to a WhatsApp chat."],
   ["whatsapp_send_message", "Sends a text message to a WhatsApp chat."],
   ["whatsapp_send_poll", "Sends a poll to a WhatsApp chat/group — everyone in the chat sees it."],
-  ["whatsapp_sync", "Forces WhatsApp to pull the latest messages, groups and contacts into the local store, THEN returns."],
+  ["whatsapp_sync", "Starts WhatsApp pulling the latest messages, groups and contacts into the local store and returns right awa..."],
   ["window_focus", "Brings a window (by window_id from list_windows) to the front and activates its app."],
   ["window_set_frame", "Pins a window (by window_id) to fixed bounds {x,y,w,h} in global points, so every take is framed identicall..."],
   ["word_append", "Appends text to the end of an existing Word (.docx) document at `path`, preserving the document's existing..."],
