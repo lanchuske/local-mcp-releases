@@ -1,3 +1,58 @@
+## v3.0.386 — 2026-09-10
+
+WhatsApp vuelve a funcionar. Los envíos fallaban en todas las Macs con la cuenta vinculada: WhatsApp estaba rechazando nuestro cliente por versión. Actualizado.
+
+Conectar Mail desde la barra de menú. La fila de Mail ahora te dice en qué estado está y te ofrece conceder el permiso ahí mismo, en vez de dejarte sin camino. Y cuando no pudo medir tus cuentas, lo dice — antes afirmaba que no tenías ninguna sin haberlas contado.
+
+Tus notas se cuentan sin pedirte permisos de más. Si ya diste Acceso Total al Disco, dejamos de pedirte Automatización para algo que no la necesita.
+
+ChatGPT con plan gratuito ya no queda bloqueado. El auto-connect dejó de frenarse antes de intentar: ahora prueba y, si algo falla, te dice el motivo real.
+
+Un permiso concedido ya no se reporta como denegado. Si la consulta al sistema tardaba, contestábamos "no tenés permiso" a quien sí lo tenía. Ahora un fallo transitorio dice "no sé", que es lo que efectivamente pasó.
+
+Al conectar tus apps ya no se te abre Notes en la cara. El permiso se sigue pidiendo igual, pero la app se lanza oculta.
+
+## v3.0.385 — 2026-09-09
+
+Connecting ChatGPT is clearer about what happened. When there was no connector to remove,
+the app now says so instead of reporting that it could not verify the step — so a clean run
+no longer looks like a failure.
+
+Mail is more reliable with Exchange accounts. Listing, reading and searching no longer stop
+silently when a mailbox cannot be resolved: the app tells you which account and folder it
+could not reach, and folder listings stay complete when a shared or on-device mailbox is
+involved.
+
+Settings now includes an Auto-launch switch. AI clients can start LMCP for you, and you can
+turn that off if you would rather open it yourself from Applications. It only affects
+*starting* LMCP — it does not stop or limit an LMCP that is already running.
+
+Under the hood, the app reports more about its own memory use, so recurring slowdowns can be
+traced to the part of the app responsible for them. These measurements are counts, sizes and
+durations only.
+
+## v3.0.384 — 2026-09-08
+
+Files in the cloud
+Word documents and PDFs that live in iCloud or another cloud provider and are not downloaded to this Mac now open instead of failing. When a folder genuinely cannot be listed, the message says why.
+
+Mail and calendar
+Times coming from Microsoft 365 are shown in your own time zone, with the zone named, so an event no longer appears hours off. Replying to an email can now save a native draft without sending it.
+
+Settings
+A service that is switched on but not yet configured says exactly that, instead of appearing connected.
+
+Other improvements
+Various fixes to setting up web AI clients, including clearer handling of sign-in flows that an embedded browser window cannot complete.
+
+## v3.0.383 — 2026-09-07
+
+El conector de ChatGPT ya no depende del idioma de la interfaz: el lector del interruptor de Developer mode reconoce el control en cualquier idioma, así que la conexión deja de fallar con "no encontramos el interruptor" en cuentas que no están en inglés. El diagnóstico que llega a soporte incluye ahora el idioma de la interfaz.
+
+## v3.0.382 — 2026-09-07
+
+Mail: moving and deleting messages no longer times out or reports "cooling down" on small batches; writes are queued with a clear, immediate reply. create_draft can save a native reply (reply_to_message_id, reply_all, text or HTML) to Drafts without sending. Automation permission for Mail is only marked revoked after two confirmed denials, background checks no longer probe Mail every 5 minutes, and a real revocation opens the permissions dialog again. Excel: excel_create and excel_write_cell write real numeric cells, so SUM and formulas work. Microsoft 365: onboarding retries once with a fresh device code when Microsoft rejects it after a passkey, with a clear message. OmniFocus installed from the Mac App Store is now recognized (no more "Requires OmniFocus Pro" on Pro). Slack: diagnostics report where Slack's own session was searched. Plus: Notes trash handling, terminal working-directory safety, Signal reads with empty senders, M365 readers show local time with its zone.
+
 ## v3.0.381 — 2026-09-06
 
 Connect to ChatGPT works again. The Developer mode step that used to stop with "settings page didn't load" now completes.
