@@ -7,7 +7,7 @@
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
 
-const server = new McpServer({ name: "local-mcp", version: "3.0.381" });
+const server = new McpServer({ name: "local-mcp", version: "3.0.386" });
 
 const TOOLS = [
   ["agent_ack", "Tells the senders that you actually read the messages agent_inbox gave you."],
@@ -24,11 +24,12 @@ const TOOLS = [
   ["complete_omnifocus_task", "Marks an OmniFocus task as complete by task ID or name."],
   ["complete_reminder", "Marks a reminder complete in Apple Reminders (Reminders.app)."],
   ["configure_clients", "Adds Local MCP to the config of installed MCP-capable AI clients on this Mac (Claude Desktop, Claude Code,..."],
+  ["connect_chatgpt", "Connects this Mac to ChatGPT: creates (or repairs) the Local MCP connector inside the user's ChatGPT accoun..."],
   ["connect_m365_account", "Connect your Microsoft 365 account."],
   ["connect_servicenow", "Connect ServiceNow."],
   ["connect_todoist", "Connect Todoist."],
   ["create_calendar_event", "Creates an event in the Mac's Calendar app (Calendar.app)."],
-  ["create_draft", "Saves an email to the Mail.app Drafts folder for the user to review and send manually — never sends."],
+  ["create_draft", "Saves an email to the Mail.app Drafts folder for the user to review and send manually — it never sends."],
   ["create_email_folder", "Creates a new mailbox folder in Mail.app."],
   ["create_note", "Creates a new note in Apple Notes."],
   ["create_omnifocus_task", "Creates a new task in OmniFocus."],
