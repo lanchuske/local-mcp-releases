@@ -3,7 +3,7 @@
 [![npm](https://img.shields.io/npm/v/local-mcp)](https://www.npmjs.com/package/local-mcp)
 [![macOS 13+](https://img.shields.io/badge/macOS-13%2B-blue)](https://local-mcp.com)
 [![GDPR](https://img.shields.io/badge/GDPR-compliant-green)](https://local-mcp.com/en/privacy)
-[![smithery badge](https://smithery.ai/badge/@lanchuske/local-mcp)](https://smithery.ai/server/@lanchuske/local-mcp)
+[![LightNow](https://lightnow.ai/badge/com.local-mcp/local-mcp)](https://lightnow.ai/servers/com.local-mcp/local-mcp)
 
 **Let your AI actually use your Mac.** Ask ChatGPT, Claude or Cursor to read & reply to your email, manage your calendar, text over iMessage, find your files, and pull data from PDFs — it just does it. It even reaches iMessage and your local apps that the web AIs can't. Tools run **on-device** — for desktop AIs nothing leaves your Mac; an optional, opt-in encrypted relay lets web AIs reach it. No API keys, free.
 
