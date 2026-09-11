@@ -61,6 +61,7 @@
     "complete_omnifocus_task",
     "complete_reminder",
     "configure_clients",
+    "connect_chatgpt",
     "connect_m365_account",
     "connect_servicenow",
     "connect_todoist",
