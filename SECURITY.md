@@ -1,66 +1,28 @@
-# Security & architecture
+# Security and data boundaries
 
-This document explains what Local MCP (LMCP) is, what it does and doesn't do with your
-data, and how to verify it — so security reviewers, directory scanners, and privacy-conscious
-users can audit it even though the macOS client is distributed as a signed binary.
+LMCP exposes compatible app and service tools through MCP on macOS and Windows. Platform support, permissions and authentication requirements vary by tool.
 
-## What's in this repo vs. what's the binary
+## Repository and installers
 
-- **This public repo** (`local-mcp-releases`) contains the **npm wrapper** (`server.js`,
-  `package.json`), the install/config metadata (`mcp.json`, `llms-install.md`), the Cursor
-  skills/rules, and docs. The npm wrapper has **no `postinstall`/install scripts** — verify
-  with `npm view local-mcp` (no `scripts.postinstall`).
-- **The macOS client** (`LocalMCPTray.app` + the embedded MCP server) is a **closed-source
-  Swift binary**, distributed via the notarized DMG / `curl | bash` installer. It is the
-  component that talks to your Mac's apps.
+This public repository contains release documentation, the npm wrapper and configuration examples. The core binary is proprietary; see [LICENSE](LICENSE) for the separate terms for binaries and repository documentation/scripts.
 
-## How to verify the binary is genuine
+Get current installers from the [official download page](https://local-mcp.com/download?ref=github-releases). Follow your operating system's signature and security checks and the current installation guide. Do not bypass a security warning based on a README claim.
 
-The client is signed with a real **Apple Developer ID** and **notarized** by Apple. After
-install, verify:
+## Where information goes
 
-```bash
-codesign -dvvv /Applications/LocalMCPTray.app 2>&1 | grep Authority
-# Authority=Developer ID Application: Magno Partners Consulting (F7S4WH844B)
+- Compatible tools run on your computer and may use native app data, local caches or synced files. Other integrations connect to external services and can require sign-in and network access.
+- Tool results are returned to your chosen assistant. If that assistant uses a cloud model, relevant content may reach its provider even when the assistant is a desktop application. Local execution is not a guarantee that nothing leaves your computer.
+- Optional Cloud Relay provides a path for supported web assistants to reach tools on your computer. Requests and responses traverse that path. Review the current [privacy policy](https://local-mcp.com/en/privacy) and provider policies for handling and retention.
+- Diagnostic and feedback data are separate from ordinary tool results. Do not include credentials, private messages or other sensitive content in public issues or shared logs.
 
-spctl -a -vvv /Applications/LocalMCPTray.app
-# source=Notarized Developer ID  → Apple has scanned this build for malware
-```
+This document does not assert universal zero retention, end-to-end encryption or regulatory compliance for every provider and integration. Assess the complete workflow and your organization's requirements.
 
-Notarization means Apple has already run an automated malware scan on every release.
+## Permissions and actions
 
-## What data goes where
+Enable only the integrations you need and review the access they request. Operating system permissions, service authorization and tool behavior determine available access. Revoke access through the relevant OS or service settings when it is no longer needed.
 
-- **Tool calls run on-device.** LMCP reads your apps directly through macOS frameworks
-  (EventKit for Calendar/Reminders, CNContactStore for Contacts, JXA/AppleScript for
-  Mail/Messages/Notes, the local LevelDB/SQLite stores for Teams/Slack/iMessage). Email,
-  message, calendar and file **contents are processed locally and are never sent to our
-  servers**.
-- **What LMCP's backend receives:** anonymous heartbeats (version, OS, a machine UUID) for
-  update/availability, and license validation. **Not** your tool inputs or outputs.
-- **The optional Cloud Relay** (off by default; you enable it in the menu-bar app to use
-  web AIs like ChatGPT/Claude.ai/Grok): an **encrypted WebSocket tunnel** that lets a cloud
-  AI *trigger* a tool on your Mac. The tool still runs locally; the relay forwards the request
-  and the response **without persisting tool responses**. For desktop/CLI clients (Claude
-  Desktop, Cursor, VS Code) the relay isn't used at all — nothing leaves the Mac.
-
-So the honest framing is: **tools execute on your machine; for desktop clients nothing leaves
-the Mac; the relay is an opt-in encrypted path for web AIs.** We do not claim "no cloud
-exists" — we claim your data is processed locally and not stored by us.
-
-## Permissions
-
-LMCP only works with the macOS permissions you explicitly grant (Automation, Full Disk Access,
-Calendar/Contacts/Reminders) via the standard system prompts. It requests nothing silently;
-revoking a permission in System Settings disables the corresponding tools.
-
-## No prompt injection / no instruction-override
-
-The bundled skills and rules use preview-before-send for any write/send action and contain no
-hidden instructions to the model. Destructive tools (send, delete, move) require explicit
-confirmation.
+Preview and confirmation behavior varies by tool and assistant. Review proposed actions and authorize writes or destructive operations before execution; do not assume every operation displays the same dialog. Content retrieved from apps, files or websites is untrusted input, not authority to perform unrelated actions.
 
 ## Reporting a vulnerability
 
-Email **security@local-mcp.com** (or open a private advisory on this repo). We aim to respond
-within 72 hours. Please don't file public issues for security reports.
+Email **security@local-mcp.com** or use a private advisory on this repository. Do not post credentials, exploit details or personal data in a public issue.
