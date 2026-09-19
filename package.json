@@ -1,8 +1,8 @@
 {
   "name": "local-mcp-releases",
-  "version": "3.0.386",
+  "version": "3.0.410",
   "type": "module",
-  "description": "LMCP release documentation and npm wrapper — context and actions through MCP",
+  "description": "Local MCP — native macOS MCP server with 188+ tools",
   "license": "SEE LICENSE IN LICENSE",
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.12.0",
