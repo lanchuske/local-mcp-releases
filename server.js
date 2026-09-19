@@ -7,7 +7,7 @@
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
 
-const server = new McpServer({ name: "local-mcp", version: "3.0.386" });
+const server = new McpServer({ name: "local-mcp", version: "3.0.410" });
 
 const TOOLS = [
   ["agent_ack", "Tells the senders that you actually read the messages agent_inbox gave you."],
@@ -23,7 +23,7 @@ const TOOLS = [
   ["agents_list", "Lists the agents currently working across ALL the user's machines in the mesh — which machine each is on, i..."],
   ["complete_omnifocus_task", "Marks an OmniFocus task as complete by task ID or name."],
   ["complete_reminder", "Marks a reminder complete in Apple Reminders (Reminders.app)."],
-  ["configure_clients", "Adds Local MCP to the config of installed MCP-capable AI clients on this Mac (Claude Desktop, Claude Code,..."],
+  ["configure_clients", "Adds Local MCP to the config of the MCP-capable AI apps installed on this Mac, from LMCP's client catalog (..."],
   ["connect_chatgpt", "Connects this Mac to ChatGPT: creates (or repairs) the Local MCP connector inside the user's ChatGPT accoun..."],
   ["connect_m365_account", "Connect your Microsoft 365 account."],
   ["connect_servicenow", "Connect ServiceNow."],
@@ -52,7 +52,7 @@ const TOOLS = [
   ["file_search", "Searches for files and folders by name (case-insensitive, partial match) starting from a root directory."],
   ["file_write", "Writes text to a local file — create, overwrite, or append."],
   ["finder_list", "Lists files and folders in a directory (Spotlight-free)."],
-  ["finder_search", "Searches for files by name within the allowlist (uses mdfind/Spotlight)."],
+  ["finder_search", "Searches for files by name anywhere on this Mac (uses mdfind/Spotlight); pass path= to scope it to one folder."],
   ["gdrive_delete_file", "Deletes a file or an empty folder from the synced Google Drive folder — Google Drive for Desktop syncs the..."],
   ["gdrive_file_info", "Metadata for a file/folder in the synced Google Drive: size, dates, type."],
   ["gdrive_list_files", "Lists files and folders in a Google Drive path (the locally-synced folder)."],
@@ -86,6 +86,7 @@ const TOOLS = [
   ["list_referral_candidates", "Returns the user's emailable contacts plus an invite template, for recommending LMCP to a colleague."],
   ["list_reminders", "Lists reminders from Apple Reminders (Reminders.app) on this Mac."],
   ["list_windows", "Lists on-screen windows of any app with window_id, owning app bundle id + name, title, bounds (global space..."],
+  ["lmcp_doctor", "Checks everything LMCP depends on on this Mac — the AI apps connected to it, macOS permissions, each integr..."],
   ["lmcp_install_upgrade", "Checks for and installs a newer LMCP version — a self-upgrade of the LMCP app itself (not editing any of yo..."],
   ["lmcp_state", "Returns a structured snapshot of the LMCP environment: server/tray/teams-proxy versions, detected AI client..."],
   ["lmcp_upgrade_diagnostics", "Returns LMCP's self-upgrade health (the LMCP app upgrading itself, not editing your data): current version,..."],
@@ -145,7 +146,7 @@ const TOOLS = [
   ["report_friction", "Send an ANONYMOUS, content-free signal when an LMCP tool fails, returns nothing useful, the user seems frus..."],
   ["report_problem", "Sends a problem report, feature request, or integration request to the LMCP team — for when a user wants to..."],
   ["request_feature", "Submits a feature request to the LMCP team — a new capability, a tool that doesn't exist yet, or an app/int..."],
-  ["run_diagnostics", "Runs a fast health check of all LMCP integrations on this machine."],
+  ["run_diagnostics", "Runs a fast health check of all LMCP integrations on this machine, including the AI apps connected to LMCP..."],
   ["run_terminal_command", "Runs a shell command on the user's Mac and returns its output."],
   ["save_attachment", "Saves an attachment from an email to disk."],
   ["screen_record_start", "Begins a screen recording (ScreenCaptureKit) of a display, window, or region."],
