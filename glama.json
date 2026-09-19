@@ -123,6 +123,7 @@
     "list_referral_candidates",
     "list_reminders",
     "list_windows",
+    "lmcp_doctor",
     "lmcp_install_upgrade",
     "lmcp_state",
     "lmcp_upgrade_diagnostics",
