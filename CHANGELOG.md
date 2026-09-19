@@ -1,3 +1,15 @@
+## v3.0.410 — 2026-09-19
+
+Signal and Telegram proxies now ship fully signed, so they start cleanly on macOS.
+
+Perplexity and Raycast are detected automatically — Raycast on Windows too.
+
+A direct link to the web-AI setup guide sits next to your connection URL.
+
+The Agent Mesh is on by default.
+
+Windows: install attribution survives a redirected Downloads folder.
+
 ## v3.0.386 — 2026-09-10
 
 WhatsApp vuelve a funcionar. Los envíos fallaban en todas las Macs con la cuenta vinculada: WhatsApp estaba rechazando nuestro cliente por versión. Actualizado.
