@@ -1,3 +1,9 @@
+## v3.0.411 — 2026-09-19
+
+Stability and reliability of the release pipeline. No changes to how LMCP works for you: same tools, same behaviour.
+
+This version exists so the publication path itself is verified end to end — including the surfaces that can only be exercised by publishing for real.
+
 ## v3.0.410 — 2026-09-19
 
 Signal and Telegram proxies now ship fully signed, so they start cleanly on macOS.
