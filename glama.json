@@ -81,6 +81,7 @@
     "disconnect_m365_account",
     "disconnect_servicenow",
     "disconnect_todoist",
+    "enable_service",
     "excel_create",
     "excel_read",
     "excel_write_cell",
