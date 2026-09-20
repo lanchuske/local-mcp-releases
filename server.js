@@ -7,7 +7,7 @@
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
 
-const server = new McpServer({ name: "local-mcp", version: "3.0.411" });
+const server = new McpServer({ name: "local-mcp", version: "3.0.412" });
 
 const TOOLS = [
   ["agent_ack", "Tells the senders that you actually read the messages agent_inbox gave you."],
@@ -44,6 +44,7 @@ const TOOLS = [
   ["disconnect_m365_account", "Disconnect your Microsoft 365 account and remove stored tokens."],
   ["disconnect_servicenow", "Disconnect from ServiceNow and remove stored credentials."],
   ["disconnect_todoist", "Disconnect Todoist and remove the stored API token."],
+  ["enable_service", "Turns a service back ON in LMCP after the user turned it off."],
   ["excel_create", "Creates a new Excel spreadsheet (.xlsx file) with headers and optional data rows."],
   ["excel_read", "Reads data from an Excel spreadsheet (.xlsx file)."],
   ["excel_write_cell", "Writes a value to a specific cell in an Excel file."],
