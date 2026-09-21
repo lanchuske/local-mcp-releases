@@ -1,3 +1,7 @@
+## v3.0.413 — 2026-09-21
+
+Excel: sheet_name now selects the sheet you asked for — writing to a sheet that does not exist no longer lands in the first one. Services you turn off in the tray now also release the macOS permission they were given. Reminders and Calendar permission checks are more reliable after an update.
+
 ## v3.0.412 — 2026-09-20
 
 Excel: sheet_name now selects the sheet you asked for — writing to a sheet that does not exist no longer lands in the first one. Services you turn off in the tray now also release the macOS permission they were given. Reminders and Calendar permission checks are more reliable after an update.
